@@ -120,7 +120,7 @@ bool Serial::OnNewMail(MOOSMSG_LIST &NewMail)
         desired_speed = msg.GetDouble();
      else if(key == "NAV_SPEED")
         nav_speed = msg.GetDouble();
-     else if(key != "APPCAST_REQ") // handlinted by AppCastingMOOSApp
+     else if(key != "APPCAST_REQ") // handled by AppCastingMOOSApp
        reportRunWarning("Unhandled Mail: " + key);
    }
 	

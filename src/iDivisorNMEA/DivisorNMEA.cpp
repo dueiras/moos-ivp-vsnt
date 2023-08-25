@@ -359,6 +359,9 @@ bool DivisorNMEA::Iterate()
 
           string x = to_string(nav_x);
           string y = to_string(nav_y);
+
+          Notify("NAV_X",x);
+          Notify("NAV_Y",y);
           
           //Coloquei essa lógica para não confundir contato AIS com o navio principal no início da execução
           /*
