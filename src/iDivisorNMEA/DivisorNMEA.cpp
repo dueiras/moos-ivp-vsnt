@@ -75,6 +75,7 @@ double lat_gps;
 double long_gps;
 double speed_gps;
 double heading_gps;
+double nav_depth;
 int contador_ais;
 long double heading_giro;
 long double angulo_leme;
@@ -100,7 +101,7 @@ class MyNMEAParser : public CNMEAParser {
 	/// \brief This method is called whenever there is a parsing error.
 	///
 	/// Redefine this method to capture errors.
-	///
+	///o
 	/// \param pCmd Pointer to NMEA command that caused the error. Please note that this parameter may be NULL of not completely defined. Use with caution.
 	///
 	virtual void OnError(CNMEAParserData::ERROR_E nError, char *pCmd) {
@@ -270,6 +271,23 @@ bool DivisorNMEA::Iterate()
 
   std::string msg_string = msg;
 
+    //Parser de msg caso seja profundidade
+  // Create a string stream to split the input string by commas
+  std::stringstream ss(msg_string);
+  std::string token;
+
+  // Read the first token (should be "$SDDPT")
+  std::getline(ss, token, ',');
+
+  if (token == "$SDDPT") {
+      // Read the second token and convert it to a floating-point number
+      std::getline(ss, token, ',');
+      nav_depth = std::stof(token);
+
+      // Print the extracted nav_depth
+      Notify("NAV_DEPTH", nav_depth);
+  }
+
   // Crio um objeto para parse da msg NMEA
   MyNMEAParser NMEAParser;
 
@@ -281,6 +299,21 @@ bool DivisorNMEA::Iterate()
   {
     std::cout << e.what();
   }
+
+  //Publico NAV_X e NAV_Y
+  double lat_origin = -22.93335; //ALTERAR AQUI SE MUDAR A CARTA NÁUTICA !!!
+  double lon_origin = -43.136666665;
+  double nav_x = 0;
+  double nav_y = 0;
+  m_geodesy.Initialise(lat_origin, lon_origin);
+  //m_geodesy.SetRefEllipsoid(23); // Set the ellipsoid to WGS-84
+  m_geodesy.LatLong2LocalGrid(lat_gps, long_gps, nav_y, nav_x);
+
+  string x = to_string(nav_x);
+  string y = to_string(nav_y);
+
+  Notify("NAV_X",x);
+  Notify("NAV_Y",y);
 
   //Atualizo variáveis necessárias para o movimento do navio
   Notify("NAV_LAT", lat_gps);
@@ -359,9 +392,6 @@ bool DivisorNMEA::Iterate()
 
           string x = to_string(nav_x);
           string y = to_string(nav_y);
-
-          Notify("NAV_X",x);
-          Notify("NAV_Y",y);
           
           //Coloquei essa lógica para não confundir contato AIS com o navio principal no início da execução
           /*
@@ -402,38 +432,40 @@ bool DivisorNMEA::Iterate()
       }
     }
 
-    else if (msg_string.substr(0,13) == "$MXPGN,01F205") {
-      try {
-        size_t lastCommaPos = msg_string.rfind(",");
-        size_t asteriskPos = msg_string.find("*");
+    # if 0
+      else if (msg_string.substr(0,13) == "$MXPGN,01F205") {
+        try {
+          size_t lastCommaPos = msg_string.rfind(",");
+          size_t asteriskPos = msg_string.find("*");
 
-        if (lastCommaPos != std::string::npos && asteriskPos != std::string::npos && lastCommaPos < asteriskPos) {
-            // Extract the substring between the last comma and the asterisk
+          if (lastCommaPos != std::string::npos && asteriskPos != std::string::npos && lastCommaPos < asteriskPos) {
+              // Extract the substring between the last comma and the asterisk
 
-            std::string hexSubstring = msg_string.substr(lastCommaPos + 1, asteriskPos - lastCommaPos - 1);
+              std::string hexSubstring = msg_string.substr(lastCommaPos + 1, asteriskPos - lastCommaPos - 1);
 
-            // Convert the hexadecimal substring to binary
-            std::stringstream ss;
-            ss << std::hex << hexSubstring;
-            unsigned long int intValue;
-            ss >> intValue;
+              // Convert the hexadecimal substring to binary
+              std::stringstream ss;
+              ss << std::hex << hexSubstring;
+              unsigned long int intValue;
+              ss >> intValue;
 
-            // Convert to binary string
-            std::bitset<64> binaryValue(intValue); 
-            std::string binaryString = binaryValue.to_string();
-            // Get the 9th and 10th bits
-            char ninthBit = binaryString[8]; // 0-based indexing
-            char tenthBit = binaryString[9];
+              // Convert to binary string
+              std::bitset<64> binaryValue(intValue); 
+              std::string binaryString = binaryValue.to_string();
+              // Get the 9th and 10th bits
+              char ninthBit = binaryString[8]; // 0-based indexing
+              char tenthBit = binaryString[9];
 
-            // Convert the bits to an integer value
-            current_gear = (ninthBit - '0') * 2 + (tenthBit - '0');  
-            Notify("CURRENT_GEAR", current_gear);    
-        } //endif
-      } //try
-      catch (std::system_error& e) {
-        std::cout << e.what();
-      } //catch
-    } //else if MXPGN
+              // Convert the bits to an integer value
+              current_gear = (ninthBit - '0') * 2 + (tenthBit - '0');  
+              Notify("CURRENT_GEAR", current_gear);    
+          } //endif
+        } //try
+        catch (std::system_error& e) {
+          std::cout << e.what();
+        } //catch
+      } //else if MXPGN
+    #endif
   
 
   //Reseto os dados

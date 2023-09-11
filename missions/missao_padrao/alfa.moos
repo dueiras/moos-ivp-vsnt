@@ -20,14 +20,14 @@ ProcessConfig = ANTLER
     MSBetweenLaunches = 100
     
     Run = MOOSDB		@ NewConsole = false
-  //  Run = uSimMarine	@ NewConsole = false
+    //Run = uSimMarine	@ NewConsole = false
   Run = pNodeReporter	@ NewConsole = false
     Run = pHelmIvP	@ NewConsole = false
     Run = iSerial	@ NewConsole = false  
     Run = pMarinePIDV22	@ NewConsole = false
     //Run = uProcessWatch   @ NewConsole = false
   //  Run = pContactMgrV20	@ NewConsole = false
-    Run = pMarineViewer	@ NewConsole = false 
+     Run = pMarineViewer	@ NewConsole = false 
     Run = iDivisorNMEA	@ NewConsole = false
     Run = pLogger	@ NewConsole = false
   //  Run = iRemoteLite	@ NewConsole = false
@@ -116,7 +116,7 @@ ProcessConfig = pHelmIvP
 
   ok_skew = any
   start_in_drive = false
-  hold_on_apps = pContactMgrV20
+//  hold_on_apps = pContactMgrV20
 }
 
 //------------------------------------------
@@ -139,9 +139,9 @@ ProcessConfig = pMarinePIDV22
   yaw_pid_integral_limit = 0.07
 
   // Speed PID controller
-  speed_pid_kp		 = 0.5
+  speed_pid_kp		 = 1.0
   speed_pid_kd		 = 0.0
-  speed_pid_ki		 = 0.5
+  speed_pid_ki		 = 0.0
   speed_pid_integral_limit = 0.07
 
   //MAXIMUMS
@@ -289,18 +289,24 @@ ProcessConfig = pLogger
     LOG     = DESIRED_RUDDER @ 0
     LOG     = DESIRED_THRUST @ 0
     LOG     = DESIRED_SPEED @ 0
+    LOG     = DESIRED_GEAR @ 0
     //LOG     = DESIRED_HEADING @ 0
-    //LOG     = ERRO_Leme @ 0
+    LOG     = ERRO_Leme @ 0
     //LOG     = LEME_SERIAL @ 0
     //LOG     = TEMPO_LEME @ 0
-    //LOG     = VALOR_CONTROLE_LEME @ 0
-    //LOG     = GPS_HEADING @ 0
-    //LOG     = VALOR_CONTROLE_LEME @ 0
+    LOG     = VALOR_CONTROLE_LEME @ 0
+    LOG     = GPS_HEADING @ 0
     //LOG     = MAQUINA_SERIAL @ 0
-    //LOG     = NAV_HEADING @ 0
+    LOG     = NAV_HEADING @ 0
     LOG     = NAV_LAT @ 0
     LOG     = NAV_LONG @ 0
-    //LOG     = NAV_SPEED @ 0
+    LOG     = NAV_SPEED @ 0
+    LOG     = NAV_X @ 0
+    LOG     = NAV_Y @ 0
+    LOG     = VIEW_POINT @ 0
+    LOG     = BHV_SETTINGS @ 0
+    LOG     = END @ 0
+
 
 }
 

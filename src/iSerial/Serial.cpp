@@ -63,7 +63,7 @@ Serial::Serial()
 // Comandos na Serial
 // L{0,1,2}{D,R} comando de Leme 
 // A{000-100} Atuador de máquina
-// E{0,1,2} Engrazamento Neutro, avante, Ré
+// E{0,1,2} Engrazamento Neutro, Ré, Avante
 
 
 //---------------------------------------------------------
@@ -333,9 +333,9 @@ bool Serial::buildReport()
   m_msgs << "============================================" << endl;
 
   ACTable actab(2);
-  actab << "deploy | feedback_leme | ultimo_comando | thrust_convertido ";
+  actab << "deploy | angulo_leme | ultimo_comando | thrust_convertido ";
   actab.addHeaderLines();
-  actab << deploy << feedback_leme << ultimo_comando << thrust_convertido;
+  actab << deploy << angulo_leme << ultimo_comando << thrust_convertido;
   m_msgs << actab.getFormattedString();
 
   return(true);
