@@ -1,0 +1,9 @@
+//------------------------------------------------
+// planchaPID config block
+
+ProcessConfig = planchaPID
+{
+   AppTick   = 4
+   CommsTick = 4
+}
+
