@@ -5,12 +5,14 @@
 /*    DATE: December 29th, 1963                             */
 /************************************************************/
 
-#include <iterator>
 #include "MBUtils.h"
 #include "ACTable.h"
 #include "lanchaPID.h"
-#include <iostream>
+#include "PIDParameterReader.h"
 #include <cmath>
+#include <string>
+#include <vector>
+#include <iterator>
 
 using namespace std;
 
@@ -24,15 +26,15 @@ double desired_speed;  // Velocidade desejada do navio
 double desired_thrust;  // Saída do controle de velocidade
 double desired_rudder;  // Saída do controle de rumo
 
-double speed_kp = 15.0; //kp da veloc
-double speed_ki = 1.5; //ki da veloc
+double speed_kp = 0.0; //kp da veloc
+double speed_ki = 0.0; //ki da veloc
 double speed_kd = 0.0; //kd da veloc
 
-double heading_kp = 0.8; //kp do heading
-double heading_ki = 0.1; //ki do heading
+double heading_kp = 0.0; //kp do heading
+double heading_ki = 0.0; //ki do heading
 double heading_kd = 0.0; //kd do heading
 
-double dt = 0.01; //Time step (change this is MOOS tick configuration is changed)
+double dt = 0.01; //Time step (change this if MOOS tick configuration is changed)
 
 std::string deploy; //deploy
 std::string moos_manual_overide;
@@ -48,45 +50,97 @@ double min_desired_thrust=0;
 double max_desired_rudder=38;
 double min_desired_rudder=-38;
 
-#include <iostream>
+//Cria os objetos para o controle PID com valores iniciais de kp, ki e kd
+//PIDController speedController(speed_kp, speed_ki, speed_kd);
+//PIDController headingController(heading_kp, heading_ki, heading_kd);
+PIDController speedController("/home/dueiras/VSNT/moos-ivp-vsnt/src/planchaPID/speed_pid_parameters.txt");
+PIDController headingController("/home/dueiras/VSNT/moos-ivp-vsnt/src/planchaPID/heading_pid_parameters.txt");
+//---------------------------------------------------------
+// Constructor()
 
+PIDController::PIDController(const std::string& filename)
+{
+  // Read
+  std::vector<double> pidParams = readPIDParameters(filename);
+  kp = pidParams[0];
+  ki = pidParams[1];
+  kd = pidParams[2];
+  integral = 0;
+  prevError = 0;
+}
 
-class PIDController {
-public:
-    double kp;
-    double ki;
-    double kd;
-    double integral;
-    double prevError;
+//---------------------------------------------------------
+// Calculate()
 
-    PIDController(double kp, double ki, double kd) : kp(kp), ki(ki), kd(kd), integral(0), prevError(0) {}
+double PIDController::Calculate(double desired, double current, double dt) {
+    double error = desired - current;
 
-    double Calculate(double desired, double current, double dt) {
-        double error = desired - current;
-
-        //Passando para a escola de -180 a 180
-        if (error < -180){
-          error+=360;
-        } else if (error > 180){
-          error-=360;
-        }
-
-        integral += error*dt; //Multiplico pelo período dt de tempo
-        double derivative = (error - prevError)/dt;
-
-        double output = kp * error + ki * integral + kd * derivative;
-
-        prevError = error;
-
-        return output;
+    //Passando para a escala de -180 a 180
+    if (error < -180){
+      error += 360;
+    } else if (error > 180){
+      error -= 360;
     }
 
-};
+    integral += error*dt; //Multiplico pelo período dt de tempo
+    double derivative = (error - prevError)/dt;
 
-//Cria os objetos para o controle PID com valores iniciais de kp, ki e kd
-PIDController speedController(speed_kp, speed_ki, speed_kd);
-PIDController headingController(heading_kp, heading_ki, heading_kd);
+    double output = kp * error + ki * integral + kd * derivative;
 
+    prevError = error;
+
+    return output;
+} // Calculate
+
+//---------------------------------------------------------
+// setKP()
+
+void PIDController::setKP(double KP) {
+  kp = 100;
+}
+
+//---------------------------------------------------------
+// setKI()
+
+void PIDController::setKI(double KI) {
+  ki = KI;
+  integral = 0;
+}
+
+//---------------------------------------------------------
+// setKD()
+
+void PIDController::setKD(double KD) {
+  kd = KD;
+}
+
+//---------------------------------------------------------
+// getKP()
+
+double PIDController::getKP() {
+  return kp;
+}
+
+//---------------------------------------------------------
+// getKI()
+
+double PIDController::getKI() {
+  return ki;
+}
+
+//---------------------------------------------------------
+// getKD()
+
+double PIDController::getKD() {
+  return kd;
+}
+
+//---------------------------------------------------------
+// resetIntegral()
+
+void PIDController::resetIntegral() {
+  integral = 0.0;
+}
 
 //---------------------------------------------------------
 // Constructor()
@@ -133,21 +187,17 @@ bool lanchaPID::OnNewMail(MOOSMSG_LIST &NewMail)
      else if(key == "DESIRED_SPEED") 
        desired_speed = msg.GetDouble();  
      else if(key == "SPEED_KP") 
-       speedController.kp = msg.GetDouble();
-     else if(key == "SPEED_KI") {
-       speedController.ki = msg.GetDouble();
-       speedController.integral = 0;
-     }
+       speedController.setKP(msg.GetDouble());
+     else if(key == "SPEED_KI") 
+       speedController.setKI(msg.GetDouble());
      else if(key == "SPEED_KD") 
-       speedController.kd = msg.GetDouble();
+       speedController.setKD(msg.GetDouble());
      else if(key == "HEADING_KP") 
-       headingController.kp = msg.GetDouble();
-     else if(key == "HEADING_KI") { 
-       headingController.ki = msg.GetDouble();
-       headingController.integral = 0;
-     }
+       headingController.setKP(msg.GetDouble());
+     else if(key == "HEADING_KI") 
+       headingController.setKI(msg.GetDouble());
      else if(key == "HEADING_KD") 
-       headingController.kd = msg.GetDouble();
+       headingController.setKD(msg.GetDouble());
      else if(key == "DEPLOY") 
        deploy = msg.GetString();   
      else if(key == "MOOS_MANUAL_OVERIDE") 
@@ -203,19 +253,20 @@ bool lanchaPID::Iterate()
   if (constant_heading == "true"){
     //zero o erro integral se o setpoint mudar
     if (setpoint_heading != antigo_setpoint_heading) {
-      headingController.integral = 0; //Zero o erro integral
+      //headingController.integral = 0; //Zero o erro integral
+      headingController.resetIntegral();
       antigo_setpoint_heading = setpoint_heading; 
     }
     desired_rudder = headingController.Calculate(setpoint_heading, nav_heading,dt);
   } else {
     if (desired_heading != antigo_desired_heading){
-      headingController.integral = 0; //Zero o erro integral
+      //headingController.integral = 0; //Zero o erro integral
+      headingController.resetIntegral();
       antigo_desired_heading = desired_heading;
     }
     desired_rudder = headingController.Calculate(desired_heading, nav_heading,dt);
   }
   
-
   //Limita a saída
   if (desired_rudder < min_desired_rudder) { 
     desired_rudder = min_desired_rudder;
@@ -224,7 +275,6 @@ bool lanchaPID::Iterate()
   }
 
   // Imprima as saídas dos controladores
-  //std::cout << "Desired Thrust: " << desired_thrust << " Desired Rudder: " << desired_rudder << std::endl;
 
   //Publico DESIRED_RUDDER e DESIRED_THRUST
   //Só publica quando deploy for true e moos_manual_override for false
@@ -232,8 +282,6 @@ bool lanchaPID::Iterate()
     Notify("DESIRED_THRUST", desired_thrust);
     Notify("DESIRED_RUDDER", desired_rudder);
   }
-  
-
 
   AppCastingMOOSApp::PostReport();
   return(true);
@@ -270,8 +318,6 @@ bool lanchaPID::OnStartUp()
     if(!handled)
       reportUnhandledConfigWarning(orig);
 
-    
-
   }
   
   registerVariables();	
@@ -300,9 +346,7 @@ void lanchaPID::registerVariables()
   Register("CONSTANT_HEADING",0);
   Register("SETPOINT_HEADING",0);
 
-
 }
-
 
 //------------------------------------------------------------
 // Procedure: buildReport()
@@ -324,7 +368,7 @@ bool lanchaPID::buildReport()
   ACTable actab2(3);
   actab2 << "SPEED_KP | SPEED_KI | SPEED_KD ";
   actab2.addHeaderLines();
-  actab2 << speedController.kp << speedController.ki << speedController.kd ;
+  actab2 << speedController.getKP() << speedController.getKI() << speedController.getKD() ;
   m_msgs << actab2.getFormattedString();
   m_msgs << endl;
   m_msgs << "---------------------------------------------------" << endl;
@@ -332,14 +376,11 @@ bool lanchaPID::buildReport()
   ACTable actab3(3);
   actab3 << "HEADING_KP | HEADING_KI | HEADING_KD";
   actab3.addHeaderLines();
-  actab3 << headingController.kp << headingController.ki << headingController.kd;
+  actab3 << headingController.getKP() << headingController.getKI() << headingController.getKD();
   m_msgs << actab3.getFormattedString();
   m_msgs << endl;
 
 
   return(true);
 }
-
-
-
 

@@ -7,6 +7,7 @@ SET(SRC
   lanchaPID.cpp
   lanchaPID_Info.cpp
   main.cpp
+  PIDParameterReader.cpp
 )
 
 ADD_EXECUTABLE(planchaPID ${SRC})
