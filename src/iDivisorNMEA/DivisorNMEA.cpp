@@ -159,11 +159,11 @@ protected:
       if (GetGPRMC(rmcdata) == CNMEAParserData::ERROR_OK) {
         lat_gps = rmcdata.m_dLatitude; // Latitude recebida
         long_gps = rmcdata.m_dLongitude; // Longitude recebida 
-        speed_gps = rmcdata.m_dSpeedKnots; // SOG do GPS
+        //speed_gps = rmcdata.m_dSpeedKnots; // SOG do GPS
         heading_gps = rmcdata.m_dTrackAngle; // Marcação vinda do GPS - tirei esse e coloquei o heading vindo da giro
 
       }
-    }
+    } 
 
 		return CNMEAParserData::ERROR_OK;
 	}
@@ -430,6 +430,14 @@ bool DivisorNMEA::Iterate()
       {
         std::cout << e.what();
       }
+    } else if (msg_string.substr(0,6) == "$GPRMC") {
+        try {
+          speed_gps = stold(libais::GetNthField(msg,7,",")); // Pega oitavo campo da string NMEA (veloc em nós)
+        }
+        catch(std::system_error& e) {
+          std::cout << e.what();
+        }
+        Notify("NAV_SPEED", speed_gps);
     }
 
     # if 0
