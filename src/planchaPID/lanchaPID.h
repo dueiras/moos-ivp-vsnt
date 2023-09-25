@@ -49,6 +49,7 @@ class PIDController
     void resetIntegral();
     double getKP();
     double getKI();
+    double getIterm();
     double getKD();
 
   private :
@@ -57,6 +58,9 @@ class PIDController
     double kd;
     double integral;
     double prevError;
+    double lower_bound;
+    double upper_bound;
+
 };
 
 #endif 

@@ -9,7 +9,7 @@ using namespace std;
 
 std::vector<double> readPIDParameters(const std::string& filename) {
     std::vector<double> parameters; // Vector to store KP, KI, KD
-    double KP = 0.0, KI = 0.0, KD = 0.0;
+    double KP = 0.0, KI = 0.0, KD = 0.0, LOWER_BOUND = 0.0, UPPER_BOUND = 0.0;
 
     // Open the file for reading
     std::ifstream file(filename);
@@ -33,6 +33,10 @@ std::vector<double> readPIDParameters(const std::string& filename) {
                         KI = paramValue;
                     } else if (paramName == "KD") {
                         KD = paramValue;
+                    } else if (paramName == "UPPER_BOUND") {
+                        UPPER_BOUND = paramValue;
+                    } else if (paramName == "LOWER_BOUND") {
+                        LOWER_BOUND = paramValue;
                     }
                 }
             }
@@ -45,6 +49,8 @@ std::vector<double> readPIDParameters(const std::string& filename) {
         parameters.push_back(KP);
         parameters.push_back(KI);
         parameters.push_back(KD);
+        parameters.push_back(UPPER_BOUND);
+        parameters.push_back(LOWER_BOUND);
     } else {
         std::cerr << "PIDParameterReader Error: Unable to open the file " << filename << std::endl;
     }

@@ -19,7 +19,6 @@ using namespace std;
 //Variáveis globais
 double nav_heading;  // Rumo atual do navio
 double desired_heading;  // Rumo desejado do navio
-double antigo_desired_heading = 0; //Desired Heading anterior
 double nav_speed;  // Velocidade atual do navio
 double desired_speed;  // Velocidade desejada do navio
 
@@ -42,19 +41,11 @@ std::string moos_manual_override;
 
 std::string constant_heading; //Variável para verificar se o rumo constante é verdadeiro
 double setpoint_heading; //Variável em que eu coloco o setpoint de rumo
-double antigo_setpoint_heading = 0;
 
-//Limite do desired_thrust e do desired_rudder
-double max_desired_thrust=50;
-double min_desired_thrust=0;
-double max_desired_rudder=38;
-double min_desired_rudder=-38;
-
-//Cria os objetos para o controle PID com valores iniciais de kp, ki e kd
-//PIDController speedController(speed_kp, speed_ki, speed_kd);
-//PIDController headingController(heading_kp, heading_ki, heading_kd);
+//Cria os objetos para o controle PID com valores iniciais de kp, ki e kd lidos do arquivo
 PIDController speedController("/home/dueiras/VSNT/moos-ivp-vsnt/src/planchaPID/speed_pid_parameters.txt");
 PIDController headingController("/home/dueiras/VSNT/moos-ivp-vsnt/src/planchaPID/heading_pid_parameters.txt");
+
 //---------------------------------------------------------
 // Constructor()
 
@@ -62,11 +53,13 @@ PIDController::PIDController(const std::string& filename)
 {
   // Read
   std::vector<double> pidParams = readPIDParameters(filename);
-  kp = pidParams[0];
-  ki = pidParams[1];
-  kd = pidParams[2];
-  integral = 0;
-  prevError = 0;
+  kp          = pidParams[0];
+  ki          = pidParams[1];
+  kd          = pidParams[2];
+  upper_bound = pidParams[3];
+  lower_bound = pidParams[4];
+  integral    = 0;
+  prevError   = 0;
 }
 
 //---------------------------------------------------------
@@ -76,6 +69,8 @@ double PIDController::Calculate(double desired, double current, double dt) {
     double error = desired - current;
 
     //Passando para a escala de -180 a 180
+    // Isso não é o ideal para o controlador de velocidade
+    // Porém hoje os valores não chegam a -180 ou 180
     if (error < -180){
       error += 360;
     } else if (error > 180){
@@ -83,21 +78,37 @@ double PIDController::Calculate(double desired, double current, double dt) {
     }
 
     integral += error*dt; //Multiplico pelo período dt de tempo
+
+    // 25-set-2023: add Anti-WindUp
+    // Limits integral to maximum and minimum output values
+    if (integral > upper_bound) {
+      integral = upper_bound;
+    }
+    else if (integral < lower_bound) {
+      integral = lower_bound;
+    }
+
     double derivative = (error - prevError)/dt;
 
     double output = kp * error + ki * integral + kd * derivative;
 
+    // Limits the output value
+    if (output > upper_bound)
+      output = upper_bound;
+    else if (output < lower_bound)
+      output = lower_bound;
+
     prevError = error;
 
     return output;
-} // Calculate
+} // Calculate()
 
 //---------------------------------------------------------
 // setKP()
 
 void PIDController::setKP(double KP) {
-  kp = 100;
-}
+  kp = KP;
+} // setKP()
 
 //---------------------------------------------------------
 // setKI()
@@ -105,42 +116,49 @@ void PIDController::setKP(double KP) {
 void PIDController::setKI(double KI) {
   ki = KI;
   integral = 0;
-}
+} // setKI()
 
 //---------------------------------------------------------
 // setKD()
 
 void PIDController::setKD(double KD) {
   kd = KD;
-}
+} // setKD()
 
 //---------------------------------------------------------
 // getKP()
 
 double PIDController::getKP() {
   return kp;
-}
+} // getKP()
 
 //---------------------------------------------------------
 // getKI()
 
 double PIDController::getKI() {
   return ki;
-}
+} // getKI()
+
+//---------------------------------------------------------
+// getIterm()
+
+double PIDController::getIterm() {
+  return integral;
+} // getIterm()
 
 //---------------------------------------------------------
 // getKD()
 
 double PIDController::getKD() {
   return kd;
-}
+} // getKD()
 
 //---------------------------------------------------------
 // resetIntegral()
 
 void PIDController::resetIntegral() {
   integral = 0.0;
-}
+} // resetIntegral()
 
 //---------------------------------------------------------
 // Constructor()
@@ -241,37 +259,12 @@ bool lanchaPID::Iterate()
   // Calcule o controle de velocidade
   desired_thrust = speedController.Calculate(desired_speed, nav_speed,dt);
 
-  //Limita a saída
-  if (desired_thrust < min_desired_thrust) { 
-    desired_thrust = min_desired_thrust;
-  } else if (desired_thrust > max_desired_thrust) {
-    desired_thrust = max_desired_thrust;
-  }
-
   // Calcule o controle de rumo
   //Caso o rumo constante esteja ativado o setpoint vai ser esse rumo
   if (constant_heading == "true"){
-    //zero o erro integral se o setpoint mudar
-    if (setpoint_heading != antigo_setpoint_heading) {
-      //headingController.integral = 0; //Zero o erro integral
-      headingController.resetIntegral();
-      antigo_setpoint_heading = setpoint_heading; 
-    }
     desired_rudder = headingController.Calculate(setpoint_heading, nav_heading,dt);
   } else {
-    if (desired_heading != antigo_desired_heading){
-      //headingController.integral = 0; //Zero o erro integral
-      headingController.resetIntegral();
-      antigo_desired_heading = desired_heading;
-    }
     desired_rudder = headingController.Calculate(desired_heading, nav_heading,dt);
-  }
-  
-  //Limita a saída
-  if (desired_rudder < min_desired_rudder) { 
-    desired_rudder = min_desired_rudder;
-  } else if (desired_rudder > max_desired_rudder) {
-    desired_rudder = max_desired_rudder;
   }
 
   // Imprima as saídas dos controladores
@@ -378,6 +371,14 @@ bool lanchaPID::buildReport()
   actab3.addHeaderLines();
   actab3 << headingController.getKP() << headingController.getKI() << headingController.getKD();
   m_msgs << actab3.getFormattedString();
+  m_msgs << endl;
+  m_msgs << "---------------------------------------------------" << endl;
+
+  ACTable actab4(2);
+  actab4 << "HEADING_I_TERM | SPEED_I_TERM";
+  actab4.addHeaderLines();
+  actab4 << headingController.getIterm() << speedController.getIterm();
+  m_msgs << actab4.getFormattedString();
   m_msgs << endl;
 
 
