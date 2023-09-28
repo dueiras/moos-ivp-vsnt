@@ -1,3 +1,10 @@
+/************************************************************/
+/*    NAME: Eduardo Eiras                                            */
+/*    ORGN: Rio de Janeiro                             */
+/*    FILE: PIDParameterReader.cpp                                        */
+/*    DATE: September, 2023                           */
+/************************************************************/
+
 #include "lanchaPID.h"
 #include "PIDParameterReader.h"
 #include <fstream>

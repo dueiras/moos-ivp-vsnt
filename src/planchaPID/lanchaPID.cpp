@@ -1,8 +1,8 @@
 /************************************************************/
-/*    NAME: Douglas Lima                                              */
+/*    NAME: Douglas Lima, Eduardo Eiras                                              */
 /*    ORGN: MIT, Cambridge MA                               */
 /*    FILE: lanchaPID.cpp                                        */
-/*    DATE: December 29th, 1963                             */
+/*    DATE: September, 2023                          */
 /************************************************************/
 
 #include "MBUtils.h"
@@ -28,6 +28,7 @@ double desired_rudder;  // Saída do controle de rumo
 double speed_kp = 0.0; //kp da veloc
 double speed_ki = 0.0; //ki da veloc
 double speed_kd = 0.0; //kd da veloc
+int thrust_map = 1; 
 
 double heading_kp = 0.0; //kp do heading
 double heading_ki = 0.0; //ki do heading
@@ -216,8 +217,12 @@ bool lanchaPID::OnNewMail(MOOSMSG_LIST &NewMail)
        headingController.setKI(msg.GetDouble());
      else if(key == "HEADING_KD") 
        headingController.setKD(msg.GetDouble());
-     else if(key == "DEPLOY") 
-       deploy = msg.GetString();   
+     else if(key == "DEPLOY") {
+       deploy = msg.GetString(); 
+       // Reset PID error  
+       headingController.resetIntegral();
+       speedController.resetIntegral();
+       }
      else if(key == "MOOS_MANUAL_OVERIDE") 
        moos_manual_overide = msg.GetString();  
      else if(key == "MOOS_MANUAL_OVERRIDE") 
@@ -257,7 +262,31 @@ bool lanchaPID::Iterate()
   // Loop de controle
   
   // Calcule o controle de velocidade
-  desired_thrust = speedController.Calculate(desired_speed, nav_speed,dt);
+  if (thrust_map == 1) 
+  {
+    switch ((int) desired_speed) {
+      case 0:
+        desired_thrust = 0;
+        break;
+      case 1:
+        desired_thrust = 20;
+        break;
+      case 4:
+        desired_thrust = 30;
+        break;
+      case 5:
+        desired_thrust = 40;
+        break;
+      case 6:
+        desired_thrust = 48;
+        break;
+      default:
+        desired_thrust = 0;
+    } // end switch
+
+  } else {
+    desired_thrust = speedController.Calculate(desired_speed, nav_speed,dt);
+  }
 
   // Calcule o controle de rumo
   //Caso o rumo constante esteja ativado o setpoint vai ser esse rumo

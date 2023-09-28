@@ -301,6 +301,7 @@ bool DivisorNMEA::Iterate()
   }
 
   //Publico NAV_X e NAV_Y
+  //TODO deixar parametrizavel pra localização
   double lat_origin = -22.93335; //ALTERAR AQUI SE MUDAR A CARTA NÁUTICA !!!
   double lon_origin = -43.136666665;
   double nav_x = 0;
