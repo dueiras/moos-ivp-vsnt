@@ -6,6 +6,7 @@ initialize   END  = false
 initialize   STATION_KEEP = false
 initialize   SEARCH  = true
 initialize   AVOID   = true
+initialize   CONSTANT_HEADING = false 
 
 set MODE = ACTIVE {
   DEPLOY = true
@@ -43,13 +44,13 @@ Behavior = BHV_Waypoint
   perpetual  = true
 //  templating = clone
 
-                lead = 5
-         lead_damper = 1
+                lead = 10
+         lead_damper = 5
        lead_to_start = true
-               speed = 2  // meters per second
+               speed = 5 
         capture_line = true
-      capture_radius = 30 
-         slip_radius = 35
+      capture_radius = 8 
+         slip_radius = 16
 	efficiency_measure = all
 
 
@@ -61,5 +62,17 @@ Behavior = BHV_Waypoint
     visual_hints = vertex_color=gray40, edge_color=black
     visual_hints = vertex_size=5, edge_size=1
     visual_hints = label_color=invisible
+}
+
+//----------------------------------------------
+Behavior = BHV_ConstantHeading
+{
+  name      = const_hdg
+  pwt       = 100
+  perpetual = true
+  condition = CONSTANT_HEADING = true
+  updates      = CONST_HDG_UPDATES
+
+  heading = 0
 }
 

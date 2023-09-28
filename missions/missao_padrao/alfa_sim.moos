@@ -21,22 +21,21 @@ ProcessConfig = ANTLER
     // Uncomment uSimMarine and comment iDivisorNMEA,iSerial for simulation
     
     Run = MOOSDB		@ NewConsole = false
-    //Run = uSimMarine	@ NewConsole = false
+    Run = uSimMarine	@ NewConsole = false
     Run = pNodeReporter	@ NewConsole = false
     Run = pHelmIvP	@ NewConsole = false
-    Run = iSerial	@ NewConsole = false 
-    //Run = pIMU	@ NewConsole = false 
-    Run = planchaPID	@ NewConsole = false  
+    //Run = iSerial	@ NewConsole = false  
     //Run = pMarinePIDV22	@ NewConsole = false
+    Run = planchaPID @ NewConsole = false
     //Run = uProcessWatch   @ NewConsole = false
     //Run = pContactMgrV20	@ NewConsole = false
     Run = pMarineViewer	@ NewConsole = false 
-    Run = iDivisorNMEA	@ NewConsole = false
-    Run = pLogger	@ NewConsole = false
+    //Run = iDivisorNMEA	@ NewConsole = false
+    //Run = pLogger	@ NewConsole = false
     //Run = iRemoteLite	@ NewConsole = false
     Run = pRealm	      @ NewConsole = false
     //Run = pShare	      @ NewConsole = false
-    //Run = uPlotViewer @ NewConsole = false
+    
     
   }
 
@@ -79,6 +78,8 @@ START_Y = 2355.0
 START_HEADING = 0.0 
 
   PREFIX        = NAV
+  thrust_map =  "0:0,18:1, 48:6, 60:9, 62:10, 70:18, 100:28"
+  turn_rate = 50
 }
 
 
@@ -106,13 +107,13 @@ ProcessConfig = uProcessWatch
 
 ProcessConfig = pHelmIvP
 {
-  AppTick    = 4
-  CommsTick  = 4
+  AppTick    = 100
+  CommsTick  = 100
 
   Behaviors  = alfa.bhv
   Verbose    = quiet
   Domain     = course:0:359:360
-  Domain     = speed:0:15:30
+  Domain     = speed:0:20:40
 
   IVP_BEHAVIOR_DIR = /home/dueiras/VSNT/moos-ivp-vsnt/lib
   //IVP_BEHAVIOR_DIR = /Users/mikerb/Research/moos-ivp-extend/trunk/lib
@@ -136,28 +137,25 @@ ProcessConfig = pMarinePIDV22
   // SIM_INSTABILITY = 20
 
   // Yaw PID controller
-  yaw_pid_kp		 = 0.95
+  yaw_pid_kp		 = 0.8
   yaw_pid_kd		 = 0.0
-  yaw_pid_ki		 = 0.0  //
-  //yaw_pid_integral_limit = 0.07
+  yaw_pid_ki		 = 0.1 //
   yaw_pid_integral_limit = 0.07
 
   // Speed PID controller
-  speed_pid_kp		 = 6.0
-  speed_pid_kd		 = 1.85
-  speed_pid_ki		 = 0.90
-  //speed_pid_integral_limit = 0.07
+  speed_pid_kp		 = 1.0
+  speed_pid_kd		 = 0.0
+  speed_pid_ki		 = 0.1
   speed_pid_integral_limit = 0.07
 
   //MAXIMUMS
   //maxrudder    = 100*/ 
-  maxrudder    = 40 //Limite máximo do leme 
-  maxthrust    = 50
+  maxrudder    = 35 //Limite máximo do leme 
+  maxthrust    = 100
 
   // A non-zero SPEED_FACTOR overrides use of SPEED_PID
   // Will set DESIRED_THRUST = DESIRED_SPEED * SPEED_FACTOR
-  //speed_factor = 20
-  speed_factor = 0
+  speed_factor = 20
 }
 
 //------------------------------------------
@@ -192,9 +190,6 @@ ProcessConfig = pMarineViewer
   BUTTON_ONE = DEPLOY # DEPLOY=true
   BUTTON_ONE = MOOS_MANUAL_OVERIDE=false # RETURN=false
   BUTTON_TWO = RETURN # RETURN=true
-  BUTTON_THREE = RUMO_CONSTANTE # CONSTANT_HEADING=true
-  //BUTTON_THREE = RETURN=false # MOOS_MANUAL_OVERRIDE=false
-  BUTTON_FOUR = DESATIVA_RUMO_CONSTANTE # CONSTANT_HEADING = false
 }
 
 //------------------------------------------
@@ -222,7 +217,6 @@ ProcessConfig = iSerial
    AppTick   = 100
    CommsTick = 100
 }
-
 //-------------------------------------------
 // planchaPID bloco de config
 
@@ -231,20 +225,8 @@ ProcessConfig = planchaPID
    AppTick   = 100
    CommsTick = 100
 }
-
 //------------------------------------------------
-// pIMUconfig block
-
-ProcessConfig = pIMU
-{
-   AppTick   = 100
-   CommsTick = 100
-}
-
-//------------------------------------------------
-// iDivisorNMEA config block
-
-ProcessConfig = iDivisorNMEA
+// iDivisorNMEA config blockmoos ivp how to change
 {
    AppTick   = 100
    CommsTick = 100
@@ -289,70 +271,51 @@ ProcessConfig = pLogger
     AppTick  = 100.0
     CommsTick   = 100.0
 
-      TIFF_FILE            = 1511geotiff.tif
-      image            = 1511geotiff.tif
-  //set_pan_x            = -90
-  //set_pan_y            = -280
-  zoom                 = 1
-  DatumLat = -22.93335 
-DatumLong = -43.136666665 
-
     //all file names begin with this stem
-    //File        = agua
-    File        = testeAutonomo
- 
-    log = IVPHELM_LIFE_EVENT @ 0 NOSYNC
+      File        = sim
+  
+      //where is the root log directory
+      PATH        = /home/dueiras/VSNT/moos-ivp-vsnt/log
+  
+      //yes we want some sync logging for crude
+      //performance checking
+      SyncLog     = false @ 0.2
+  
+      //yes we want async logging so we can replay
+      // exactly what happened and record strings
+      AsyncLog    = true
 
-    //where is the root log directory
-    PATH        = /home/dueiras/VSNT/moos-ivp-vsnt/log
 
-    //yes we want async logging so we can replay
-    // exactly what happened and record strings
-    AsyncLog    = true
-
-    LogAuxSrc = true
-    WildCardLogging = true
-    WildCardExclusionLog = true
+    WildCardLogging = false
 
       //yes append each created directory log file
     //with a time stamp DAY MONTH YEAR TIME
     FileTimeStamp   = true
 
+
     // Captures everything
     //LOG     = MSG_UDP @ 0
-    //LOG     = ANGULO_LEME @ 0
-    //LOG     = DESIRED_RUDDER @ 0
-    //LOG     = DESIRED_THRUST @ 0
-    //LOG     = DESIRED_SPEED @ 0
-    //LOG     = DESIRED_GEAR @ 0
-    //LOG     = DESIRED_HEADING @ 0
-    //LOG     = ERRO_Leme @ 0
+    LOG     = ANGULO_LEME @ 0
+    LOG     = DESIRED_RUDDER @ 0
+    LOG     = DESIRED_THRUST @ 0
+    LOG     = DESIRED_SPEED @ 0
+    LOG     = DESIRED_GEAR @ 0
+    LOG     = DESIRED_HEADING @ 0
+    LOG     = ERRO_Leme @ 0
     //LOG     = LEME_SERIAL @ 0
     //LOG     = TEMPO_LEME @ 0
-    //LOG     = VALOR_CONTROLE_LEME @ 0
-    //LOG     = GPS_HEADING @ 0
+    LOG     = VALOR_CONTROLE_LEME @ 0
+    LOG     = GPS_HEADING @ 0
     //LOG     = MAQUINA_SERIAL @ 0
-    //LOG     = NAV_HEADING @ 0
-   // LOG     = NAV_LAT @ 0
-    //LOG     = NAV_LONG @ 0
-    //LOG     = NAV_SPEED @ 0
-    //LOG     = NAV_X @ 0
-    //LOG     = NAV_Y @ 0
-    //LOG     = NAV_ACCEL_X @ 0
-    //LOG     = NAV_ACCEL_Y @ 0
-    //LOG     = NAV_ACCEL_Z @ 0
-    //LOG     = GYRO_YAW @ 0
-    //LOG     = GYRO_ROLL @ 0
-    //LOG     = GYRO_PITCH @ 0
+    LOG     = NAV_HEADING @ 0
+    LOG     = NAV_LAT @ 0
+    LOG     = NAV_LONG @ 0
+    LOG     = NAV_SPEED @ 0
+    LOG     = NAV_X @ 0
+    LOG     = NAV_Y @ 0
     //LOG     = VIEW_POINT @ 0
     //LOG     = BHV_SETTINGS @ 0
-  //LOG = SPEED_KP @ 0
-  //LOG = SPEED_KI @ 0
-  //LOG = SPEED_KD @ 0
-  //LOG = HEADING_KP @ 0
-  //LOG = HEADING_KI @ 0
-  //LOG = HEADING_KD @ 0
-    //LOG     = END @ 0
+    LOG     = END @ 0
 
 
 }
@@ -364,8 +327,8 @@ ProcessConfig = uPlotViewer
   AppTick   = 100                                                 
   CommsTick = 100                                                 
                                                                 
-  plot_var = var=DESIRED_HEADING,min=0,max=400,bars=50,color=red 
-  plot_var = var=NAV_HEADING,min=0,max=400,bars=80,color=blue  
+  plot_var = var=DESIRED_RUDDER,min=0,max=400,bars=50,color=red 
+  plot_var = var=ANGULO_LEME,min=0,max=400,bars=80,color=blue  
   //plot_var = var=LGAUSS_TEST_VAL,min=0,max=400,bars=80,color=green
                                                                 
 } 
