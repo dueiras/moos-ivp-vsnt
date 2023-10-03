@@ -44,13 +44,13 @@ Behavior = BHV_Waypoint
   perpetual  = true
 //  templating = clone
 
-                lead = 10
-         lead_damper = 5
+                lead = 12 //12
+         lead_damper = 8 //8
        lead_to_start = true
-               speed = 5 
+               speed = 4 
         capture_line = true
-      capture_radius = 8 
-         slip_radius = 16
+      capture_radius = 15 //15
+         slip_radius = 20 //20
 	efficiency_measure = all
 
 

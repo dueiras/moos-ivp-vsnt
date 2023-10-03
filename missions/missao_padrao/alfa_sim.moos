@@ -24,6 +24,7 @@ ProcessConfig = ANTLER
     Run = uSimMarine	@ NewConsole = false
     Run = pNodeReporter	@ NewConsole = false
     Run = pHelmIvP	@ NewConsole = false
+    Run = pIMU	@ NewConsole = false
     //Run = iSerial	@ NewConsole = false  
     //Run = pMarinePIDV22	@ NewConsole = false
     Run = planchaPID @ NewConsole = false
@@ -82,6 +83,13 @@ START_HEADING = 0.0
   turn_rate = 50
 }
 
+// pIMUconfig block
+
+ProcessConfig = pIMU
+{
+   AppTick   = 100
+   CommsTick = 100
+}
 
 //------------------------------------------
 // uProcessWatch config block
