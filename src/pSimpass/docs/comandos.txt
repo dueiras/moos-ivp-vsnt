@@ -1,0 +1,6 @@
+casnav@VSNTLAB:~/moos-ivp/ivp/missions/s1_alpha$ pAntler alpha.moos
+casnav@VSNTLAB:~/moos-ivp-douglas/bin$ ./pSimYAW
+casnav@VSNTLAB:~/moos-ivp-douglas/bin$ ./pSimpass alpha.moos
+casnav@VSNTLAB:~/moos-ivp-douglas/bin$ ./uXMS_Monitor.sh
+
+vsnt.moos => arquivo para conectar na lancha

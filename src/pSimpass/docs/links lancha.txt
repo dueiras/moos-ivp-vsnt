@@ -1,0 +1,162 @@
+*Video Streaming
+https://shinobi.video/
+https://hub.shinobi.video/articles/view/9n45er2RzD96JJf
+
+*MOOS
+https://oceanai.mit.edu/ivpman/pmwiki/pmwiki.php?n=Helm.MOOSIvPIntroduction
+https://oceanai.mit.edu/moos-ivp/pmwiki/pmwiki.php?n=Site.Download
+https://oceanai.mit.edu/svn/moos-ivp-aro/releases/moos-ivp-22.8/README-WINDOWS.txt
+https://ubuntu.com/tutorials/enabling-gpu-acceleration-on-ubuntu-on-wsl2-with-the-nvidia-cuda-platform#1-overview
+
+
+https://askubuntu.com/questions/1429369/how-to-transfer-ubuntu-on-wsl-from-one-laptop-to-another
+
+
+NAV_LAT
+NAV_LONG
+NAV_SPEED
+NAV_HEADING
+
+MOOS_MANUAL_OVERRIDE = true
+DESIRED_RUDDER
+DESIRED_THRUST
+
+QT Linux:
+wget https://download.qt.io/new_archive/qt/5.14/5.14.2/qt-opensource-linux-x64-5.14.2.run
+sudo chmod +x qt-opensource-linux-x64-5.14.2.run
+~/Qt5.14.2/Tools/QtCreator/bin/qtcreator
+
+export Qt5_DIR=$HOME/Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5
+
+
+Configurando TortoiseGit no WSL (https://stackoverflow.com/questions/74460236/how-do-you-get-tortoisegit-gui-for-windows-explorer-working-in-wsl2-linux-includ):
+What you need inorder to make TortoiseGit work on your WSL2 directory is to load a .ppk file converted from your .ssh identity being used by your WSL2 user (i.e. registered in your Gitlab/GitHub SSH Keys Settings and added on the ssh-add -l). And add it to Pageant Key List.
+
+Here are the steps I took starting from the very beginning where I had a mistake on the WSL version I used. You can skip the steps under #1 if you don't need it.
+
+I realized that I was using WSL1 and "Ubuntu" kernel (no version number on the name from the Store). So I fix this issue first to switch to WSL2.
+
+1.1. I followed the Microsoft article, Manual installation steps for older versions of WSL and skipped the first 3 steps (i.e. enabling the required Windows features) because I've already done it via Control Panel > Turn Windows features on or off.
+
+1.2. I downloaded and installed WSL2 Linux kernel update package for x64 machines
+
+1.3 On Powershell, I run wsl --set-default-version 2 (Expected Output: The operation completed successfully.)
+
+1.4 I went back to Microsoft Store, installed Ubuntu-22.04 (i.e. latest version attow.), and Launched it's terminal.
+
+1.5 I run explorer.exe . to open a Windows File Explorer on that root directory of my Ubuntu. Then pinned it on Quick access so I can easily navigate on it with GUI.
+
+Check the list of SSH keys available with the following commands:
+
+eval `ssh-agent -s`
+ssh-add -l
+Output
+
+The agent has no identities.
+Run ssh-keygen and follow through the steps. I recommend to use the default output ~/.ssh/id_rsa so you don't have to manually add the custom ssh keys with the ssh-add command. Passphrase is also optional and I left mine blank so I don't have to input password on every git command execution.
+
+Go ahead and register your SSH key to your GitLab/GitHub. Make sure you copy the PUBLIC key and not the private one. For the default setup, it's from the file named id_rsa.pub.
+
+For GitHub, Settings > SSH and GPG keys
+
+For GitLab, Preferences > SSH Keys
+
+Mark your directory path as safe in the global gitconfig. There are two ways to do this:
+
+5.1 via your Ubuntu Terminal:
+
+git config --global --add safe.directory '%(prefix)///wsl$/Ubuntu-22.04/home/<username>/<path>/<to>/<repo>'
+5.2 via TortoiseGit GUI:
+
+Go to TortoiseGit Settings, Settings > Git > "Edit global .gitconfig" and add your whitelist there. Example:
+
+[safe]
+directory = %(prefix)///wsl.localhost/Ubuntu-22.04/home/User1/code
+Or you can just go ahead and use git config --global --add safe.directory '*' to disable the check entirely.
+
+Generate .ppk out of your .ssh file.
+
+6.1 Open TortoiseGit's PuTTY Key Generator (Example path: C:\Program Files\TortoiseGit\bin\puttgen.exe)
+
+6.2 Click Load and find the private key (Path to default SSH setup: \\wsl.localhost\Ubuntu-22.04\home\<username>\.ssh\id_rsa
+
+6.3 Click Save private key and I recommend to save the file on the same location with your ssh.
+
+Add your .ppk to the Pageant Key List.
+
+7.1 Open pageant.exe from the same bin folder and then double click it from the system tray (lower right corner of your taskbar) to open its window. 7.2 Click Add Key and select your .ppk file.
+
+In my case, I didn't need to restart my computer so go ahead and try using TortoiseGit immediately. The tool should work by then but you will notice that the folders don't get the icons in the file explorer. You have to add the path to your root on TortoiseGit Settings > Icon Overlays > Include paths:. In my case, I saved \\wsl.localhost\
+
+Mensagens a serem MAPEADAS:
+HEADING = "HEADING"
+MAGNETIC = "MAGNETIC"
+COURSE = "COURSE" (???)
+RATE_OF_TURN = "ROTURN" (???) (como calcular)
+CMD_RUDDER = "CRUDDER"
+READING_RUDDER = "RRUDDER"
+STEERING_MODE = "STEERING_MODE"
+DEPTH = "DEPTH"
+SEA_DEPTH = "SEA_DEPTH"
+SPEED = "SPEED"
+TIME_OF_DAY = "TIMEOFDAY" (???)
+LATITUDE_LONGITUDE = "LATLONG"
+
+*Para executar projeto
+> cd moos-ivp/ivp/missions/alpha/
+> pAntler alpha.moos
+
+-Executar o network Server e depois:
+> cd ~/moos-ivp-extend/bin
+> ./pSimpass alpha.moos
+
+obs.: para poder buildar 
+export Qt5_DIR=$HOME/Qt5.14.2/5.14.2/gcc_64/lib/cmake/Qt5
+
+--MOOS Douglas
+sudo apt-get install libboost-all-dev
+export PATH="$HOME/moos-ivp-douglas/bin:$PATH"
+pAntler alfa.moos
+
+https://github.com/panaaj/nmeasimulator
+UDP (CLIENT) IP + PORT (10110)
+
+*instalação do xwindows
+   X11 Server
+   In order to launch MOOS-IvP graphical utilities, you will need to install
+   an X11 server. Some options include:
+
+   - VcXsrv:   https://sourceforge.net/projects/vcxsrv/
+   - Xming:    https://sourceforge.net/projects/xming/
+   - Cygwin/X: https://x.cygwin.com/
+
+   These instructions are based on testing with VcXsrv, where the key
+   requirement is that the Windows firewall must allow VcXsrv to access
+
+                     ** BOTH PUBLIC AND PRIVATE **
+
+   networks; otherwise, the WSL distro will not be able to connect to the
+   X11 server to show graphical interfaces. The options for VcXsrv, by
+   configuration screen, are:
+
+   1. Multiple windows
+   2. Start no client
+   3. Check all boxes, including 'Disable access control'
+
+   To configure your WSL distro to connect to the X server, add the following
+   to your distro's .bashrc:
+
+   export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0.0
+   export LIBGL_ALWAYS_INDIRECT=1
+
+obs: 
+	Incluir o VcXsrv no firewall, senão ele n consegue se comunicar com o wsl
+
+Problema do refresh:
+	https://ubuntu.com/tutorials/enabling-gpu-acceleration-on-ubuntu-on-wsl2-with-the-nvidia-cuda-platform#1-overview 
+	-qdo fiz o passo a passo tive q trocar  libtiff4-dev por libtiff-dev
+depois:
+	sudo apt update && sudo apt upgrade
+	sudo apt install freeglut3-dev
+
+
