@@ -1,4 +1,4 @@
-KP = 0.95
+KP = 0.90
 KI = 0.0
 KD = 0.2
 UPPER_BOUND = 40.0

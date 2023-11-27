@@ -302,8 +302,14 @@ bool DivisorNMEA::Iterate()
 
   //Publico NAV_X e NAV_Y
   //TODO deixar parametrizavel pra localização
-  double lat_origin = -22.93335; //ALTERAR AQUI SE MUDAR A CARTA NÁUTICA !!!
-  double lon_origin = -43.136666665;
+
+  // Rio de Janeiro
+  //double lat_origin = -22.93335; //ALTERAR AQUI SE MUDAR A CARTA NÁUTICA !!!
+  //double lon_origin = -43.136666665;
+
+  // Salvador
+  double lat_origin = -12.97933112028696;
+  double lon_origin = -38.5666610393065;
   double nav_x = 0;
   double nav_y = 0;
   m_geodesy.Initialise(lat_origin, lon_origin);
@@ -381,8 +387,14 @@ bool DivisorNMEA::Iterate()
 
           //Colocar a Latitude e Longitude de Origem
           //!!!!!!! ALTERAR ESSES DADOS SE MUDAR A CARTA NÁUTICA !!!!!!!!!!!!
-          double lat_origin = -22.93335;
-          double lon_origin = -43.136666665;
+
+          // Rio de Janeiro
+          //double lat_origin = -22.93335; //ALTERAR AQUI SE MUDAR A CARTA NÁUTICA !!!
+          //double lon_origin = -43.136666665;
+
+          // Salvador
+          double lat_origin = -12.97933112028696;
+          double lon_origin = -38.5666610393065;
           double nav_x = 0;
           double nav_y = 0;
 

@@ -28,7 +28,7 @@ double desired_rudder;  // Saída do controle de rumo
 double speed_kp = 0.0; //kp da veloc
 double speed_ki = 0.0; //ki da veloc
 double speed_kd = 0.0; //kd da veloc
-int thrust_map = 1; 
+int thrust_map = 1;  // set to 1 to use thrust_map speed control
 
 double heading_kp = 0.0; //kp do heading
 double heading_ki = 0.0; //ki do heading
@@ -261,7 +261,8 @@ bool lanchaPID::Iterate()
 
   // Loop de controle
   
-  // Calcule o controle de velocidade
+  // Calcule o controle de velocidade 
+  // NÃO ESTÁ SENDO USADO
   if (thrust_map == 1) 
   {
     switch ((int) desired_speed) {
@@ -272,10 +273,10 @@ bool lanchaPID::Iterate()
         desired_thrust = 20;
         break;
       case 4:
-        desired_thrust = 30;
+        desired_thrust = 34;
         break;
       case 5:
-        desired_thrust = 40;
+        desired_thrust = 44;
         break;
       case 6:
         desired_thrust = 48;
@@ -301,7 +302,7 @@ bool lanchaPID::Iterate()
   //Publico DESIRED_RUDDER e DESIRED_THRUST
   //Só publica quando deploy for true e moos_manual_override for false
   if (deploy == "true" && moos_manual_overide == "false"){
-    Notify("DESIRED_THRUST", desired_thrust);
+    //Notify("DESIRED_THRUST", desired_thrust);
     Notify("DESIRED_RUDDER", desired_rudder);
   }
 
