@@ -292,12 +292,55 @@ bool Serial::OnStartUp()
       reportUnhandledConfigWarning(orig);
 
   }
+
+  //da permissoes para a porta usb /dev/ttyUSB0
+  std::string password = "eduard0";  // Replace with your actual sudo password
+
+  std::string command = "echo '" + password + "' | sudo -S chmod 777 /dev/ttyUSB0";
+
+  int result = system(command.c_str());
+
+  if (result == 0) {
+        std::cout << "Permissions changed successfully to /dev/ttyUSB0." << std::endl;
+    } else {
+        std::cerr << "Failed to change permissions." << std::endl;
+    }
+
+  //permissoes para /dev/ttyUSB1
+
+  std::string command2 = "echo '" + password + "' | sudo -S chmod 777 /dev/ttyUSB1";
+
+  int result2 = system(command2.c_str());
+
+  if (result2 == 0) {
+        std::cout << "Permissions changed successfully to /dev/ttyUSB1." << std::endl;
+    } else {
+        std::cerr << "Failed to change permissions." << std::endl;
+    }
+  
+  
   bool portOpened = porta_serial.Create(endereco_porta_serial.c_str(), baudrate); //Abertura da porta serial
+  
+  if (!portOpened) {
+	endereco_porta_serial = "/dev/ttyUSB1";
+	portOpened = porta_serial.Create(endereco_porta_serial.c_str(), baudrate); //Abertura da porta serial
+	if (portOpened) {
+	std::cout << "Conectado na Porta 1" << std::endl;     
+	} else { 
+	std::cout << "Falhou porta 1" << std::endl;}
+} else {
+    std::cout << "abriu porta zero" << std::endl;
+ } 
+
+  
+  
+
+
   registerVariables();	
   return(true);
 
   //enviaSerial("L0D"); //Para o leme quando encerra o programa
-  enviaSerial("A080"); //Para o atuador de máquina a 0%
+  enviaSerial("A000"); //Para o atuador de máquina a 0%
   //std::chrono::milliseconds delay(1000);
   //std::this_thread::sleep_for(delay);
   //enviaSerial("E0");  // Marcha no neutro
