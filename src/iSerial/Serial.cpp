@@ -42,20 +42,12 @@ Serial::Serial()
   desired_gear = 0;
   last_gear = 0;
 
-  limite_positivo = 40; //Ângulo máximo do leme
-  limite_negativo = -55;
-
   min_thrust = 5;
 
   //Simulador de ângulo do leme
   //angulo_leme = 0; //Começa zerado
   
   thrust_convertido = "NULL"; //Valor inicial de máquina
-
-  erro_maximo_devagar = 1.7;
-  erro_minimo_devagar = -erro_maximo_devagar;
-  erro_maximo_rapido = 5.5;
-  erro_minimo_rapido = -erro_maximo_rapido;
 
 }
 
@@ -171,90 +163,19 @@ bool Serial::Iterate()
 
 
 
-  //Controle pelo erro obtido
+  //Send desired rudder
 
-  double erro = angulo_leme -rudder;
-  Notify("ERRO_LEME", erro);
-
-  //L0 - parado
-  //L1 - bombordo
-  //L2 - boreste
-  //Adicionei ultimo comando para evitar passar de boreste direto para bombordo sem parar
-
-  //Manobrar a dead zone do erro nos condicionais
-
-  if (erro >= erro_maximo_rapido) {
-    if (ultimo_comando == "L1"){
-      enviaSerial("L0D");
-      if (angulo_leme < limite_negativo){
-        enviaSerial("L0D");
-      } else {
-        enviaSerial("L2R");
-      }
-    } else {
-      if (angulo_leme < limite_negativo){
-        enviaSerial("L0D");
-      } else {
-        enviaSerial("L2R");
-      }
-    }
-    ultimo_comando = "L2";
-  } else if (erro <= erro_minimo_rapido) {
-    if (ultimo_comando == "L2") {
-      enviaSerial("L0D");
-      if (angulo_leme > limite_positivo) {
-        enviaSerial("L0D");
-      } else {
-        enviaSerial("L1R");
-      }
-    } else {
-      if (angulo_leme > limite_positivo) {
-        enviaSerial("L0D");
-      } else {
-        enviaSerial("L1R");
-      }
-    }
-    ultimo_comando = "L1";
-  } else if ((erro >= erro_maximo_devagar) && (erro < erro_maximo_rapido)) {
-    if (ultimo_comando == "L1"){
-      enviaSerial("L0D");
-      if (angulo_leme < limite_negativo){
-        enviaSerial("L0D");
-      } else {
-        enviaSerial("L2D");
-      }
-    } else {
-      if (angulo_leme < limite_negativo){
-        enviaSerial("L0D");
-      } else {
-        enviaSerial("L2D");
-      }
-    }
-    ultimo_comando = "L2";
-  } else if ((erro <= erro_minimo_devagar) && (erro > erro_minimo_rapido)) {
-    if (ultimo_comando == "L2"){
-      enviaSerial("L0D");
-      if (angulo_leme > limite_positivo) {
-        enviaSerial("L0D");
-      } else {
-        enviaSerial("L1D");
-      }
-    } else {
-      if (angulo_leme > limite_positivo) {
-        enviaSerial("L0D");
-      } else {
-        enviaSerial("L1D");
-      }
-    }
-    ultimo_comando = "L1";
+  std::ostringstream osstring;
+  if (rudder == 0) {
+    osstring << "L0";
   }
-  
-  
-   else {
-    enviaSerial("L0D");
-    ultimo_comando = "L0";
+  else if (rudder < 0){
+    osstring << "L1" << std::to_string(-1*rudder);
   }
-
+  else {
+    osstring << "L2" << std::to_string(rudder);
+  }
+  enviaSerial(osstring.str());
 
   AppCastingMOOSApp::PostReport();
   return(true);
