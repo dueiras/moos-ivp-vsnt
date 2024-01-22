@@ -1,8 +1,8 @@
 /************************************************************/
-/*    NAME: Douglas Lima                                              */
+/*    NAME: Douglas Lima, Eduardo Eiras                     */
 /*    ORGN: MIT, Cambridge MA                               */
-/*    FILE: Serial.cpp                                        */
-/*    DATE: 8/11/2022                             */
+/*    FILE: Serial.cpp                                      */
+/*    DATE: 8/11/2022                                       */
 /************************************************************/
 
 #include <iterator>
@@ -166,16 +166,16 @@ bool Serial::Iterate()
   //Send desired rudder
 
   std::ostringstream osstring;
-  if (rudder == 0) {
-    osstring << "L0";
-  }
-  else if (rudder < 0){
-    osstring << "L1" << std::to_string(-1*rudder);
+  if (rudder < 0){
+    int intRudder = -1*rudder; 
+    osstring << "L1" << std::setfill('0') << std::setw(2) << intRudder;
   }
   else {
-    osstring << "L2" << std::to_string(rudder);
+    int intRudder = (int) rudder;
+    osstring << "L2" << std::setfill('0') << std::setw(2) << intRudder;
   }
-  enviaSerial(osstring.str());
+  ultimo_comando = osstring.str(); 
+  enviaSerial(ultimo_comando);
 
   AppCastingMOOSApp::PostReport();
   return(true);
@@ -215,7 +215,7 @@ bool Serial::OnStartUp()
   }
 
   //da permissoes para a porta usb /dev/ttyUSB0
-  std::string password = "eduard0";  // Replace with your actual sudo password
+  std::string password = "";  // Replace with your actual sudo password
 
   std::string command = "echo '" + password + "' | sudo -S chmod 777 /dev/ttyUSB0";
 
