@@ -1,0 +1,9 @@
+//------------------------------------------------
+// iSerialv23 config block
+
+ProcessConfig = iSerialV23
+{
+   AppTick   = 4
+   CommsTick = 4
+}
+

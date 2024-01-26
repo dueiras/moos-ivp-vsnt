@@ -8,7 +8,7 @@
 #include <iterator>
 #include "MBUtils.h"
 #include "ACTable.h"
-#include "Serial.h"
+#include "SerialV23.h"
 #include <unistd.h>
 #include <cmath>
 #include <string>
@@ -163,19 +163,90 @@ bool Serial::Iterate()
 
 
 
-  //Send desired rudder
+  //Controle pelo erro obtido
 
-  std::ostringstream osstring;
-  if (rudder < 0){
-    int intRudder = -1*rudder; 
-    osstring << "L1" << std::setfill('0') << std::setw(2) << intRudder;
+  double erro = angulo_leme -rudder;
+  Notify("ERRO_LEME", erro);
+
+  //L0 - parado
+  //L1 - bombordo
+  //L2 - boreste
+  //Adicionei ultimo comando para evitar passar de boreste direto para bombordo sem parar
+
+  //Manobrar a dead zone do erro nos condicionais
+
+  if (erro >= erro_maximo_rapido) {
+    if (ultimo_comando == "L1"){
+      enviaSerial("L0D");
+      if (angulo_leme < limite_negativo){
+        enviaSerial("L0D");
+      } else {
+        enviaSerial("L2R");
+      }
+    } else {
+      if (angulo_leme < limite_negativo){
+        enviaSerial("L0D");
+      } else {
+        enviaSerial("L2R");
+      }
+    }
+    ultimo_comando = "L2";
+  } else if (erro <= erro_minimo_rapido) {
+    if (ultimo_comando == "L2") {
+      enviaSerial("L0D");
+      if (angulo_leme > limite_positivo) {
+        enviaSerial("L0D");
+      } else {
+        enviaSerial("L1R");
+      }
+    } else {
+      if (angulo_leme > limite_positivo) {
+        enviaSerial("L0D");
+      } else {
+        enviaSerial("L1R");
+      }
+    }
+    ultimo_comando = "L1";
+  } else if ((erro >= erro_maximo_devagar) && (erro < erro_maximo_rapido)) {
+    if (ultimo_comando == "L1"){
+      enviaSerial("L0D");
+      if (angulo_leme < limite_negativo){
+        enviaSerial("L0D");
+      } else {
+        enviaSerial("L2D");
+      }
+    } else {
+      if (angulo_leme < limite_negativo){
+        enviaSerial("L0D");
+      } else {
+        enviaSerial("L2D");
+      }
+    }
+    ultimo_comando = "L2";
+  } else if ((erro <= erro_minimo_devagar) && (erro > erro_minimo_rapido)) {
+    if (ultimo_comando == "L2"){
+      enviaSerial("L0D");
+      if (angulo_leme > limite_positivo) {
+        enviaSerial("L0D");
+      } else {
+        enviaSerial("L1D");
+      }
+    } else {
+      if (angulo_leme > limite_positivo) {
+        enviaSerial("L0D");
+      } else {
+        enviaSerial("L1D");
+      }
+    }
+    ultimo_comando = "L1";
   }
-  else {
-    int intRudder = (int) rudder;
-    osstring << "L2" << std::setfill('0') << std::setw(2) << intRudder;
+  
+  
+   else {
+    enviaSerial("L0D");
+    ultimo_comando = "L0";
   }
-  ultimo_comando = osstring.str(); 
-  enviaSerial(ultimo_comando);
+
 
   AppCastingMOOSApp::PostReport();
   return(true);
