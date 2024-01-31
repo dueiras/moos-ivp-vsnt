@@ -1,0 +1,39 @@
+//--------    FILE: alder.bhv   -------------
+
+initialize   DEPLOY = false
+initialize   RETURN = false
+
+//----------------------------------------------
+Behavior = BHV_Waypoint
+{ 
+  name      = waypt_to_point
+  pwt       = 100
+  condition = RETURN = false
+  condition = DEPLOY = true
+  updates    = WPT_UPDATE
+  endflag   = RETURN = true
+
+
+          lead = 1
+    lead_damper = 1
+  lead_to_start = true
+  speed      = 2.0   // meters per second
+  radius     = 4.0
+  //ptx        = 100
+  //pty        = -50
+  //points = pts={60,-40:60,-160:150,-160:180,-100:150,-40}
+}
+
+//----------------------------------------------
+Behavior = BHV_Waypoint
+{
+  name       = waypt_return
+  pwt        = 100
+  condition  = (RETURN = true)
+  condition  = (DEPLOY = true)
+
+  speed      = 2.0
+  radius     = 8.0
+  point      = 0,0
+}
+

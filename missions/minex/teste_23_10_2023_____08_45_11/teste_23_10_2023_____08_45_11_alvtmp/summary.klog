@@ -1,0 +1,14 @@
+total_vars=9
+logstart=1698061510.513666
+logtmin=0.46557
+logtmax=881.27802
+vname=
+var=DESIRED_HEADING, type=double, srcs=pHelmIvP
+var=DESIRED_RUDDER, type=double, srcs=missionControl:pMarinePIDV22
+var=DESIRED_SPEED, type=double, srcs=pHelmIvP
+var=DESIRED_THRUST, type=double, srcs=missionControl:pMarinePIDV22
+var=MOOS_DEBUG, type=string, srcs=pHelmIvP
+var=NAV_HEADING, type=double, srcs=uSimMarineV22
+var=NAV_LAT, type=double, srcs=uSimMarineV22
+var=NAV_LONG, type=double, srcs=uSimMarineV22
+var=NAV_SPEED, type=double, srcs=uSimMarineV22

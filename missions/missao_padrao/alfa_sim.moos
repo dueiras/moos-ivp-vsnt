@@ -21,7 +21,7 @@ ProcessConfig = ANTLER
     // Uncomment uSimMarine and comment iDivisorNMEA,iSerial for simulation
     
     Run = MOOSDB		@ NewConsole = false
-    Run = uSimMarine	@ NewConsole = false
+    Run = uSimMarineV22	@ NewConsole = false
     Run = pNodeReporter	@ NewConsole = false
     Run = pHelmIvP	@ NewConsole = false
     Run = pIMU	@ NewConsole = false
@@ -68,7 +68,7 @@ ProcessConfig = pShare
 //------------------------------------------
 // uSimMarine config block
 
-ProcessConfig = uSimMarine
+ProcessConfig = uSimMarineV22
 {
   AppTick	= 10
   CommsTick	= 10

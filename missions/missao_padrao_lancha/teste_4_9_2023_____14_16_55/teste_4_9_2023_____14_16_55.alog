@@ -1,0 +1,2633 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% LOG FILE:       ./teste_4_9_2023_____14_16_55/teste_4_9_2023_____14_16_55.alog
+%% FILE OPENED ON  Wed Dec 31 21:00:00 1969
+%% LOGSTART           1693847814.305144
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+0.96966         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+0.96966         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.08140         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.08140         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.09162         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.09162         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.10180         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.10180         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.11199         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.11199         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.12212         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.12213         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.13230         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.13230         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.14244         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.14244         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.15263         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.15263         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.16278         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.16278         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.17288         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.17288         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.18304         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.18304         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.19314         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.19314         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.20323         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.20324         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.21338         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.21338         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.22349         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.22349         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.23354         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.23354         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.24363         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.24363         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.25378         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.25378         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.26391         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.26391         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.27405         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.27405         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.28416         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.28416         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.29424         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.29424         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.30437         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.30437         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.31447         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.31447         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.32460         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.32460         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.33471         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.33471         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.34483         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.34483         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.35492         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.35493         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.36503         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.36503         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.37511         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.37511         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.38523         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.38523         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.39534         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.39534         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.40544         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.40544         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.41555         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.41555         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.42566         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.42566         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.43581         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.43581         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.44592         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.44592         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.45603         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.45604         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.46610         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.46611         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.47622         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.47622         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.48631         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.48631         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.49642         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.49642         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.50649         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.50649         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.51660         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.51660         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.52671         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.52671         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.53681         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.53681         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.54691         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.54691         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.55702         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.55702         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.56710         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.56710         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.57725         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.57725         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.58735         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.58735         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.59747         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.59747         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.60759         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.60759         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.61774         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.61774         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.62786         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.62786         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.63800         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.63801         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.64813         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.64813         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.65822         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.65822         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.66834         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.66834         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.67845         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.67845         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.68862         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.68862         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.69878         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.69878         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.70895         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.70895         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.71912         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.71912         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.72929         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.72929         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.73946         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.73946         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.74964         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.74964         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.75981         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.75981         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.76998         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.76998         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.78019         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.78019         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.79036         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.79037         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.80049         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.80049         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.81067         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.81068         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.82087         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.82088         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.83098         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.83098         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.84115         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.84115         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.85130         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.85131         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.86150         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.86150         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.87169         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.87169         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.88188         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.88189         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.89208         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.89208         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.90222         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.90223         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.91242         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.91242         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.92259         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.92259         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.93286         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.93286         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.93303         MSG_UDP              iDivisorNMEA    $GPHDT,146.97,T*08
+ 
+1.93306         NAV_LAT              iDivisorNMEA    0.00000      
+1.93306         NAV_LONG             iDivisorNMEA    0.00000      
+1.93307         NAV_SPEED            iDivisorNMEA    0.00000      
+1.93307         NAV_HEADING          iDivisorNMEA    0.00000      
+1.93307         GPS_HEADING          iDivisorNMEA    0.00000      
+1.94307         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.94307         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.94361         MSG_UDP              iDivisorNMEA    $MXPGN,01F803,281C,000000000000A0F8*6B
+ 
+1.94363         NAV_LAT              iDivisorNMEA    0.00000      
+1.94364         NAV_LONG             iDivisorNMEA    0.00000      
+1.94364         NAV_SPEED            iDivisorNMEA    0.00000      
+1.94364         NAV_HEADING          iDivisorNMEA    146.97000    
+1.94364         GPS_HEADING          iDivisorNMEA    0.00000      
+1.95325         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.95325         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.95380         MSG_UDP              iDivisorNMEA    $MXPGN,01F804,281C,0000006246C1A0F8*18
+ 
+1.95383         NAV_LAT              iDivisorNMEA    0.00000      
+1.95384         NAV_LONG             iDivisorNMEA    0.00000      
+1.95384         NAV_SPEED            iDivisorNMEA    0.00000      
+1.95384         NAV_HEADING          iDivisorNMEA    146.97000    
+1.95385         GPS_HEADING          iDivisorNMEA    0.00000      
+1.96346         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.96346         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.97375         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.97375         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.97597         MSG_UDP              iDivisorNMEA    $AGRSA,-13.77,A,,V*50
+ 
+1.97601         NAV_LAT              iDivisorNMEA    0.00000      
+1.97601         NAV_LONG             iDivisorNMEA    0.00000      
+1.97601         NAV_SPEED            iDivisorNMEA    0.00000      
+1.97602         NAV_HEADING          iDivisorNMEA    146.97000    
+1.97602         GPS_HEADING          iDivisorNMEA    0.00000      
+1.97603         ANGULO_LEME          iDivisorNMEA    -13.77000    
+1.97680         MSG_UDP              iDivisorNMEA    $WIMTW,31.84,C*33
+ 
+1.97683         NAV_LAT              iDivisorNMEA    0.00000      
+1.97684         NAV_LONG             iDivisorNMEA    0.00000      
+1.97684         NAV_SPEED            iDivisorNMEA    0.00000      
+1.97684         NAV_HEADING          iDivisorNMEA    146.97000    
+1.97684         GPS_HEADING          iDivisorNMEA    0.00000      
+1.98397         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.98397         DESIRED_THRUST       pMarinePIDV22   0.00000      
+1.98704         MSG_UDP              iDivisorNMEA    $MXPGN,00FF19,7806,0000000003019F41*19
+ 
+1.98707         NAV_LAT              iDivisorNMEA    0.00000      
+1.98707         NAV_LONG             iDivisorNMEA    0.00000      
+1.98707         NAV_SPEED            iDivisorNMEA    0.00000      
+1.98707         NAV_HEADING          iDivisorNMEA    146.97000    
+1.98707         GPS_HEADING          iDivisorNMEA    0.00000      
+1.99413         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+1.99413         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.00431         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.00431         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.01195         MSG_UDP              iDivisorNMEA    $MXPGN,01FA06,681C,78008C00C8FA0F00*62
+ 
+2.01198         NAV_LAT              iDivisorNMEA    0.00000      
+2.01198         NAV_LONG             iDivisorNMEA    0.00000      
+2.01198         NAV_SPEED            iDivisorNMEA    0.00000      
+2.01198         NAV_HEADING          iDivisorNMEA    146.97000    
+2.01198         GPS_HEADING          iDivisorNMEA    0.00000      
+2.01298         MSG_UDP              iDivisorNMEA    $MXPGN,01FA06,681C,00820083D7490001*62
+ 
+2.01301         NAV_LAT              iDivisorNMEA    0.00000      
+2.01301         NAV_LONG             iDivisorNMEA    0.00000      
+2.01302         NAV_SPEED            iDivisorNMEA    0.00000      
+2.01302         NAV_HEADING          iDivisorNMEA    146.97000    
+2.01302         GPS_HEADING          iDivisorNMEA    0.00000      
+2.01447         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.01447         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.02213         MSG_UDP              iDivisorNMEA    $MXPGN,01FA06,681C,FFFFFFFFFF015D02*6E
+ 
+2.02214         NAV_LAT              iDivisorNMEA    0.00000      
+2.02214         NAV_LONG             iDivisorNMEA    0.00000      
+2.02214         NAV_SPEED            iDivisorNMEA    0.00000      
+2.02214         NAV_HEADING          iDivisorNMEA    146.97000    
+2.02214         GPS_HEADING          iDivisorNMEA    0.00000      
+2.02458         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.02458         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.03223         MSG_UDP              iDivisorNMEA    $GPRMC,171656.200,A,2254.76779,S,04309.59400,W,0.01,144.14,040923,23.45,W,A*1E
+ 
+2.03224         NAV_LAT              iDivisorNMEA    -22.91280    
+2.03224         NAV_LONG             iDivisorNMEA    -43.15990    
+2.03225         NAV_SPEED            iDivisorNMEA    0.00000      
+2.03225         NAV_HEADING          iDivisorNMEA    146.97000    
+2.03225         GPS_HEADING          iDivisorNMEA    144.14000    
+2.03470         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.03470         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.04235         MSG_UDP              iDivisorNMEA    $GPHDT,146.97,T*08
+ 
+2.04235         NAV_LAT              iDivisorNMEA    -22.91280    
+2.04235         NAV_LONG             iDivisorNMEA    -43.15990    
+2.04235         NAV_SPEED            iDivisorNMEA    0.00000      
+2.04235         NAV_HEADING          iDivisorNMEA    146.97000    
+2.04235         GPS_HEADING          iDivisorNMEA    144.14000    
+2.04477         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.04478         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.05251         MSG_UDP              iDivisorNMEA    $MXPGN,01F803,281C,0000000000001400*61
+ 
+2.05251         NAV_LAT              iDivisorNMEA    -22.91280    
+2.05251         NAV_LONG             iDivisorNMEA    -43.15990    
+2.05251         NAV_SPEED            iDivisorNMEA    0.00000      
+2.05251         NAV_HEADING          iDivisorNMEA    146.97000    
+2.05251         GPS_HEADING          iDivisorNMEA    144.14000    
+2.05491         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.05491         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.06265         MSG_UDP              iDivisorNMEA    $MXPGN,01F804,281C,000000D89AC11400*10
+ 
+2.06266         NAV_LAT              iDivisorNMEA    -22.91280    
+2.06266         NAV_LONG             iDivisorNMEA    -43.15990    
+2.06266         NAV_SPEED            iDivisorNMEA    0.00000      
+2.06266         NAV_HEADING          iDivisorNMEA    146.97000    
+2.06266         GPS_HEADING          iDivisorNMEA    144.14000    
+2.06502         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.06502         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.07308         MOOS_DEBUG           pHelmIvP        pHelmIvP AllStop: BehaviorError 
+2.07309         DESIRED_SPEED        pHelmIvP        0.00000      
+2.07310         DESIRED_HEADING      pHelmIvP        0.00000      
+2.07512         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.07513         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.07588         MSG_UDP              iDivisorNMEA    $AGRSA,-13.77,A,,V*50
+ 
+2.07591         NAV_LAT              iDivisorNMEA    -22.91280    
+2.07591         NAV_LONG             iDivisorNMEA    -43.15990    
+2.07591         NAV_SPEED            iDivisorNMEA    0.00000      
+2.07591         NAV_HEADING          iDivisorNMEA    146.97000    
+2.07591         GPS_HEADING          iDivisorNMEA    144.14000    
+2.07592         ANGULO_LEME          iDivisorNMEA    -13.77000    
+2.08531         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.08531         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.09547         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.09548         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.10565         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.10565         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.11584         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.11584         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.12591         MSG_UDP              iDivisorNMEA    $GPHDT,146.98,T*07
+ 
+2.12597         NAV_LAT              iDivisorNMEA    -22.91280    
+2.12597         NAV_LONG             iDivisorNMEA    -43.15990    
+2.12598         NAV_SPEED            iDivisorNMEA    0.00000      
+2.12598         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.12598         NAV_HEADING          iDivisorNMEA    146.97000    
+2.12598         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.12598         GPS_HEADING          iDivisorNMEA    144.14000    
+2.13621         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.13621         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.13692         MSG_UDP              iDivisorNMEA    $MXPGN,00FF00,280B,0002000005049913*19
+ 
+2.13696         NAV_LAT              iDivisorNMEA    -22.91280    
+2.13697         NAV_LONG             iDivisorNMEA    -43.15990    
+2.13697         NAV_SPEED            iDivisorNMEA    0.00000      
+2.13698         NAV_HEADING          iDivisorNMEA    146.98000    
+2.13698         GPS_HEADING          iDivisorNMEA    144.14000    
+2.13988         MSG_UDP              iDivisorNMEA    $MXPGN,01F803,281C,0000000000002801*6F
+ 
+2.13992         NAV_LAT              iDivisorNMEA    -22.91280    
+2.13992         NAV_LONG             iDivisorNMEA    -43.15990    
+2.13992         NAV_SPEED            iDivisorNMEA    0.00000      
+2.13992         NAV_HEADING          iDivisorNMEA    146.98000    
+2.13993         GPS_HEADING          iDivisorNMEA    144.14000    
+2.14637         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.14637         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.14811         MSG_UDP              iDivisorNMEA    $MXPGN,01F804,281C,000000B23FC12801*1F
+ 
+2.14813         NAV_LAT              iDivisorNMEA    -22.91280    
+2.14813         NAV_LONG             iDivisorNMEA    -43.15990    
+2.14814         NAV_SPEED            iDivisorNMEA    0.00000      
+2.14814         NAV_HEADING          iDivisorNMEA    146.98000    
+2.14814         GPS_HEADING          iDivisorNMEA    144.14000    
+2.15649         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.15649         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.16662         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.16662         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.17577         MSG_UDP              iDivisorNMEA    $AGRSA,-13.77,A,,V*50
+ 
+2.17579         NAV_LAT              iDivisorNMEA    -22.91280    
+2.17579         NAV_LONG             iDivisorNMEA    -43.15990    
+2.17579         NAV_SPEED            iDivisorNMEA    0.00000      
+2.17579         NAV_HEADING          iDivisorNMEA    146.98000    
+2.17579         GPS_HEADING          iDivisorNMEA    144.14000    
+2.17580         ANGULO_LEME          iDivisorNMEA    -13.77000    
+2.17676         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.17676         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.18686         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.18686         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.19695         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.19695         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.20703         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.20703         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.21711         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.21711         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.22576         MSG_UDP              iDivisorNMEA    $GPHDT,146.98,T*07
+ 
+2.22578         NAV_LAT              iDivisorNMEA    -22.91280    
+2.22578         NAV_LONG             iDivisorNMEA    -43.15990    
+2.22578         NAV_SPEED            iDivisorNMEA    0.00000      
+2.22578         NAV_HEADING          iDivisorNMEA    146.98000    
+2.22578         GPS_HEADING          iDivisorNMEA    144.14000    
+2.22719         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.22719         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.23726         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.23726         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.23881         MSG_UDP              iDivisorNMEA    $MXPGN,01F803,281C,0000000000003C02*16
+ 
+2.23882         NAV_LAT              iDivisorNMEA    -22.91280    
+2.23882         NAV_LONG             iDivisorNMEA    -43.15990    
+2.23882         NAV_SPEED            iDivisorNMEA    0.00000      
+2.23882         NAV_HEADING          iDivisorNMEA    146.98000    
+2.23882         GPS_HEADING          iDivisorNMEA    144.14000    
+2.23980         MSG_UDP              iDivisorNMEA    $MXPGN,01F804,281C,000000B23FC13C02*66
+ 
+2.23981         NAV_LAT              iDivisorNMEA    -22.91280    
+2.23981         NAV_LONG             iDivisorNMEA    -43.15990    
+2.23981         NAV_SPEED            iDivisorNMEA    0.00000      
+2.23981         NAV_HEADING          iDivisorNMEA    146.98000    
+2.23981         GPS_HEADING          iDivisorNMEA    144.14000    
+2.24735         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.24735         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.25743         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.25743         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.26750         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.26750         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.27575         MSG_UDP              iDivisorNMEA    $AGRSA,-13.77,A,,V*50
+ 
+2.27576         NAV_LAT              iDivisorNMEA    -22.91280    
+2.27576         NAV_LONG             iDivisorNMEA    -43.15990    
+2.27576         NAV_SPEED            iDivisorNMEA    0.00000      
+2.27576         NAV_HEADING          iDivisorNMEA    146.98000    
+2.27576         GPS_HEADING          iDivisorNMEA    144.14000    
+2.27577         ANGULO_LEME          iDivisorNMEA    -13.77000    
+2.27758         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.27758         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.27881         MSG_UDP              iDivisorNMEA    $MXPGN,01FF2C,7808,FFFFFFFF9F411700*6B
+ 
+2.27881         NAV_LAT              iDivisorNMEA    -22.91280    
+2.27881         NAV_LONG             iDivisorNMEA    -43.15990    
+2.27881         NAV_SPEED            iDivisorNMEA    0.00000      
+2.27881         NAV_HEADING          iDivisorNMEA    146.98000    
+2.27881         GPS_HEADING          iDivisorNMEA    144.14000    
+2.28592         MSG_UDP              iDivisorNMEA    $MXPGN,01FF2C,7808,FFFF7FFFFFFF7F01*16
+ 
+2.28592         NAV_LAT              iDivisorNMEA    -22.91280    
+2.28592         NAV_LONG             iDivisorNMEA    -43.15990    
+2.28592         NAV_SPEED            iDivisorNMEA    0.00000      
+2.28592         NAV_HEADING          iDivisorNMEA    146.98000    
+2.28592         GPS_HEADING          iDivisorNMEA    144.14000    
+2.28765         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.28765         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.29603         MSG_UDP              iDivisorNMEA    $MXPGN,01FF2C,7808,FF7FFFFFFFFFFF02*64
+ 
+2.29604         NAV_LAT              iDivisorNMEA    -22.91280    
+2.29604         NAV_LONG             iDivisorNMEA    -43.15990    
+2.29604         NAV_SPEED            iDivisorNMEA    0.00000      
+2.29604         NAV_HEADING          iDivisorNMEA    146.98000    
+2.29604         GPS_HEADING          iDivisorNMEA    144.14000    
+2.29772         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.29772         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.30611         MSG_UDP              iDivisorNMEA    $MXPGN,01FF2C,7808,FFFFFFFF7FFFFF03*65
+ 
+2.30612         NAV_LAT              iDivisorNMEA    -22.91280    
+2.30612         NAV_LONG             iDivisorNMEA    -43.15990    
+2.30612         NAV_SPEED            iDivisorNMEA    0.00000      
+2.30612         NAV_HEADING          iDivisorNMEA    146.98000    
+2.30612         GPS_HEADING          iDivisorNMEA    144.14000    
+2.30780         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.30780         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.31622         MSG_UDP              iDivisorNMEA    $MXPGN,00FF3D,6808,7FFFFF0DFFFF9F41*6E
+ 
+2.31622         NAV_LAT              iDivisorNMEA    -22.91280    
+2.31622         NAV_LONG             iDivisorNMEA    -43.15990    
+2.31623         NAV_SPEED            iDivisorNMEA    0.00000      
+2.31623         NAV_HEADING          iDivisorNMEA    146.98000    
+2.31623         GPS_HEADING          iDivisorNMEA    144.14000    
+2.31786         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.31787         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.32629         MSG_UDP              iDivisorNMEA    $GPHDT,146.98,T*07
+ 
+2.32630         NAV_LAT              iDivisorNMEA    -22.91280    
+2.32630         NAV_LONG             iDivisorNMEA    -43.15990    
+2.32630         NAV_SPEED            iDivisorNMEA    0.00000      
+2.32630         NAV_HEADING          iDivisorNMEA    146.98000    
+2.32630         GPS_HEADING          iDivisorNMEA    144.14000    
+2.32793         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.32793         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.33800         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.33800         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.33887         MSG_UDP              iDivisorNMEA    $MXPGN,01F803,281C,0000000000005003*62
+ 
+2.33888         NAV_LAT              iDivisorNMEA    -22.91280    
+2.33888         NAV_LONG             iDivisorNMEA    -43.15990    
+2.33888         NAV_SPEED            iDivisorNMEA    0.00000      
+2.33888         NAV_HEADING          iDivisorNMEA    146.98000    
+2.33888         GPS_HEADING          iDivisorNMEA    144.14000    
+2.34699         MSG_UDP              iDivisorNMEA    $MXPGN,01F804,281C,000000B23FC15003*12
+ 
+2.34699         NAV_LAT              iDivisorNMEA    -22.91280    
+2.34699         NAV_LONG             iDivisorNMEA    -43.15990    
+2.34699         NAV_SPEED            iDivisorNMEA    0.00000      
+2.34699         NAV_HEADING          iDivisorNMEA    146.98000    
+2.34699         GPS_HEADING          iDivisorNMEA    144.14000    
+2.34814         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.34814         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.35820         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.35820         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.36828         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.36828         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.37578         MSG_UDP              iDivisorNMEA    $AGRSA,-13.77,A,,V*50
+ 
+2.37579         NAV_LAT              iDivisorNMEA    -22.91280    
+2.37579         NAV_LONG             iDivisorNMEA    -43.15990    
+2.37579         NAV_SPEED            iDivisorNMEA    0.00000      
+2.37579         NAV_HEADING          iDivisorNMEA    146.98000    
+2.37579         GPS_HEADING          iDivisorNMEA    144.14000    
+2.37580         ANGULO_LEME          iDivisorNMEA    -13.77000    
+2.37835         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.37835         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.38767         MSG_UDP              iDivisorNMEA    $MXPGN,00FF00,280B,0002000005049913*19
+ 
+2.38768         NAV_LAT              iDivisorNMEA    -22.91280    
+2.38768         NAV_LONG             iDivisorNMEA    -43.15990    
+2.38768         NAV_SPEED            iDivisorNMEA    0.00000      
+2.38768         NAV_HEADING          iDivisorNMEA    146.98000    
+2.38768         GPS_HEADING          iDivisorNMEA    144.14000    
+2.38842         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.38842         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.39848         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.39848         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.40855         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.40855         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.41863         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.41863         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.42592         MSG_UDP              iDivisorNMEA    $GPHDT,146.99,T*06
+ 
+2.42593         NAV_LAT              iDivisorNMEA    -22.91280    
+2.42593         NAV_LONG             iDivisorNMEA    -43.15990    
+2.42593         NAV_SPEED            iDivisorNMEA    0.00000      
+2.42593         NAV_HEADING          iDivisorNMEA    146.98000    
+2.42593         GPS_HEADING          iDivisorNMEA    144.14000    
+2.42871         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.42871         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.43878         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.43878         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.43884         MSG_UDP              iDivisorNMEA    $MXPGN,01F803,281C,0000000000006404*62
+ 
+2.43884         NAV_LAT              iDivisorNMEA    -22.91280    
+2.43884         NAV_LONG             iDivisorNMEA    -43.15990    
+2.43884         NAV_SPEED            iDivisorNMEA    0.00000      
+2.43884         NAV_HEADING          iDivisorNMEA    146.99000    
+2.43884         GPS_HEADING          iDivisorNMEA    144.14000    
+2.43982         MSG_UDP              iDivisorNMEA    $MXPGN,01F804,281C,000000126DC16404*66
+ 
+2.43983         NAV_LAT              iDivisorNMEA    -22.91280    
+2.43983         NAV_LONG             iDivisorNMEA    -43.15990    
+2.43983         NAV_SPEED            iDivisorNMEA    0.00000      
+2.43983         NAV_HEADING          iDivisorNMEA    146.99000    
+2.43983         GPS_HEADING          iDivisorNMEA    144.14000    
+2.44885         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.44885         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.45928         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.45928         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.46982         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.46982         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.47577         MSG_UDP              iDivisorNMEA    $AGRSA,-13.77,A,,V*50
+ 
+2.47578         NAV_LAT              iDivisorNMEA    -22.91280    
+2.47578         NAV_LONG             iDivisorNMEA    -43.15990    
+2.47578         NAV_SPEED            iDivisorNMEA    0.00000      
+2.47578         NAV_HEADING          iDivisorNMEA    146.99000    
+2.47578         GPS_HEADING          iDivisorNMEA    144.14000    
+2.47579         ANGULO_LEME          iDivisorNMEA    -13.77000    
+2.47989         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.47989         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.48681         MSG_UDP              iDivisorNMEA    $MXPGN,00FF19,7806,000000000B019F41*68
+ 
+2.48682         NAV_LAT              iDivisorNMEA    -22.91280    
+2.48682         NAV_LONG             iDivisorNMEA    -43.15990    
+2.48682         NAV_SPEED            iDivisorNMEA    0.00000      
+2.48682         NAV_HEADING          iDivisorNMEA    146.99000    
+2.48682         GPS_HEADING          iDivisorNMEA    144.14000    
+2.48996         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.48996         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.50003         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.50003         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.50377         MSG_UDP              iDivisorNMEA    $MXPGN,00FF19,7808,0000000202009F41*15
+ 
+2.50378         NAV_LAT              iDivisorNMEA    -22.91280    
+2.50378         NAV_LONG             iDivisorNMEA    -43.15990    
+2.50378         NAV_SPEED            iDivisorNMEA    0.00000      
+2.50378         NAV_HEADING          iDivisorNMEA    146.99000    
+2.50378         GPS_HEADING          iDivisorNMEA    144.14000    
+2.51011         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.51011         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.52018         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.52018         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.52575         MSG_UDP              iDivisorNMEA    $GPHDT,147.00,T*07
+ 
+2.52576         NAV_LAT              iDivisorNMEA    -22.91280    
+2.52576         NAV_LONG             iDivisorNMEA    -43.15990    
+2.52576         NAV_SPEED            iDivisorNMEA    0.00000      
+2.52576         NAV_HEADING          iDivisorNMEA    146.99000    
+2.52576         GPS_HEADING          iDivisorNMEA    144.14000    
+2.52875         MSG_UDP              iDivisorNMEA    $MXPGN,00FF19,7808,0080000A0A009F41*1D
+ 
+2.52875         NAV_LAT              iDivisorNMEA    -22.91280    
+2.52875         NAV_LONG             iDivisorNMEA    -43.15990    
+2.52875         NAV_SPEED            iDivisorNMEA    0.00000      
+2.52876         NAV_HEADING          iDivisorNMEA    147.00000    
+2.52876         GPS_HEADING          iDivisorNMEA    144.14000    
+2.53025         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.53025         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.53884         MSG_UDP              iDivisorNMEA    $MXPGN,01F803,281C,0000000000007805*6E
+ 
+2.53885         NAV_LAT              iDivisorNMEA    -22.91280    
+2.53885         NAV_LONG             iDivisorNMEA    -43.15990    
+2.53885         NAV_SPEED            iDivisorNMEA    0.00000      
+2.53885         NAV_HEADING          iDivisorNMEA    147.00000    
+2.53885         GPS_HEADING          iDivisorNMEA    144.14000    
+2.54032         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.54032         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.54696         MSG_UDP              iDivisorNMEA    $MXPGN,01F804,281C,000000126DC17805*6A
+ 
+2.54699         NAV_LAT              iDivisorNMEA    -22.91280    
+2.54699         NAV_LONG             iDivisorNMEA    -43.15990    
+2.54699         NAV_SPEED            iDivisorNMEA    0.00000      
+2.54699         NAV_HEADING          iDivisorNMEA    147.00000    
+2.54699         GPS_HEADING          iDivisorNMEA    144.14000    
+2.55039         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.55039         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.56047         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.56047         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.57053         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.57053         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.57578         MSG_UDP              iDivisorNMEA    $AGRSA,-13.77,A,,V*50
+ 
+2.57579         NAV_LAT              iDivisorNMEA    -22.91280    
+2.57579         NAV_LONG             iDivisorNMEA    -43.15990    
+2.57579         NAV_SPEED            iDivisorNMEA    0.00000      
+2.57579         NAV_HEADING          iDivisorNMEA    147.00000    
+2.57579         GPS_HEADING          iDivisorNMEA    144.14000    
+2.57579         ANGULO_LEME          iDivisorNMEA    -13.77000    
+2.57873         MSG_UDP              iDivisorNMEA    $MXPGN,00FF8C,6808,FFF1097195F49F41*61
+ 
+2.57874         NAV_LAT              iDivisorNMEA    -22.91280    
+2.57874         NAV_LONG             iDivisorNMEA    -43.15990    
+2.57874         NAV_SPEED            iDivisorNMEA    0.00000      
+2.57874         NAV_HEADING          iDivisorNMEA    147.00000    
+2.57874         GPS_HEADING          iDivisorNMEA    144.14000    
+2.58060         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.58060         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.59070         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.59070         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.60077         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.60078         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.61089         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.61090         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.61784         MSG_UDP              iDivisorNMEA    !AIVDM,1,1,,B,3:U7?1@P00trH4mjqBp9OOwh21@k,0*60
+ 
+2.61785         NAV_LAT              iDivisorNMEA    -22.91280    
+2.61785         NAV_LONG             iDivisorNMEA    -43.15990    
+2.61785         NAV_SPEED            iDivisorNMEA    0.00000      
+2.61785         NAV_HEADING          iDivisorNMEA    147.00000    
+2.61785         GPS_HEADING          iDivisorNMEA    144.14000    
+2.62098         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.62098         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.62127         MOOS_DEBUG           pHelmIvP        pHelmIvP AllStop: NothingToDo 
+2.62575         MSG_UDP              iDivisorNMEA    $GPHDT,147.01,T*06
+ 
+2.62576         NAV_LAT              iDivisorNMEA    -22.91280    
+2.62576         NAV_LONG             iDivisorNMEA    -43.15990    
+2.62576         NAV_SPEED            iDivisorNMEA    0.00000      
+2.62576         NAV_HEADING          iDivisorNMEA    147.00000    
+2.62576         GPS_HEADING          iDivisorNMEA    144.14000    
+2.63107         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.63107         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.63152         MOOS_DEBUG           pHelmIvP        pHelmIvP AllStop: NothingToDo 
+2.63152         DESIRED_SPEED        pHelmIvP        0.00000      
+2.63152         DESIRED_HEADING      pHelmIvP        0.00000      
+2.63982         MSG_UDP              iDivisorNMEA    $MXPGN,01F803,281C,0000000000008C06*19
+ 
+2.63982         NAV_LAT              iDivisorNMEA    -22.91280    
+2.63983         NAV_LONG             iDivisorNMEA    -43.15990    
+2.63983         NAV_SPEED            iDivisorNMEA    0.00000      
+2.63983         NAV_HEADING          iDivisorNMEA    147.01000    
+2.63983         GPS_HEADING          iDivisorNMEA    144.14000    
+2.64065         MSG_UDP              iDivisorNMEA    $MXPGN,01F804,281C,0000644221C18C06*6B
+ 
+2.64065         NAV_LAT              iDivisorNMEA    -22.91280    
+2.64065         NAV_LONG             iDivisorNMEA    -43.15990    
+2.64065         NAV_SPEED            iDivisorNMEA    0.00000      
+2.64065         NAV_HEADING          iDivisorNMEA    147.01000    
+2.64065         GPS_HEADING          iDivisorNMEA    144.14000    
+2.64115         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.64115         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.65122         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.65122         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.66133         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.66133         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.67141         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.67141         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.67584         MSG_UDP              iDivisorNMEA    $AGRSA,-13.77,A,,V*50
+ 
+2.67585         NAV_LAT              iDivisorNMEA    -22.91280    
+2.67585         NAV_LONG             iDivisorNMEA    -43.15990    
+2.67585         NAV_SPEED            iDivisorNMEA    0.00000      
+2.67585         NAV_HEADING          iDivisorNMEA    147.01000    
+2.67585         GPS_HEADING          iDivisorNMEA    144.14000    
+2.67586         ANGULO_LEME          iDivisorNMEA    -13.77000    
+2.67671         MSG_UDP              iDivisorNMEA    $SDDPT,2.39,0.00,*73
+ 
+2.67672         NAV_LAT              iDivisorNMEA    -22.91280    
+2.67672         NAV_LONG             iDivisorNMEA    -43.15990    
+2.67672         NAV_SPEED            iDivisorNMEA    0.00000      
+2.67672         NAV_HEADING          iDivisorNMEA    147.01000    
+2.67672         GPS_HEADING          iDivisorNMEA    144.14000    
+2.68149         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.68149         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.69159         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.69159         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.69786         MSG_UDP              iDivisorNMEA    !AIVDM,1,1,,B,3:U7;pPP00trGvijpjgG`R9j21r@,0*5B
+ 
+2.69787         NAV_LAT              iDivisorNMEA    -22.91280    
+2.69787         NAV_LONG             iDivisorNMEA    -43.15990    
+2.69787         NAV_SPEED            iDivisorNMEA    0.00000      
+2.69787         NAV_HEADING          iDivisorNMEA    147.01000    
+2.69787         GPS_HEADING          iDivisorNMEA    144.14000    
+2.70077         MSG_UDP              iDivisorNMEA    $MXPGN,00FF00,280B,0002000005049913*19
+ 
+2.70078         NAV_LAT              iDivisorNMEA    -22.91280    
+2.70078         NAV_LONG             iDivisorNMEA    -43.15990    
+2.70078         NAV_SPEED            iDivisorNMEA    0.00000      
+2.70078         NAV_HEADING          iDivisorNMEA    147.01000    
+2.70078         GPS_HEADING          iDivisorNMEA    144.14000    
+2.70170         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.70170         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.70886         MSG_UDP              iDivisorNMEA    $MXPGN,01FF0D,780B,FF03000098900560*60
+ 
+2.70886         NAV_LAT              iDivisorNMEA    -22.91280    
+2.70886         NAV_LONG             iDivisorNMEA    -43.15990    
+2.70886         NAV_SPEED            iDivisorNMEA    0.00000      
+2.70886         NAV_HEADING          iDivisorNMEA    147.01000    
+2.70886         GPS_HEADING          iDivisorNMEA    144.14000    
+2.71180         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.71181         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.72191         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.72192         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.72674         MSG_UDP              iDivisorNMEA    $GPHDT,147.01,T*06
+ 
+2.72675         NAV_LAT              iDivisorNMEA    -22.91280    
+2.72675         NAV_LONG             iDivisorNMEA    -43.15990    
+2.72675         NAV_SPEED            iDivisorNMEA    0.00000      
+2.72675         NAV_HEADING          iDivisorNMEA    147.01000    
+2.72675         GPS_HEADING          iDivisorNMEA    144.14000    
+2.73199         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.73199         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.73892         MSG_UDP              iDivisorNMEA    $MXPGN,01F803,281C,0000000000008C06*19
+ 
+2.73893         NAV_LAT              iDivisorNMEA    -22.91280    
+2.73893         NAV_LONG             iDivisorNMEA    -43.15990    
+2.73893         NAV_SPEED            iDivisorNMEA    0.00000      
+2.73893         NAV_HEADING          iDivisorNMEA    147.01000    
+2.73894         GPS_HEADING          iDivisorNMEA    144.14000    
+2.74005         MSG_UDP              iDivisorNMEA    $MXPGN,01F804,281C,0000644221C18C06*6B
+ 
+2.74005         NAV_LAT              iDivisorNMEA    -22.91280    
+2.74005         NAV_LONG             iDivisorNMEA    -43.15990    
+2.74006         NAV_SPEED            iDivisorNMEA    0.00000      
+2.74006         NAV_HEADING          iDivisorNMEA    147.01000    
+2.74006         GPS_HEADING          iDivisorNMEA    144.14000    
+2.74209         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.74209         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.75216         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.75216         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.76223         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.76223         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.77230         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.77230         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.77574         MSG_UDP              iDivisorNMEA    $AGRSA,-13.77,A,,V*50
+ 
+2.77575         NAV_LAT              iDivisorNMEA    -22.91280    
+2.77575         NAV_LONG             iDivisorNMEA    -43.15990    
+2.77575         NAV_SPEED            iDivisorNMEA    0.00000      
+2.77575         NAV_HEADING          iDivisorNMEA    147.01000    
+2.77575         GPS_HEADING          iDivisorNMEA    144.14000    
+2.77576         ANGULO_LEME          iDivisorNMEA    -13.77000    
+2.77673         MSG_UDP              iDivisorNMEA    $VWVLW,3198.38,N,1536.19,N*4D
+ 
+2.77674         NAV_LAT              iDivisorNMEA    -22.91280    
+2.77674         NAV_LONG             iDivisorNMEA    -43.15990    
+2.77674         NAV_SPEED            iDivisorNMEA    0.00000      
+2.77674         NAV_HEADING          iDivisorNMEA    147.01000    
+2.77674         GPS_HEADING          iDivisorNMEA    144.14000    
+2.78238         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.78238         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.78685         MSG_UDP              iDivisorNMEA    $MXPGN,00FF3C,3808,8000F8FE00009F41*1C
+ 
+2.78686         NAV_LAT              iDivisorNMEA    -22.91280    
+2.78686         NAV_LONG             iDivisorNMEA    -43.15990    
+2.78686         NAV_SPEED            iDivisorNMEA    0.00000      
+2.78686         NAV_HEADING          iDivisorNMEA    147.01000    
+2.78686         GPS_HEADING          iDivisorNMEA    144.14000    
+2.79245         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.79245         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.80252         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.80252         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.81260         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.81260         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.82271         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.82271         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.82571         MSG_UDP              iDivisorNMEA    $GPHDT,147.01,T*06
+ 
+2.82572         NAV_LAT              iDivisorNMEA    -22.91280    
+2.82572         NAV_LONG             iDivisorNMEA    -43.15990    
+2.82572         NAV_SPEED            iDivisorNMEA    0.00000      
+2.82572         NAV_HEADING          iDivisorNMEA    147.01000    
+2.82572         GPS_HEADING          iDivisorNMEA    144.14000    
+2.83279         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.83279         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.83884         MSG_UDP              iDivisorNMEA    $MXPGN,01F803,281C,000000000000A007*12
+ 
+2.83885         NAV_LAT              iDivisorNMEA    -22.91280    
+2.83885         NAV_LONG             iDivisorNMEA    -43.15990    
+2.83885         NAV_SPEED            iDivisorNMEA    0.00000      
+2.83885         NAV_HEADING          iDivisorNMEA    147.01000    
+2.83885         GPS_HEADING          iDivisorNMEA    144.14000    
+2.83970         MSG_UDP              iDivisorNMEA    $MXPGN,01F804,281C,0000644221C1A007*60
+ 
+2.83971         NAV_LAT              iDivisorNMEA    -22.91280    
+2.83971         NAV_LONG             iDivisorNMEA    -43.15990    
+2.83971         NAV_SPEED            iDivisorNMEA    0.00000      
+2.83971         NAV_HEADING          iDivisorNMEA    147.01000    
+2.83971         GPS_HEADING          iDivisorNMEA    144.14000    
+2.84289         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.84289         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.85302         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.85302         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.86310         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.86310         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.87321         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.87321         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.87576         MSG_UDP              iDivisorNMEA    $AGRSA,-13.77,A,,V*50
+ 
+2.87577         NAV_LAT              iDivisorNMEA    -22.91280    
+2.87577         NAV_LONG             iDivisorNMEA    -43.15990    
+2.87577         NAV_SPEED            iDivisorNMEA    0.00000      
+2.87577         NAV_HEADING          iDivisorNMEA    147.01000    
+2.87577         GPS_HEADING          iDivisorNMEA    144.14000    
+2.87578         ANGULO_LEME          iDivisorNMEA    -13.77000    
+2.87879         MSG_UDP              iDivisorNMEA    $MXPGN,00FF16,7808,FF0000002B0A9F41*1B
+ 
+2.87880         NAV_LAT              iDivisorNMEA    -22.91280    
+2.87880         NAV_LONG             iDivisorNMEA    -43.15990    
+2.87880         NAV_SPEED            iDivisorNMEA    0.00000      
+2.87880         NAV_HEADING          iDivisorNMEA    147.01000    
+2.87880         GPS_HEADING          iDivisorNMEA    144.14000    
+2.88330         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.88330         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.89341         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.89341         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.89481         MSG_UDP              iDivisorNMEA    $MXPGN,01FF1A,680B,FF022B849F4105E0*19
+ 
+2.89482         NAV_LAT              iDivisorNMEA    -22.91280    
+2.89482         NAV_LONG             iDivisorNMEA    -43.15990    
+2.89482         NAV_SPEED            iDivisorNMEA    0.00000      
+2.89482         NAV_HEADING          iDivisorNMEA    147.01000    
+2.89482         GPS_HEADING          iDivisorNMEA    144.14000    
+2.90352         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.90352         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.91363         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.91363         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.92374         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.92374         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.92565         MSG_UDP              iDivisorNMEA    $GPHDT,147.01,T*06
+ 
+2.92566         NAV_LAT              iDivisorNMEA    -22.91280    
+2.92567         NAV_LONG             iDivisorNMEA    -43.15990    
+2.92567         NAV_SPEED            iDivisorNMEA    0.00000      
+2.92567         NAV_HEADING          iDivisorNMEA    147.01000    
+2.92567         GPS_HEADING          iDivisorNMEA    144.14000    
+2.93387         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.93387         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.93885         MSG_UDP              iDivisorNMEA    $MXPGN,01F803,281C,000000000000A007*12
+ 
+2.93887         NAV_LAT              iDivisorNMEA    -22.91280    
+2.93887         NAV_LONG             iDivisorNMEA    -43.15990    
+2.93887         NAV_SPEED            iDivisorNMEA    0.00000      
+2.93887         NAV_HEADING          iDivisorNMEA    147.01000    
+2.93887         GPS_HEADING          iDivisorNMEA    144.14000    
+2.93975         MSG_UDP              iDivisorNMEA    $MXPGN,01F804,281C,0000644221C1A007*60
+ 
+2.93975         NAV_LAT              iDivisorNMEA    -22.91280    
+2.93975         NAV_LONG             iDivisorNMEA    -43.15990    
+2.93975         NAV_SPEED            iDivisorNMEA    0.00000      
+2.93975         NAV_HEADING          iDivisorNMEA    147.01000    
+2.93975         GPS_HEADING          iDivisorNMEA    144.14000    
+2.94397         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.94397         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.94985         MSG_UDP              iDivisorNMEA    $MXPGN,00FF00,280B,0002000005049913*19
+ 
+2.94986         NAV_LAT              iDivisorNMEA    -22.91280    
+2.94986         NAV_LONG             iDivisorNMEA    -43.15990    
+2.94986         NAV_SPEED            iDivisorNMEA    0.00000      
+2.94987         NAV_HEADING          iDivisorNMEA    147.01000    
+2.94987         GPS_HEADING          iDivisorNMEA    144.14000    
+2.95403         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.95404         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.96412         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.96412         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.97422         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.97423         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.97573         MSG_UDP              iDivisorNMEA    $AGRSA,-13.77,A,,V*50
+ 
+2.97574         NAV_LAT              iDivisorNMEA    -22.91280    
+2.97574         NAV_LONG             iDivisorNMEA    -43.15990    
+2.97574         NAV_SPEED            iDivisorNMEA    0.00000      
+2.97574         NAV_HEADING          iDivisorNMEA    147.01000    
+2.97574         GPS_HEADING          iDivisorNMEA    144.14000    
+2.97574         ANGULO_LEME          iDivisorNMEA    -13.77000    
+2.97665         MSG_UDP              iDivisorNMEA    $WIMTW,31.84,C*33
+ 
+2.97666         NAV_LAT              iDivisorNMEA    -22.91280    
+2.97666         NAV_LONG             iDivisorNMEA    -43.15990    
+2.97666         NAV_SPEED            iDivisorNMEA    0.00000      
+2.97666         NAV_HEADING          iDivisorNMEA    147.01000    
+2.97666         GPS_HEADING          iDivisorNMEA    144.14000    
+2.98430         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.98430         DESIRED_THRUST       pMarinePIDV22   0.00000      
+2.99437         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+2.99437         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.00444         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.00444         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.01180         MSG_UDP              iDivisorNMEA    $MXPGN,01FA06,681C,78008C00C8080F20*6F
+ 
+3.01181         NAV_LAT              iDivisorNMEA    -22.91280    
+3.01181         NAV_LONG             iDivisorNMEA    -43.15990    
+3.01181         NAV_SPEED            iDivisorNMEA    0.00000      
+3.01182         NAV_HEADING          iDivisorNMEA    147.01000    
+3.01182         GPS_HEADING          iDivisorNMEA    144.14000    
+3.01284         MSG_UDP              iDivisorNMEA    $MXPGN,01FA06,681C,00820083D7490021*60
+ 
+3.01285         NAV_LAT              iDivisorNMEA    -22.91280    
+3.01285         NAV_LONG             iDivisorNMEA    -43.15990    
+3.01285         NAV_SPEED            iDivisorNMEA    0.00000      
+3.01285         NAV_HEADING          iDivisorNMEA    147.01000    
+3.01285         GPS_HEADING          iDivisorNMEA    144.14000    
+3.01451         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.01451         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.02196         MSG_UDP              iDivisorNMEA    $MXPGN,01FA06,681C,FFFFFFFFFF015D22*6C
+ 
+3.02196         NAV_LAT              iDivisorNMEA    -22.91280    
+3.02196         NAV_LONG             iDivisorNMEA    -43.15990    
+3.02196         NAV_SPEED            iDivisorNMEA    0.00000      
+3.02196         NAV_HEADING          iDivisorNMEA    147.01000    
+3.02197         GPS_HEADING          iDivisorNMEA    144.14000    
+3.02459         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.02459         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.03207         MSG_UDP              iDivisorNMEA    $GPRMC,171657.200,A,2254.76779,S,04309.59400,W,0.00,96.99,040923,23.45,W,A*25
+ 
+3.03208         NAV_LAT              iDivisorNMEA    -22.91280    
+3.03208         NAV_LONG             iDivisorNMEA    -43.15990    
+3.03208         NAV_SPEED            iDivisorNMEA    0.00000      
+3.03208         NAV_HEADING          iDivisorNMEA    147.01000    
+3.03208         GPS_HEADING          iDivisorNMEA    96.99000     
+3.03466         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.03466         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.04216         MSG_UDP              iDivisorNMEA    $GPHDT,147.01,T*06
+ 
+3.04216         NAV_LAT              iDivisorNMEA    -22.91280    
+3.04216         NAV_LONG             iDivisorNMEA    -43.15990    
+3.04216         NAV_SPEED            iDivisorNMEA    0.00000      
+3.04216         NAV_HEADING          iDivisorNMEA    147.01000    
+3.04216         GPS_HEADING          iDivisorNMEA    96.99000     
+3.04473         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.04473         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.05224         MSG_UDP              iDivisorNMEA    $MXPGN,01F803,281C,0000000000000008*6C
+ 
+3.05224         NAV_LAT              iDivisorNMEA    -22.91280    
+3.05224         NAV_LONG             iDivisorNMEA    -43.15990    
+3.05224         NAV_SPEED            iDivisorNMEA    0.00000      
+3.05224         NAV_HEADING          iDivisorNMEA    147.01000    
+3.05224         GPS_HEADING          iDivisorNMEA    96.99000     
+3.05479         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.05480         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.06231         MSG_UDP              iDivisorNMEA    $MXPGN,01F804,281C,0000004221C10008*1C
+ 
+3.06232         NAV_LAT              iDivisorNMEA    -22.91280    
+3.06232         NAV_LONG             iDivisorNMEA    -43.15990    
+3.06232         NAV_SPEED            iDivisorNMEA    0.00000      
+3.06232         NAV_HEADING          iDivisorNMEA    147.01000    
+3.06232         GPS_HEADING          iDivisorNMEA    96.99000     
+3.06486         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.06486         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.07243         MSG_UDP              iDivisorNMEA    $MXPGN,00FF19,7806,0000000003019F41*19
+ 
+3.07243         NAV_LAT              iDivisorNMEA    -22.91280    
+3.07243         NAV_LONG             iDivisorNMEA    -43.15990    
+3.07243         NAV_SPEED            iDivisorNMEA    0.00000      
+3.07243         NAV_HEADING          iDivisorNMEA    147.01000    
+3.07243         GPS_HEADING          iDivisorNMEA    96.99000     
+3.07493         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.07493         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.08254         MSG_UDP              iDivisorNMEA    $AGRSA,-13.77,A,,V*50
+ 
+3.08254         NAV_LAT              iDivisorNMEA    -22.91280    
+3.08254         NAV_LONG             iDivisorNMEA    -43.15990    
+3.08255         NAV_SPEED            iDivisorNMEA    0.00000      
+3.08255         NAV_HEADING          iDivisorNMEA    147.01000    
+3.08255         GPS_HEADING          iDivisorNMEA    96.99000     
+3.08255         ANGULO_LEME          iDivisorNMEA    -13.77000    
+3.08500         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.08500         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.09507         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.09507         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.10516         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.10516         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.11523         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.11523         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.12533         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.12533         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.12571         MSG_UDP              iDivisorNMEA    $GPHDT,147.01,T*06
+ 
+3.12572         NAV_LAT              iDivisorNMEA    -22.91280    
+3.12572         NAV_LONG             iDivisorNMEA    -43.15990    
+3.12572         NAV_SPEED            iDivisorNMEA    0.00000      
+3.12572         NAV_HEADING          iDivisorNMEA    147.01000    
+3.12572         GPS_HEADING          iDivisorNMEA    96.99000     
+3.13540         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.13540         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.13971         MSG_UDP              iDivisorNMEA    $MXPGN,01F803,281C,0000000000000008*6C
+ 
+3.13972         NAV_LAT              iDivisorNMEA    -22.91280    
+3.13972         NAV_LONG             iDivisorNMEA    -43.15990    
+3.13972         NAV_SPEED            iDivisorNMEA    0.00000      
+3.13972         NAV_HEADING          iDivisorNMEA    147.01000    
+3.13972         GPS_HEADING          iDivisorNMEA    96.99000     
+3.14067         MSG_UDP              iDivisorNMEA    $MXPGN,01F804,281C,0000003A12C10008*68
+ 
+3.14067         NAV_LAT              iDivisorNMEA    -22.91280    
+3.14067         NAV_LONG             iDivisorNMEA    -43.15990    
+3.14068         NAV_SPEED            iDivisorNMEA    0.00000      
+3.14068         NAV_HEADING          iDivisorNMEA    147.01000    
+3.14068         GPS_HEADING          iDivisorNMEA    96.99000     
+3.14551         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.14551         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.15563         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.15563         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.16573         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.16573         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.17567         MSG_UDP              iDivisorNMEA    $AGRSA,-13.77,A,,V*50
+ 
+3.17568         NAV_LAT              iDivisorNMEA    -22.91280    
+3.17568         NAV_LONG             iDivisorNMEA    -43.15990    
+3.17568         NAV_SPEED            iDivisorNMEA    0.00000      
+3.17568         NAV_HEADING          iDivisorNMEA    147.01000    
+3.17569         GPS_HEADING          iDivisorNMEA    96.99000     
+3.17569         ANGULO_LEME          iDivisorNMEA    -13.77000    
+3.17580         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.17580         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.18590         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.18590         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.19375         MSG_UDP              iDivisorNMEA    $MXPGN,00FF00,280B,0002000005049913*19
+ 
+3.19376         NAV_LAT              iDivisorNMEA    -22.91280    
+3.19376         NAV_LONG             iDivisorNMEA    -43.15990    
+3.19376         NAV_SPEED            iDivisorNMEA    0.00000      
+3.19376         NAV_HEADING          iDivisorNMEA    147.01000    
+3.19376         GPS_HEADING          iDivisorNMEA    96.99000     
+3.19600         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.19600         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.20608         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.20608         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.21615         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.21615         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.22560         MSG_UDP              iDivisorNMEA    $GPHDT,147.01,T*06
+ 
+3.22561         NAV_LAT              iDivisorNMEA    -22.91280    
+3.22561         NAV_LONG             iDivisorNMEA    -43.15990    
+3.22561         NAV_SPEED            iDivisorNMEA    0.00000      
+3.22561         NAV_HEADING          iDivisorNMEA    147.01000    
+3.22561         GPS_HEADING          iDivisorNMEA    96.99000     
+3.22621         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.22621         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.23631         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.23631         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.23881         MSG_UDP              iDivisorNMEA    $MXPGN,01F803,281C,0000000000003C0B*66
+ 
+3.23882         NAV_LAT              iDivisorNMEA    -22.91280    
+3.23882         NAV_LONG             iDivisorNMEA    -43.15990    
+3.23882         NAV_SPEED            iDivisorNMEA    0.00000      
+3.23882         NAV_HEADING          iDivisorNMEA    147.01000    
+3.23882         GPS_HEADING          iDivisorNMEA    96.99000     
+3.23973         MSG_UDP              iDivisorNMEA    $MXPGN,01F804,281C,000000F0CEC13C0B*63
+ 
+3.23977         NAV_LAT              iDivisorNMEA    -22.91280    
+3.23977         NAV_LONG             iDivisorNMEA    -43.15990    
+3.23977         NAV_SPEED            iDivisorNMEA    0.00000      
+3.23977         NAV_HEADING          iDivisorNMEA    147.01000    
+3.23977         GPS_HEADING          iDivisorNMEA    96.99000     
+3.24640         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.24640         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.25647         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.25647         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.26656         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.26656         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.27570         MSG_UDP              iDivisorNMEA    $AGRSA,-13.77,A,,V*50
+ 
+3.27571         NAV_LAT              iDivisorNMEA    -22.91280    
+3.27571         NAV_LONG             iDivisorNMEA    -43.15990    
+3.27571         NAV_SPEED            iDivisorNMEA    0.00000      
+3.27571         NAV_HEADING          iDivisorNMEA    147.01000    
+3.27571         GPS_HEADING          iDivisorNMEA    96.99000     
+3.27571         ANGULO_LEME          iDivisorNMEA    -13.77000    
+3.27666         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.27667         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.27872         MSG_UDP              iDivisorNMEA    $MXPGN,01FF2C,7808,FFFFFFFF9F411720*69
+ 
+3.27872         NAV_LAT              iDivisorNMEA    -22.91280    
+3.27872         NAV_LONG             iDivisorNMEA    -43.15990    
+3.27872         NAV_SPEED            iDivisorNMEA    0.00000      
+3.27873         NAV_HEADING          iDivisorNMEA    147.01000    
+3.27873         GPS_HEADING          iDivisorNMEA    96.99000     
+3.28583         MSG_UDP              iDivisorNMEA    $MXPGN,01FF2C,7808,FFFF7FFFFFFF7F21*14
+ 
+3.28583         NAV_LAT              iDivisorNMEA    -22.91280    
+3.28583         NAV_LONG             iDivisorNMEA    -43.15990    
+3.28583         NAV_SPEED            iDivisorNMEA    0.00000      
+3.28583         NAV_HEADING          iDivisorNMEA    147.01000    
+3.28583         GPS_HEADING          iDivisorNMEA    96.99000     
+3.28673         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.28673         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.29594         MSG_UDP              iDivisorNMEA    $MXPGN,01FF2C,7808,FF7FFFFFFFFFFF22*66
+ 
+3.29594         NAV_LAT              iDivisorNMEA    -22.91280    
+3.29594         NAV_LONG             iDivisorNMEA    -43.15990    
+3.29594         NAV_SPEED            iDivisorNMEA    0.00000      
+3.29594         NAV_HEADING          iDivisorNMEA    147.01000    
+3.29594         GPS_HEADING          iDivisorNMEA    96.99000     
+3.29683         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.29683         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.30607         MSG_UDP              iDivisorNMEA    $MXPGN,01FF2C,7808,FFFFFFFF7FFFFF23*67
+ 
+3.30608         NAV_LAT              iDivisorNMEA    -22.91280    
+3.30608         NAV_LONG             iDivisorNMEA    -43.15990    
+3.30608         NAV_SPEED            iDivisorNMEA    0.00000      
+3.30608         NAV_HEADING          iDivisorNMEA    147.01000    
+3.30608         GPS_HEADING          iDivisorNMEA    96.99000     
+3.30693         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.30693         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.31619         MSG_UDP              iDivisorNMEA    $MXPGN,00FF3D,6808,7FFFFF0DFFFF9F41*6E
+ 
+3.31619         NAV_LAT              iDivisorNMEA    -22.91280    
+3.31619         NAV_LONG             iDivisorNMEA    -43.15990    
+3.31619         NAV_SPEED            iDivisorNMEA    0.00000      
+3.31619         NAV_HEADING          iDivisorNMEA    147.01000    
+3.31619         GPS_HEADING          iDivisorNMEA    96.99000     
+3.31703         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.31703         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.32629         MSG_UDP              iDivisorNMEA    $GPHDT,147.02,T*05
+ 
+3.32629         NAV_LAT              iDivisorNMEA    -22.91280    
+3.32629         NAV_LONG             iDivisorNMEA    -43.15990    
+3.32630         NAV_SPEED            iDivisorNMEA    0.00000      
+3.32630         NAV_HEADING          iDivisorNMEA    147.01000    
+3.32630         GPS_HEADING          iDivisorNMEA    96.99000     
+3.32713         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.32713         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.33641         MSG_UDP              iDivisorNMEA    !AIVDO,1,1,,,B:UOH3P3wk?8mP=18D3Q3wwUkP06,0*70
+ 
+3.33641         NAV_LAT              iDivisorNMEA    -22.91280    
+3.33641         NAV_LONG             iDivisorNMEA    -43.15990    
+3.33641         NAV_SPEED            iDivisorNMEA    0.00000      
+3.33641         NAV_HEADING          iDivisorNMEA    147.02000    
+3.33641         GPS_HEADING          iDivisorNMEA    96.99000     
+3.33723         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.33723         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.34654         MSG_UDP              iDivisorNMEA    $MXPGN,01F803,281C,000000000000640D*12
+ 
+3.34655         NAV_LAT              iDivisorNMEA    -22.91280    
+3.34655         NAV_LONG             iDivisorNMEA    -43.15990    
+3.34655         NAV_SPEED            iDivisorNMEA    0.00000      
+3.34655         NAV_HEADING          iDivisorNMEA    147.02000    
+3.34655         GPS_HEADING          iDivisorNMEA    96.99000     
+3.34733         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.34733         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.35663         MSG_UDP              iDivisorNMEA    $MXPGN,01F804,281C,000000F0CEC1640D*17
+ 
+3.35663         NAV_LAT              iDivisorNMEA    -22.91280    
+3.35664         NAV_LONG             iDivisorNMEA    -43.15990    
+3.35664         NAV_SPEED            iDivisorNMEA    0.00000      
+3.35664         NAV_HEADING          iDivisorNMEA    147.02000    
+3.35664         GPS_HEADING          iDivisorNMEA    96.99000     
+3.35744         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.35744         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.36753         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.36754         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.37580         MSG_UDP              iDivisorNMEA    $AGRSA,-13.77,A,,V*50
+ 
+3.37582         NAV_LAT              iDivisorNMEA    -22.91280    
+3.37582         NAV_LONG             iDivisorNMEA    -43.15990    
+3.37582         NAV_SPEED            iDivisorNMEA    0.00000      
+3.37582         NAV_HEADING          iDivisorNMEA    147.02000    
+3.37582         GPS_HEADING          iDivisorNMEA    96.99000     
+3.37583         ANGULO_LEME          iDivisorNMEA    -13.77000    
+3.37764         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.37764         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.38774         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.38774         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.39786         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.39786         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.40796         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.40796         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.41805         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.41805         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.42569         MSG_UDP              iDivisorNMEA    $GPHDT,147.00,T*07
+ 
+3.42569         NAV_LAT              iDivisorNMEA    -22.91280    
+3.42570         NAV_LONG             iDivisorNMEA    -43.15990    
+3.42570         NAV_SPEED            iDivisorNMEA    0.00000      
+3.42570         NAV_HEADING          iDivisorNMEA    147.02000    
+3.42570         GPS_HEADING          iDivisorNMEA    96.99000     
+3.42816         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.42816         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.43823         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.43823         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.43879         MSG_UDP              iDivisorNMEA    $MXPGN,01F803,281C,000000000000780E*1E
+ 
+3.43879         NAV_LAT              iDivisorNMEA    -22.91280    
+3.43879         NAV_LONG             iDivisorNMEA    -43.15990    
+3.43879         NAV_SPEED            iDivisorNMEA    0.00000      
+3.43879         NAV_HEADING          iDivisorNMEA    147.00000    
+3.43879         GPS_HEADING          iDivisorNMEA    96.99000     
+3.43985         MSG_UDP              iDivisorNMEA    $MXPGN,01F804,281C,0000002F2AC1780E*6C
+ 
+3.43988         NAV_LAT              iDivisorNMEA    -22.91280    
+3.43988         NAV_LONG             iDivisorNMEA    -43.15990    
+3.43988         NAV_SPEED            iDivisorNMEA    0.00000      
+3.43988         NAV_HEADING          iDivisorNMEA    147.00000    
+3.43988         GPS_HEADING          iDivisorNMEA    96.99000     
+3.44839         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.44839         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.44902         MSG_UDP              iDivisorNMEA    $MXPGN,00FF00,280B,0002000005049913*19
+ 
+3.44904         NAV_LAT              iDivisorNMEA    -22.91280    
+3.44904         NAV_LONG             iDivisorNMEA    -43.15990    
+3.44904         NAV_SPEED            iDivisorNMEA    0.00000      
+3.44904         NAV_HEADING          iDivisorNMEA    147.00000    
+3.44904         GPS_HEADING          iDivisorNMEA    96.99000     
+3.45856         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.45856         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.46869         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.46869         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.47574         MSG_UDP              iDivisorNMEA    $AGRSA,-13.77,A,,V*50
+ 
+3.47577         NAV_LAT              iDivisorNMEA    -22.91280    
+3.47577         NAV_LONG             iDivisorNMEA    -43.15990    
+3.47577         NAV_SPEED            iDivisorNMEA    0.00000      
+3.47578         NAV_HEADING          iDivisorNMEA    147.00000    
+3.47578         GPS_HEADING          iDivisorNMEA    96.99000     
+3.47579         ANGULO_LEME          iDivisorNMEA    -13.77000    
+3.47885         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.47886         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.48898         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.48898         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.49911         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.49911         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.50378         MSG_UDP              iDivisorNMEA    $MXPGN,00FF19,7808,0000000202009F41*15
+ 
+3.50380         NAV_LAT              iDivisorNMEA    -22.91280    
+3.50381         NAV_LONG             iDivisorNMEA    -43.15990    
+3.50381         NAV_SPEED            iDivisorNMEA    0.00000      
+3.50381         NAV_HEADING          iDivisorNMEA    147.00000    
+3.50381         GPS_HEADING          iDivisorNMEA    96.99000     
+3.50922         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.50922         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.51930         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.51930         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.52568         MSG_UDP              iDivisorNMEA    $GPHDT,147.02,T*05
+ 
+3.52569         NAV_LAT              iDivisorNMEA    -22.91280    
+3.52569         NAV_LONG             iDivisorNMEA    -43.15990    
+3.52569         NAV_SPEED            iDivisorNMEA    0.00000      
+3.52569         NAV_HEADING          iDivisorNMEA    147.00000    
+3.52569         GPS_HEADING          iDivisorNMEA    96.99000     
+3.52872         MSG_UDP              iDivisorNMEA    $MXPGN,00FF19,7808,0080000A0A009F41*1D
+ 
+3.52873         NAV_LAT              iDivisorNMEA    -22.91280    
+3.52873         NAV_LONG             iDivisorNMEA    -43.15990    
+3.52873         NAV_SPEED            iDivisorNMEA    0.00000      
+3.52873         NAV_HEADING          iDivisorNMEA    147.02000    
+3.52873         GPS_HEADING          iDivisorNMEA    96.99000     
+3.52944         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.52944         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.53878         MSG_UDP              iDivisorNMEA    $MXPGN,01F803,281C,0000000000008C0F*69
+ 
+3.53879         NAV_LAT              iDivisorNMEA    -22.91280    
+3.53879         NAV_LONG             iDivisorNMEA    -43.15990    
+3.53879         NAV_SPEED            iDivisorNMEA    0.00000      
+3.53879         NAV_HEADING          iDivisorNMEA    147.02000    
+3.53879         GPS_HEADING          iDivisorNMEA    96.99000     
+3.53954         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.53954         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.54689         MSG_UDP              iDivisorNMEA    $MXPGN,01F804,281C,0000002F2AC18C0F*1B
+ 
+3.54689         NAV_LAT              iDivisorNMEA    -22.91280    
+3.54689         NAV_LONG             iDivisorNMEA    -43.15990    
+3.54690         NAV_SPEED            iDivisorNMEA    0.00000      
+3.54690         NAV_HEADING          iDivisorNMEA    147.02000    
+3.54690         GPS_HEADING          iDivisorNMEA    96.99000     
+3.54964         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.54964         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.55700         MSG_UDP              iDivisorNMEA    $MXPGN,00FF19,7806,000000000B019F41*68
+ 
+3.55700         NAV_LAT              iDivisorNMEA    -22.91280    
+3.55700         NAV_LONG             iDivisorNMEA    -43.15990    
+3.55700         NAV_SPEED            iDivisorNMEA    0.00000      
+3.55700         NAV_HEADING          iDivisorNMEA    147.02000    
+3.55700         GPS_HEADING          iDivisorNMEA    96.99000     
+3.55975         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.55975         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.56986         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.56986         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.57572         MSG_UDP              iDivisorNMEA    $AGRSA,-13.77,A,,V*50
+ 
+3.57573         NAV_LAT              iDivisorNMEA    -22.91280    
+3.57573         NAV_LONG             iDivisorNMEA    -43.15990    
+3.57573         NAV_SPEED            iDivisorNMEA    0.00000      
+3.57573         NAV_HEADING          iDivisorNMEA    147.02000    
+3.57573         GPS_HEADING          iDivisorNMEA    96.99000     
+3.57573         ANGULO_LEME          iDivisorNMEA    -13.77000    
+3.57870         MSG_UDP              iDivisorNMEA    $MXPGN,00FF8C,6808,FFF1097195F49F41*61
+ 
+3.57871         NAV_LAT              iDivisorNMEA    -22.91280    
+3.57871         NAV_LONG             iDivisorNMEA    -43.15990    
+3.57871         NAV_SPEED            iDivisorNMEA    0.00000      
+3.57871         NAV_HEADING          iDivisorNMEA    147.02000    
+3.57871         GPS_HEADING          iDivisorNMEA    96.99000     
+3.58000         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.58000         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.59005         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.59005         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.60017         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.60017         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.61026         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.61027         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.62039         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.62039         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.62573         MSG_UDP              iDivisorNMEA    $GPHDT,147.02,T*05
+ 
+3.62576         NAV_LAT              iDivisorNMEA    -22.91280    
+3.62576         NAV_LONG             iDivisorNMEA    -43.15990    
+3.62576         NAV_SPEED            iDivisorNMEA    0.00000      
+3.62577         NAV_HEADING          iDivisorNMEA    147.02000    
+3.62578         GPS_HEADING          iDivisorNMEA    96.99000     
+3.63055         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.63056         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.63989         MSG_UDP              iDivisorNMEA    $MXPGN,01F803,281C,000000000000A010*14
+ 
+3.63992         NAV_LAT              iDivisorNMEA    -22.91280    
+3.63993         NAV_LONG             iDivisorNMEA    -43.15990    
+3.63993         NAV_SPEED            iDivisorNMEA    0.00000      
+3.63993         NAV_HEADING          iDivisorNMEA    147.02000    
+3.63993         GPS_HEADING          iDivisorNMEA    96.99000     
+3.64067         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.64068         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.64069         MSG_UDP              iDivisorNMEA    $MXPGN,01F804,281C,000000B44EC1A010*66
+ 
+3.64072         NAV_LAT              iDivisorNMEA    -22.91280    
+3.64072         NAV_LONG             iDivisorNMEA    -43.15990    
+3.64072         NAV_SPEED            iDivisorNMEA    0.00000      
+3.64073         NAV_HEADING          iDivisorNMEA    147.02000    
+3.64073         GPS_HEADING          iDivisorNMEA    96.99000     
+3.65079         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.65080         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.65087         MSG_UDP              iDivisorNMEA    $MXPGN,01FF0D,780B,FF03000098900580*6E
+ 
+3.65089         NAV_LAT              iDivisorNMEA    -22.91280    
+3.65089         NAV_LONG             iDivisorNMEA    -43.15990    
+3.65089         NAV_SPEED            iDivisorNMEA    0.00000      
+3.65089         NAV_HEADING          iDivisorNMEA    147.02000    
+3.65089         GPS_HEADING          iDivisorNMEA    96.99000     
+3.66097         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.66097         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.67109         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.67109         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.67573         MSG_UDP              iDivisorNMEA    $AGRSA,-13.77,A,,V*50
+ 
+3.67576         NAV_LAT              iDivisorNMEA    -22.91280    
+3.67576         NAV_LONG             iDivisorNMEA    -43.15990    
+3.67576         NAV_SPEED            iDivisorNMEA    0.00000      
+3.67576         NAV_HEADING          iDivisorNMEA    147.02000    
+3.67576         GPS_HEADING          iDivisorNMEA    96.99000     
+3.67578         ANGULO_LEME          iDivisorNMEA    -13.77000    
+3.67666         MSG_UDP              iDivisorNMEA    $SDDPT,2.39,0.00,*73
+ 
+3.67670         NAV_LAT              iDivisorNMEA    -22.91280    
+3.67671         NAV_LONG             iDivisorNMEA    -43.15990    
+3.67671         NAV_SPEED            iDivisorNMEA    0.00000      
+3.67671         NAV_HEADING          iDivisorNMEA    147.02000    
+3.67672         GPS_HEADING          iDivisorNMEA    96.99000     
+3.68122         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.68122         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.69137         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.69138         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.69370         MSG_UDP              iDivisorNMEA    $MXPGN,00FF00,280B,0002000005049913*19
+ 
+3.69373         NAV_LAT              iDivisorNMEA    -22.91280    
+3.69373         NAV_LONG             iDivisorNMEA    -43.15990    
+3.69374         NAV_SPEED            iDivisorNMEA    0.00000      
+3.69374         NAV_HEADING          iDivisorNMEA    147.02000    
+3.69374         GPS_HEADING          iDivisorNMEA    96.99000     
+3.70155         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.70156         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.71174         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.71174         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.72190         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.72190         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.72568         MSG_UDP              iDivisorNMEA    $GPHDT,147.02,T*05
+ 
+3.72571         NAV_LAT              iDivisorNMEA    -22.91280    
+3.72571         NAV_LONG             iDivisorNMEA    -43.15990    
+3.72571         NAV_SPEED            iDivisorNMEA    0.00000      
+3.72572         NAV_HEADING          iDivisorNMEA    147.02000    
+3.72573         GPS_HEADING          iDivisorNMEA    96.99000     
+3.73207         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.73207         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.73884         MSG_UDP              iDivisorNMEA    $MXPGN,01F803,281C,000000000000A010*14
+ 
+3.73887         NAV_LAT              iDivisorNMEA    -22.91280    
+3.73887         NAV_LONG             iDivisorNMEA    -43.15990    
+3.73888         NAV_SPEED            iDivisorNMEA    0.00000      
+3.73888         NAV_HEADING          iDivisorNMEA    147.02000    
+3.73888         GPS_HEADING          iDivisorNMEA    96.99000     
+3.73973         MSG_UDP              iDivisorNMEA    $MXPGN,01F804,281C,000000B44EC1A010*66
+ 
+3.73976         NAV_LAT              iDivisorNMEA    -22.91280    
+3.73977         NAV_LONG             iDivisorNMEA    -43.15990    
+3.73977         NAV_SPEED            iDivisorNMEA    0.00000      
+3.73977         NAV_HEADING          iDivisorNMEA    147.02000    
+3.73978         GPS_HEADING          iDivisorNMEA    96.99000     
+3.74219         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.74220         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.75236         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.75236         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.76252         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.76252         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.77271         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.77271         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.77674         MSG_UDP              iDivisorNMEA    $AGRSA,-13.77,A,,V*50
+ 
+3.77676         NAV_LAT              iDivisorNMEA    -22.91280    
+3.77677         NAV_LONG             iDivisorNMEA    -43.15990    
+3.77677         NAV_SPEED            iDivisorNMEA    0.00000      
+3.77677         NAV_HEADING          iDivisorNMEA    147.02000    
+3.77677         GPS_HEADING          iDivisorNMEA    96.99000     
+3.77678         ANGULO_LEME          iDivisorNMEA    -13.77000    
+3.77774         MSG_UDP              iDivisorNMEA    $VWVLW,3198.38,N,1536.19,N*4D
+ 
+3.77777         NAV_LAT              iDivisorNMEA    -22.91280    
+3.77777         NAV_LONG             iDivisorNMEA    -43.15990    
+3.77777         NAV_SPEED            iDivisorNMEA    0.00000      
+3.77777         NAV_HEADING          iDivisorNMEA    147.02000    
+3.77778         GPS_HEADING          iDivisorNMEA    96.99000     
+3.78284         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.78284         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.78791         MSG_UDP              iDivisorNMEA    $MXPGN,00FF3C,3808,8000F8FE00009F41*1C
+ 
+3.78793         NAV_LAT              iDivisorNMEA    -22.91280    
+3.78793         NAV_LONG             iDivisorNMEA    -43.15990    
+3.78794         NAV_SPEED            iDivisorNMEA    0.00000      
+3.78794         NAV_HEADING          iDivisorNMEA    147.02000    
+3.78795         GPS_HEADING          iDivisorNMEA    96.99000     
+3.79302         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.79302         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.79809         MSG_UDP              iDivisorNMEA    !AIVDM,1,1,,B,1:U8aj8v13LrLb=jqvoo:5cj0<2g,0*1B
+ 
+3.79810         NAV_LAT              iDivisorNMEA    -22.91280    
+3.79811         NAV_LONG             iDivisorNMEA    -43.15990    
+3.79811         NAV_SPEED            iDivisorNMEA    0.00000      
+3.79812         NAV_HEADING          iDivisorNMEA    147.02000    
+3.79812         GPS_HEADING          iDivisorNMEA    96.99000     
+3.80319         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.80319         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.81331         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.81332         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.82347         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.82347         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.82571         MSG_UDP              iDivisorNMEA    $GPHDT,147.02,T*05
+ 
+3.82574         NAV_LAT              iDivisorNMEA    -22.91280    
+3.82574         NAV_LONG             iDivisorNMEA    -43.15990    
+3.82574         NAV_SPEED            iDivisorNMEA    0.00000      
+3.82575         NAV_HEADING          iDivisorNMEA    147.02000    
+3.82575         GPS_HEADING          iDivisorNMEA    96.99000     
+3.83366         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.83367         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.83878         MSG_UDP              iDivisorNMEA    $MXPGN,01F803,281C,000000000000C812*1C
+ 
+3.83882         NAV_LAT              iDivisorNMEA    -22.91280    
+3.83882         NAV_LONG             iDivisorNMEA    -43.15990    
+3.83883         NAV_SPEED            iDivisorNMEA    0.00000      
+3.83883         NAV_HEADING          iDivisorNMEA    147.02000    
+3.83883         GPS_HEADING          iDivisorNMEA    96.99000     
+3.83982         MSG_UDP              iDivisorNMEA    $MXPGN,01F804,281C,000000B44EC1C812*6E
+ 
+3.83984         NAV_LAT              iDivisorNMEA    -22.91280    
+3.83985         NAV_LONG             iDivisorNMEA    -43.15990    
+3.83985         NAV_SPEED            iDivisorNMEA    0.00000      
+3.83985         NAV_HEADING          iDivisorNMEA    147.02000    
+3.83985         GPS_HEADING          iDivisorNMEA    96.99000     
+3.84383         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.84383         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.85404         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.85404         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.86415         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.86415         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.87428         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.87428         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.87571         MSG_UDP              iDivisorNMEA    $AGRSA,-13.77,A,,V*50
+ 
+3.87575         NAV_LAT              iDivisorNMEA    -22.91280    
+3.87576         NAV_LONG             iDivisorNMEA    -43.15990    
+3.87576         NAV_SPEED            iDivisorNMEA    0.00000      
+3.87576         NAV_HEADING          iDivisorNMEA    147.02000    
+3.87577         GPS_HEADING          iDivisorNMEA    96.99000     
+3.87578         ANGULO_LEME          iDivisorNMEA    -13.77000    
+3.87882         MSG_UDP              iDivisorNMEA    $MXPGN,00FF16,7808,FF0000002B0A9F41*1B
+ 
+3.87885         NAV_LAT              iDivisorNMEA    -22.91280    
+3.87886         NAV_LONG             iDivisorNMEA    -43.15990    
+3.87886         NAV_SPEED            iDivisorNMEA    0.00000      
+3.87886         NAV_HEADING          iDivisorNMEA    147.02000    
+3.87886         GPS_HEADING          iDivisorNMEA    96.99000     
+3.88443         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.88443         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.89377         MSG_UDP              iDivisorNMEA    $MXPGN,01FF1A,680B,FF022B849F410500*6C
+ 
+3.89380         NAV_LAT              iDivisorNMEA    -22.91280    
+3.89380         NAV_LONG             iDivisorNMEA    -43.15990    
+3.89380         NAV_SPEED            iDivisorNMEA    0.00000      
+3.89381         NAV_HEADING          iDivisorNMEA    147.02000    
+3.89381         GPS_HEADING          iDivisorNMEA    96.99000     
+3.89462         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.89462         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.90474         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.90475         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.91493         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.91493         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.92510         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.92511         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.92566         MSG_UDP              iDivisorNMEA    $GPHDT,147.06,T*01
+ 
+3.92570         NAV_LAT              iDivisorNMEA    -22.91280    
+3.92571         NAV_LONG             iDivisorNMEA    -43.15990    
+3.92572         NAV_SPEED            iDivisorNMEA    0.00000      
+3.92572         NAV_HEADING          iDivisorNMEA    147.02000    
+3.92573         GPS_HEADING          iDivisorNMEA    96.99000     
+3.93526         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.93526         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.93880         MSG_UDP              iDivisorNMEA    $MXPGN,01F803,281C,000000000000DC13*61
+ 
+3.93883         NAV_LAT              iDivisorNMEA    -22.91280    
+3.93884         NAV_LONG             iDivisorNMEA    -43.15990    
+3.93884         NAV_SPEED            iDivisorNMEA    0.00000      
+3.93884         NAV_HEADING          iDivisorNMEA    147.06000    
+3.93884         GPS_HEADING          iDivisorNMEA    96.99000     
+3.93974         MSG_UDP              iDivisorNMEA    $MXPGN,01F804,281C,0000008996C1DC13*1A
+ 
+3.93978         NAV_LAT              iDivisorNMEA    -22.91280    
+3.93979         NAV_LONG             iDivisorNMEA    -43.15990    
+3.93979         NAV_SPEED            iDivisorNMEA    0.00000      
+3.93980         NAV_HEADING          iDivisorNMEA    147.06000    
+3.93980         GPS_HEADING          iDivisorNMEA    96.99000     
+3.94545         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.94545         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.94994         MSG_UDP              iDivisorNMEA    $MXPGN,00FF00,280B,0002000005049913*19
+ 
+3.94996         NAV_LAT              iDivisorNMEA    -22.91280    
+3.94997         NAV_LONG             iDivisorNMEA    -43.15990    
+3.94997         NAV_SPEED            iDivisorNMEA    0.00000      
+3.94997         NAV_HEADING          iDivisorNMEA    147.06000    
+3.94998         GPS_HEADING          iDivisorNMEA    96.99000     
+3.95564         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.95564         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.96581         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.96581         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.97575         MSG_UDP              iDivisorNMEA    $AGRSA,-13.77,A,,V*50
+ 
+3.97578         NAV_LAT              iDivisorNMEA    -22.91280    
+3.97578         NAV_LONG             iDivisorNMEA    -43.15990    
+3.97578         NAV_SPEED            iDivisorNMEA    0.00000      
+3.97578         NAV_HEADING          iDivisorNMEA    147.06000    
+3.97578         GPS_HEADING          iDivisorNMEA    96.99000     
+3.97580         ANGULO_LEME          iDivisorNMEA    -13.77000    
+3.97594         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.97594         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.97670         MSG_UDP              iDivisorNMEA    $WIMTW,31.82,C*35
+ 
+3.97673         NAV_LAT              iDivisorNMEA    -22.91280    
+3.97673         NAV_LONG             iDivisorNMEA    -43.15990    
+3.97673         NAV_SPEED            iDivisorNMEA    0.00000      
+3.97673         NAV_HEADING          iDivisorNMEA    147.06000    
+3.97673         GPS_HEADING          iDivisorNMEA    96.99000     
+3.98613         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.98613         DESIRED_THRUST       pMarinePIDV22   0.00000      
+3.99630         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+3.99631         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.00645         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.00645         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.01285         MSG_UDP              iDivisorNMEA    $MXPGN,01FA06,681C,78008C00C8130F40*63
+ 
+4.01288         NAV_LAT              iDivisorNMEA    -22.91280    
+4.01288         NAV_LONG             iDivisorNMEA    -43.15990    
+4.01288         NAV_SPEED            iDivisorNMEA    0.00000      
+4.01288         NAV_HEADING          iDivisorNMEA    147.06000    
+4.01288         GPS_HEADING          iDivisorNMEA    96.99000     
+4.01292         MSG_UDP              iDivisorNMEA    $MXPGN,01FA06,681C,00820083D7490041*66
+ 
+4.01293         NAV_LAT              iDivisorNMEA    -22.91280    
+4.01293         NAV_LONG             iDivisorNMEA    -43.15990    
+4.01293         NAV_SPEED            iDivisorNMEA    0.00000      
+4.01293         NAV_HEADING          iDivisorNMEA    147.06000    
+4.01295         GPS_HEADING          iDivisorNMEA    96.99000     
+4.01660         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.01660         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.02313         MSG_UDP              iDivisorNMEA    $MXPGN,01FA06,681C,FFFFFFFFFF015D42*6A
+ 
+4.02314         NAV_LAT              iDivisorNMEA    -22.91280    
+4.02315         NAV_LONG             iDivisorNMEA    -43.15990    
+4.02315         NAV_SPEED            iDivisorNMEA    0.00000      
+4.02315         NAV_HEADING          iDivisorNMEA    147.06000    
+4.02315         GPS_HEADING          iDivisorNMEA    96.99000     
+4.02672         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.02673         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.03334         MSG_UDP              iDivisorNMEA    $GPRMC,171658.300,A,2254.76779,S,04309.59400,W,0.01,201.80,040923,23.45,W,A*1E
+ 
+4.03338         NAV_LAT              iDivisorNMEA    -22.91280    
+4.03339         NAV_LONG             iDivisorNMEA    -43.15990    
+4.03339         NAV_SPEED            iDivisorNMEA    0.00000      
+4.03339         NAV_HEADING          iDivisorNMEA    147.06000    
+4.03339         GPS_HEADING          iDivisorNMEA    201.80000    
+4.03690         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.03690         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.04358         MSG_UDP              iDivisorNMEA    $GPHDT,147.07,T*00
+ 
+4.04360         NAV_LAT              iDivisorNMEA    -22.91280    
+4.04360         NAV_LONG             iDivisorNMEA    -43.15990    
+4.04360         NAV_SPEED            iDivisorNMEA    0.00000      
+4.04360         NAV_HEADING          iDivisorNMEA    147.06000    
+4.04361         GPS_HEADING          iDivisorNMEA    201.80000    
+4.04708         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.04709         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.05380         MSG_UDP              iDivisorNMEA    $MXPGN,01F803,281C,0000000000001414*64
+ 
+4.05381         NAV_LAT              iDivisorNMEA    -22.91280    
+4.05382         NAV_LONG             iDivisorNMEA    -43.15990    
+4.05382         NAV_SPEED            iDivisorNMEA    0.00000      
+4.05382         NAV_HEADING          iDivisorNMEA    147.07000    
+4.05382         GPS_HEADING          iDivisorNMEA    201.80000    
+4.05727         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.05727         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.06402         MSG_UDP              iDivisorNMEA    $MXPGN,01F804,281C,0000008996C11414*1F
+ 
+4.06404         NAV_LAT              iDivisorNMEA    -22.91280    
+4.06404         NAV_LONG             iDivisorNMEA    -43.15990    
+4.06404         NAV_SPEED            iDivisorNMEA    0.00000      
+4.06405         NAV_HEADING          iDivisorNMEA    147.07000    
+4.06405         GPS_HEADING          iDivisorNMEA    201.80000    
+4.06746         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.06746         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.07415         MSG_UDP              iDivisorNMEA    $MXPGN,00FF19,7806,0000000003019F41*19
+ 
+4.07417         NAV_LAT              iDivisorNMEA    -22.91280    
+4.07417         NAV_LONG             iDivisorNMEA    -43.15990    
+4.07418         NAV_SPEED            iDivisorNMEA    0.00000      
+4.07418         NAV_HEADING          iDivisorNMEA    147.07000    
+4.07418         GPS_HEADING          iDivisorNMEA    201.80000    
+4.07764         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.07765         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.08438         MSG_UDP              iDivisorNMEA    $AGRSA,-13.77,A,,V*50
+ 
+4.08440         NAV_LAT              iDivisorNMEA    -22.91280    
+4.08440         NAV_LONG             iDivisorNMEA    -43.15990    
+4.08440         NAV_SPEED            iDivisorNMEA    0.00000      
+4.08440         NAV_HEADING          iDivisorNMEA    147.07000    
+4.08440         GPS_HEADING          iDivisorNMEA    201.80000    
+4.08442         ANGULO_LEME          iDivisorNMEA    -13.77000    
+4.08783         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.08783         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.09803         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.09804         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.10823         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.10823         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.11839         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.11840         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.12587         MSG_UDP              iDivisorNMEA    $GPHDT,147.07,T*00
+ 
+4.12590         NAV_LAT              iDivisorNMEA    -22.91280    
+4.12590         NAV_LONG             iDivisorNMEA    -43.15990    
+4.12591         NAV_SPEED            iDivisorNMEA    0.00000      
+4.12591         NAV_HEADING          iDivisorNMEA    147.07000    
+4.12591         GPS_HEADING          iDivisorNMEA    201.80000    
+4.12858         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.12858         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.13876         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.13877         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.13985         MSG_UDP              iDivisorNMEA    $MXPGN,01F803,281C,0000000000002815*6A
+ 
+4.13988         NAV_LAT              iDivisorNMEA    -22.91280    
+4.13989         NAV_LONG             iDivisorNMEA    -43.15990    
+4.13989         NAV_SPEED            iDivisorNMEA    0.00000      
+4.13989         NAV_HEADING          iDivisorNMEA    147.07000    
+4.13989         GPS_HEADING          iDivisorNMEA    201.80000    
+4.14068         MSG_UDP              iDivisorNMEA    $MXPGN,01F804,281C,0000007C13C12815*69
+ 
+4.14072         NAV_LAT              iDivisorNMEA    -22.91280    
+4.14072         NAV_LONG             iDivisorNMEA    -43.15990    
+4.14073         NAV_SPEED            iDivisorNMEA    0.00000      
+4.14073         NAV_HEADING          iDivisorNMEA    147.07000    
+4.14073         GPS_HEADING          iDivisorNMEA    201.80000    
+4.14897         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.14897         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.15916         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.15916         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.16934         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.16934         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.17572         MSG_UDP              iDivisorNMEA    $AGRSA,-13.77,A,,V*50
+ 
+4.17577         NAV_LAT              iDivisorNMEA    -22.91280    
+4.17577         NAV_LONG             iDivisorNMEA    -43.15990    
+4.17578         NAV_SPEED            iDivisorNMEA    0.00000      
+4.17578         NAV_HEADING          iDivisorNMEA    147.07000    
+4.17579         GPS_HEADING          iDivisorNMEA    201.80000    
+4.17581         ANGULO_LEME          iDivisorNMEA    -13.77000    
+4.17952         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.17952         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.18973         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.18973         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.19369         MSG_UDP              iDivisorNMEA    $MXPGN,00FF00,280B,0002000005049913*19
+ 
+4.19373         NAV_LAT              iDivisorNMEA    -22.91280    
+4.19373         NAV_LONG             iDivisorNMEA    -43.15990    
+4.19374         NAV_SPEED            iDivisorNMEA    0.00000      
+4.19374         NAV_HEADING          iDivisorNMEA    147.07000    
+4.19375         GPS_HEADING          iDivisorNMEA    201.80000    
+4.19986         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.19986         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.20998         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.20998         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.22016         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.22017         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.22574         MSG_UDP              iDivisorNMEA    $GPHDT,147.08,T*0F
+ 
+4.22577         NAV_LAT              iDivisorNMEA    -22.91280    
+4.22578         NAV_LONG             iDivisorNMEA    -43.15990    
+4.22578         NAV_SPEED            iDivisorNMEA    0.00000      
+4.22578         NAV_HEADING          iDivisorNMEA    147.07000    
+4.22578         GPS_HEADING          iDivisorNMEA    201.80000    
+4.23031         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.23031         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.23884         MSG_UDP              iDivisorNMEA    $MXPGN,01F803,281C,0000000000003C16*13
+ 
+4.23888         NAV_LAT              iDivisorNMEA    -22.91280    
+4.23888         NAV_LONG             iDivisorNMEA    -43.15990    
+4.23888         NAV_SPEED            iDivisorNMEA    0.00000      
+4.23888         NAV_HEADING          iDivisorNMEA    147.08000    
+4.23888         GPS_HEADING          iDivisorNMEA    201.80000    
+4.23980         MSG_UDP              iDivisorNMEA    $MXPGN,01F804,281C,0000007C13C13C16*10
+ 
+4.23983         NAV_LAT              iDivisorNMEA    -22.91280    
+4.23983         NAV_LONG             iDivisorNMEA    -43.15990    
+4.23984         NAV_SPEED            iDivisorNMEA    0.00000      
+4.23984         NAV_HEADING          iDivisorNMEA    147.08000    
+4.23984         GPS_HEADING          iDivisorNMEA    201.80000    
+4.24047         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.24048         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.25063         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.25063         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.26077         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.26078         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.27096         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.27096         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.27570         MSG_UDP              iDivisorNMEA    $AGRSA,-13.77,A,,V*50
+ 
+4.27573         NAV_LAT              iDivisorNMEA    -22.91280    
+4.27574         NAV_LONG             iDivisorNMEA    -43.15990    
+4.27574         NAV_SPEED            iDivisorNMEA    0.00000      
+4.27574         NAV_HEADING          iDivisorNMEA    147.08000    
+4.27574         GPS_HEADING          iDivisorNMEA    201.80000    
+4.27575         ANGULO_LEME          iDivisorNMEA    -13.77000    
+4.27893         MSG_UDP              iDivisorNMEA    $MXPGN,01FF2C,7808,FFFFFFFF9F411740*6F
+ 
+4.27896         NAV_LAT              iDivisorNMEA    -22.91280    
+4.27897         NAV_LONG             iDivisorNMEA    -43.15990    
+4.27897         NAV_SPEED            iDivisorNMEA    0.00000      
+4.27897         NAV_HEADING          iDivisorNMEA    147.08000    
+4.27897         GPS_HEADING          iDivisorNMEA    201.80000    
+4.28116         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.28116         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.28614         MSG_UDP              iDivisorNMEA    $MXPGN,01FF2C,7808,FFFF7FFFFFFF7F41*12
+ 
+4.28617         NAV_LAT              iDivisorNMEA    -22.91280    
+4.28618         NAV_LONG             iDivisorNMEA    -43.15990    
+4.28618         NAV_SPEED            iDivisorNMEA    0.00000      
+4.28619         NAV_HEADING          iDivisorNMEA    147.08000    
+4.28619         GPS_HEADING          iDivisorNMEA    201.80000    
+4.29136         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.29137         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.29638         MSG_UDP              iDivisorNMEA    $MXPGN,01FF2C,7808,FF7FFFFFFFFFFF42*60
+ 
+4.29641         NAV_LAT              iDivisorNMEA    -22.91280    
+4.29641         NAV_LONG             iDivisorNMEA    -43.15990    
+4.29642         NAV_SPEED            iDivisorNMEA    0.00000      
+4.29642         NAV_HEADING          iDivisorNMEA    147.08000    
+4.29643         GPS_HEADING          iDivisorNMEA    201.80000    
+4.30155         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.30155         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.30662         MSG_UDP              iDivisorNMEA    $MXPGN,01FF2C,7808,FFFFFFFF7FFFFF43*61
+ 
+4.30665         NAV_LAT              iDivisorNMEA    -22.91280    
+4.30665         NAV_LONG             iDivisorNMEA    -43.15990    
+4.30666         NAV_SPEED            iDivisorNMEA    0.00000      
+4.30666         NAV_HEADING          iDivisorNMEA    147.08000    
+4.30667         GPS_HEADING          iDivisorNMEA    201.80000    
+4.31173         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.31174         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.31680         MSG_UDP              iDivisorNMEA    $MXPGN,00FF3D,6808,7FFFFF0DFFFF9F41*6E
+ 
+4.31683         NAV_LAT              iDivisorNMEA    -22.91280    
+4.31683         NAV_LONG             iDivisorNMEA    -43.15990    
+4.31684         NAV_SPEED            iDivisorNMEA    0.00000      
+4.31684         NAV_HEADING          iDivisorNMEA    147.08000    
+4.31685         GPS_HEADING          iDivisorNMEA    201.80000    
+4.32192         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.32192         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.32704         MSG_UDP              iDivisorNMEA    $GPHDT,147.08,T*0F
+ 
+4.32709         NAV_LAT              iDivisorNMEA    -22.91280    
+4.32710         NAV_LONG             iDivisorNMEA    -43.15990    
+4.32711         NAV_SPEED            iDivisorNMEA    0.00000      
+4.32713         NAV_HEADING          iDivisorNMEA    147.08000    
+4.32714         GPS_HEADING          iDivisorNMEA    201.80000    
+4.33211         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.33211         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.33736         MSG_UDP              iDivisorNMEA    $MXPGN,00FF3D,6808,0000FF0BFFFF9F41*19
+ 
+4.33738         NAV_LAT              iDivisorNMEA    -22.91280    
+4.33739         NAV_LONG             iDivisorNMEA    -43.15990    
+4.33739         NAV_SPEED            iDivisorNMEA    0.00000      
+4.33740         NAV_HEADING          iDivisorNMEA    147.08000    
+4.33740         GPS_HEADING          iDivisorNMEA    201.80000    
+4.34225         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.34225         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.34756         MSG_UDP              iDivisorNMEA    $MXPGN,01F803,281C,0000000000005017*67
+ 
+4.34759         NAV_LAT              iDivisorNMEA    -22.91280    
+4.34760         NAV_LONG             iDivisorNMEA    -43.15990    
+4.34760         NAV_SPEED            iDivisorNMEA    0.00000      
+4.34761         NAV_HEADING          iDivisorNMEA    147.08000    
+4.34762         GPS_HEADING          iDivisorNMEA    201.80000    
+4.35243         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.35243         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.35776         MSG_UDP              iDivisorNMEA    $MXPGN,01F804,281C,0000007C13C15017*64
+ 
+4.35778         NAV_LAT              iDivisorNMEA    -22.91280    
+4.35779         NAV_LONG             iDivisorNMEA    -43.15990    
+4.35780         NAV_SPEED            iDivisorNMEA    0.00000      
+4.35780         NAV_HEADING          iDivisorNMEA    147.08000    
+4.35780         GPS_HEADING          iDivisorNMEA    201.80000    
+4.36260         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.36260         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.36797         MSG_UDP              iDivisorNMEA    $MXPGN,00FF3D,6808,FFFFFF0CFFFF9F41*18
+ 
+4.36800         NAV_LAT              iDivisorNMEA    -22.91280    
+4.36800         NAV_LONG             iDivisorNMEA    -43.15990    
+4.36800         NAV_SPEED            iDivisorNMEA    0.00000      
+4.36801         NAV_HEADING          iDivisorNMEA    147.08000    
+4.36801         GPS_HEADING          iDivisorNMEA    201.80000    
+4.37281         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.37281         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.37826         MSG_UDP              iDivisorNMEA    $AGRSA,-13.77,A,,V*50
+ 
+4.37831         NAV_LAT              iDivisorNMEA    -22.91280    
+4.37831         NAV_LONG             iDivisorNMEA    -43.15990    
+4.37831         NAV_SPEED            iDivisorNMEA    0.00000      
+4.37832         NAV_HEADING          iDivisorNMEA    147.08000    
+4.37832         GPS_HEADING          iDivisorNMEA    201.80000    
+4.37837         ANGULO_LEME          iDivisorNMEA    -13.77000    
+4.38299         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.38299         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.38853         MSG_UDP              iDivisorNMEA    $MXPGN,00FF3D,6808,FFFFFF03FFFF9F41*68
+ 
+4.38855         NAV_LAT              iDivisorNMEA    -22.91280    
+4.38856         NAV_LONG             iDivisorNMEA    -43.15990    
+4.38856         NAV_SPEED            iDivisorNMEA    0.00000      
+4.38857         NAV_HEADING          iDivisorNMEA    147.08000    
+4.38857         GPS_HEADING          iDivisorNMEA    201.80000    
+4.39312         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.39312         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.40325         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.40326         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.40372         MSG_UDP              iDivisorNMEA    $MXPGN,00FF3D,6808,FFFFFF02FFFF9F41*69
+ 
+4.40375         NAV_LAT              iDivisorNMEA    -22.91280    
+4.40376         NAV_LONG             iDivisorNMEA    -43.15990    
+4.40376         NAV_SPEED            iDivisorNMEA    0.00000      
+4.40377         NAV_HEADING          iDivisorNMEA    147.08000    
+4.40377         GPS_HEADING          iDivisorNMEA    201.80000    
+4.41341         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.41342         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.42354         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.42355         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.42561         MSG_UDP              iDivisorNMEA    $GPHDT,147.08,T*0F
+ 
+4.42564         NAV_LAT              iDivisorNMEA    -22.91280    
+4.42564         NAV_LONG             iDivisorNMEA    -43.15990    
+4.42565         NAV_SPEED            iDivisorNMEA    0.00000      
+4.42565         NAV_HEADING          iDivisorNMEA    147.08000    
+4.42565         GPS_HEADING          iDivisorNMEA    201.80000    
+4.43372         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.43372         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.43876         MSG_UDP              iDivisorNMEA    $MXPGN,01F803,281C,0000000000006418*6F
+ 
+4.43878         NAV_LAT              iDivisorNMEA    -22.91280    
+4.43879         NAV_LONG             iDivisorNMEA    -43.15990    
+4.43879         NAV_SPEED            iDivisorNMEA    0.00000      
+4.43879         NAV_HEADING          iDivisorNMEA    147.08000    
+4.43879         GPS_HEADING          iDivisorNMEA    201.80000    
+4.43969         MSG_UDP              iDivisorNMEA    $MXPGN,01F804,281C,0000000FEDC16418*6D
+ 
+4.43972         NAV_LAT              iDivisorNMEA    -22.91280    
+4.43972         NAV_LONG             iDivisorNMEA    -43.15990    
+4.43972         NAV_SPEED            iDivisorNMEA    0.00000      
+4.43972         NAV_HEADING          iDivisorNMEA    147.08000    
+4.43972         GPS_HEADING          iDivisorNMEA    201.80000    
+4.44385         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.44385         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.44987         MSG_UDP              iDivisorNMEA    $MXPGN,00FF00,280B,0002000005049913*19
+ 
+4.44989         NAV_LAT              iDivisorNMEA    -22.91280    
+4.44989         NAV_LONG             iDivisorNMEA    -43.15990    
+4.44990         NAV_SPEED            iDivisorNMEA    0.00000      
+4.44990         NAV_HEADING          iDivisorNMEA    147.08000    
+4.44990         GPS_HEADING          iDivisorNMEA    201.80000    
+4.45397         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.45397         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.46411         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.46411         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.47423         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.47423         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.47573         MSG_UDP              iDivisorNMEA    $AGRSA,-13.77,A,,V*50
+ 
+4.47575         NAV_LAT              iDivisorNMEA    -22.91280    
+4.47576         NAV_LONG             iDivisorNMEA    -43.15990    
+4.47576         NAV_SPEED            iDivisorNMEA    0.00000      
+4.47576         NAV_HEADING          iDivisorNMEA    147.08000    
+4.47576         GPS_HEADING          iDivisorNMEA    201.80000    
+4.47578         ANGULO_LEME          iDivisorNMEA    -13.77000    
+4.48436         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.48436         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.49447         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.49447         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.50364         MSG_UDP              iDivisorNMEA    $MXPGN,00FF19,7808,0000000202009F41*15
+ 
+4.50366         NAV_LAT              iDivisorNMEA    -22.91280    
+4.50367         NAV_LONG             iDivisorNMEA    -43.15990    
+4.50367         NAV_SPEED            iDivisorNMEA    0.00000      
+4.50367         NAV_HEADING          iDivisorNMEA    147.08000    
+4.50367         GPS_HEADING          iDivisorNMEA    201.80000    
+4.50460         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.50460         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.51473         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.51473         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.52490         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.52490         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.52562         MSG_UDP              iDivisorNMEA    $GPHDT,147.06,T*01
+ 
+4.52565         NAV_LAT              iDivisorNMEA    -22.91280    
+4.52565         NAV_LONG             iDivisorNMEA    -43.15990    
+4.52565         NAV_SPEED            iDivisorNMEA    0.00000      
+4.52566         NAV_HEADING          iDivisorNMEA    147.08000    
+4.52566         GPS_HEADING          iDivisorNMEA    201.80000    
+4.52873         MSG_UDP              iDivisorNMEA    $MXPGN,00FF19,7808,0080000A0A009F41*1D
+ 
+4.52876         NAV_LAT              iDivisorNMEA    -22.91280    
+4.52876         NAV_LONG             iDivisorNMEA    -43.15990    
+4.52876         NAV_SPEED            iDivisorNMEA    0.00000      
+4.52876         NAV_HEADING          iDivisorNMEA    147.06000    
+4.52877         GPS_HEADING          iDivisorNMEA    201.80000    
+4.53504         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.53504         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.53876         MSG_UDP              iDivisorNMEA    $MXPGN,01F803,281C,0000000000007819*63
+ 
+4.53881         NAV_LAT              iDivisorNMEA    -22.91280    
+4.53881         NAV_LONG             iDivisorNMEA    -43.15990    
+4.53881         NAV_SPEED            iDivisorNMEA    0.00000      
+4.53882         NAV_HEADING          iDivisorNMEA    147.06000    
+4.53882         GPS_HEADING          iDivisorNMEA    201.80000    
+4.54518         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.54518         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.54696         MSG_UDP              iDivisorNMEA    $MXPGN,01F804,281C,0000000FEDC17819*61
+ 
+4.54698         NAV_LAT              iDivisorNMEA    -22.91280    
+4.54699         NAV_LONG             iDivisorNMEA    -43.15990    
+4.54699         NAV_SPEED            iDivisorNMEA    0.00000      
+4.54699         NAV_HEADING          iDivisorNMEA    147.06000    
+4.54699         GPS_HEADING          iDivisorNMEA    201.80000    
+4.55533         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.55533         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.55716         MSG_UDP              iDivisorNMEA    $MXPGN,00FF19,7806,000000000B019F41*68
+ 
+4.55717         NAV_LAT              iDivisorNMEA    -22.91280    
+4.55718         NAV_LONG             iDivisorNMEA    -43.15990    
+4.55718         NAV_SPEED            iDivisorNMEA    0.00000      
+4.55718         NAV_HEADING          iDivisorNMEA    147.06000    
+4.55718         GPS_HEADING          iDivisorNMEA    201.80000    
+4.56551         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.56551         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.57565         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.57565         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.57663         MSG_UDP              iDivisorNMEA    $AGRSA,-13.77,A,,V*50
+ 
+4.57666         NAV_LAT              iDivisorNMEA    -22.91280    
+4.57666         NAV_LONG             iDivisorNMEA    -43.15990    
+4.57667         NAV_SPEED            iDivisorNMEA    0.00000      
+4.57667         NAV_HEADING          iDivisorNMEA    147.06000    
+4.57667         GPS_HEADING          iDivisorNMEA    201.80000    
+4.57669         ANGULO_LEME          iDivisorNMEA    -13.77000    
+4.57873         MSG_UDP              iDivisorNMEA    $MXPGN,00FF8C,6808,FFF1097195F49F41*61
+ 
+4.57877         NAV_LAT              iDivisorNMEA    -22.91280    
+4.57877         NAV_LONG             iDivisorNMEA    -43.15990    
+4.57878         NAV_SPEED            iDivisorNMEA    0.00000      
+4.57878         NAV_HEADING          iDivisorNMEA    147.06000    
+4.57878         GPS_HEADING          iDivisorNMEA    201.80000    
+4.58585         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.58585         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.59597         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.59598         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.60609         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.60609         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.61622         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.61622         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.62568         MSG_UDP              iDivisorNMEA    $GPHDT,147.07,T*00
+ 
+4.62574         NAV_LAT              iDivisorNMEA    -22.91280    
+4.62575         NAV_LONG             iDivisorNMEA    -43.15990    
+4.62575         NAV_SPEED            iDivisorNMEA    0.00000      
+4.62575         NAV_HEADING          iDivisorNMEA    147.06000    
+4.62575         GPS_HEADING          iDivisorNMEA    201.80000    
+4.62636         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.62637         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.63652         DESIRED_RUDDER       pMarinePIDV22   0.00000      
+4.63652         DESIRED_THRUST       pMarinePIDV22   0.00000      
+4.63972         MSG_UDP              iDivisorNMEA    $MXPGN,01F803,281C,0000000000008C1A*6F
+ 
+4.63975         NAV_LAT              iDivisorNMEA    -22.91280    
+4.63976         NAV_LONG             iDivisorNMEA    -43.15990    
+4.63976         NAV_SPEED            iDivisorNMEA    0.00000      
+4.63976         NAV_HEADING          iDivisorNMEA    147.07000    
+4.63976         GPS_HEADING          iDivisorNMEA    201.80000    
+4.64066         MSG_UDP              iDivisorNMEA    $MXPGN,01F804,281C,000000F268C18C1A*60
+ 
+4.64068         NAV_LAT              iDivisorNMEA    -22.91280    
+4.64069         NAV_LONG             iDivisorNMEA    -43.15990    
+4.64069         NAV_SPEED            iDivisorNMEA    0.00000      
+4.64069         NAV_HEADING          iDivisorNMEA    147.07000    
+4.64069         GPS_HEADING          iDivisorNMEA    201.80000    
+4.67564         MSG_UDP              iDivisorNMEA    $AGRSA,-13.77,A,,V*50
+ 
+4.67566         NAV_LAT              iDivisorNMEA    -22.91280    
+4.67567         NAV_LONG             iDivisorNMEA    -43.15990    
+4.67567         NAV_SPEED            iDivisorNMEA    0.00000      
+4.67567         NAV_HEADING          iDivisorNMEA    147.07000    
+4.67567         GPS_HEADING          iDivisorNMEA    201.80000    
+4.67568         ANGULO_LEME          iDivisorNMEA    -13.77000    
+4.67669         MSG_UDP              iDivisorNMEA    $SDDPT,2.39,0.00,*73
+ 
+4.67673         NAV_LAT              iDivisorNMEA    -22.91280    
+4.67673         NAV_LONG             iDivisorNMEA    -43.15990    
+4.67674         NAV_SPEED            iDivisorNMEA    0.00000      
+4.67674         NAV_HEADING          iDivisorNMEA    147.07000    
+4.67675         GPS_HEADING          iDivisorNMEA    201.80000    
+4.69379         MSG_UDP              iDivisorNMEA    $MXPGN,00FF00,280B,0002000005049913*19
+ 
+4.69383         NAV_LAT              iDivisorNMEA    -22.91280    
+4.69383         NAV_LONG             iDivisorNMEA    -43.15990    
+4.69384         NAV_SPEED            iDivisorNMEA    0.00000      
+4.69384         NAV_HEADING          iDivisorNMEA    147.07000    
+4.69384         GPS_HEADING          iDivisorNMEA    201.80000    
+4.69701         MSG_UDP              iDivisorNMEA    $MXPGN,01FF0D,780B,FF030000989005A0*17
+ 
+4.69703         NAV_LAT              iDivisorNMEA    -22.91280    
+4.69703         NAV_LONG             iDivisorNMEA    -43.15990    
+4.69703         NAV_SPEED            iDivisorNMEA    0.00000      
+4.69703         NAV_HEADING          iDivisorNMEA    147.07000    
+4.69703         GPS_HEADING          iDivisorNMEA    201.80000    
+4.72564         MSG_UDP              iDivisorNMEA    $GPHDT,147.07,T*00
+ 
+4.72566         NAV_LAT              iDivisorNMEA    -22.91280    
+4.72566         NAV_LONG             iDivisorNMEA    -43.15990    
+4.72567         NAV_SPEED            iDivisorNMEA    0.00000      
+4.72567         NAV_HEADING          iDivisorNMEA    147.07000    
+4.72567         GPS_HEADING          iDivisorNMEA    201.80000    
+4.73870         MSG_UDP              iDivisorNMEA    $MXPGN,01F803,281C,0000000000008C1A*6F
+ 
+4.73873         NAV_LAT              iDivisorNMEA    -22.91280    
+4.73873         NAV_LONG             iDivisorNMEA    -43.15990    
+4.73873         NAV_SPEED            iDivisorNMEA    0.00000      
+4.73874         NAV_HEADING          iDivisorNMEA    147.07000    
+4.73874         GPS_HEADING          iDivisorNMEA    201.80000    
+4.73976         MSG_UDP              iDivisorNMEA    $MXPGN,01F804,281C,000000F268C18C1A*60
+ 
+4.73979         NAV_LAT              iDivisorNMEA    -22.91280    
+4.73980         NAV_LONG             iDivisorNMEA    -43.15990    
+4.73980         NAV_SPEED            iDivisorNMEA    0.00000      
+4.73980         NAV_HEADING          iDivisorNMEA    147.07000    
+4.73980         GPS_HEADING          iDivisorNMEA    201.80000    
+4.77584         MSG_UDP              iDivisorNMEA    $AGRSA,-13.77,A,,V*50
+ 
+4.77587         NAV_LAT              iDivisorNMEA    -22.91280    
+4.77588         NAV_LONG             iDivisorNMEA    -43.15990    
+4.77588         NAV_SPEED            iDivisorNMEA    0.00000      
+4.77588         NAV_HEADING          iDivisorNMEA    147.07000    
+4.77588         GPS_HEADING          iDivisorNMEA    201.80000    
+4.77590         ANGULO_LEME          iDivisorNMEA    -13.77000    
+4.77668         MSG_UDP              iDivisorNMEA    $VWVLW,3198.38,N,1536.19,N*4D
+ 
+4.77671         NAV_LAT              iDivisorNMEA    -22.91280    
+4.77672         NAV_LONG             iDivisorNMEA    -43.15990    
+4.77672         NAV_SPEED            iDivisorNMEA    0.00000      
+4.77672         NAV_HEADING          iDivisorNMEA    147.07000    
+4.77672         GPS_HEADING          iDivisorNMEA    201.80000    
+4.78694         MSG_UDP              iDivisorNMEA    $MXPGN,00FF3C,3808,8000F8FE00009F41*1C
+ 
+4.78696         NAV_LAT              iDivisorNMEA    -22.91280    
+4.78697         NAV_LONG             iDivisorNMEA    -43.15990    
+4.78697         NAV_SPEED            iDivisorNMEA    0.00000      
+4.78697         NAV_HEADING          iDivisorNMEA    147.07000    
+4.78697         GPS_HEADING          iDivisorNMEA    201.80000    
+4.82666         MSG_UDP              iDivisorNMEA    $GPHDT,147.07,T*00
+ 
+4.82669         NAV_LAT              iDivisorNMEA    -22.91280    
+4.82669         NAV_LONG             iDivisorNMEA    -43.15990    
+4.82669         NAV_SPEED            iDivisorNMEA    0.00000      
+4.82670         NAV_HEADING          iDivisorNMEA    147.07000    
+4.82670         GPS_HEADING          iDivisorNMEA    201.80000    
+4.83880         MSG_UDP              iDivisorNMEA    $MXPGN,01F803,281C,000000000000A01B*66
+ 
+4.83883         NAV_LAT              iDivisorNMEA    -22.91280    
+4.83883         NAV_LONG             iDivisorNMEA    -43.15990    
+4.83883         NAV_SPEED            iDivisorNMEA    0.00000      
+4.83883         NAV_HEADING          iDivisorNMEA    147.07000    
+4.83884         GPS_HEADING          iDivisorNMEA    201.80000    
+4.83966         MSG_UDP              iDivisorNMEA    $MXPGN,01F804,281C,000000F268C1A01B*69
+ 
+4.83969         NAV_LAT              iDivisorNMEA    -22.91280    
+4.83969         NAV_LONG             iDivisorNMEA    -43.15990    
+4.83969         NAV_SPEED            iDivisorNMEA    0.00000      
+4.83970         NAV_HEADING          iDivisorNMEA    147.07000    
+4.83970         GPS_HEADING          iDivisorNMEA    201.80000    
+4.87566         MSG_UDP              iDivisorNMEA    $AGRSA,-13.77,A,,V*50
+ 
+4.87569         NAV_LAT              iDivisorNMEA    -22.91280    
+4.87570         NAV_LONG             iDivisorNMEA    -43.15990    
+4.87570         NAV_SPEED            iDivisorNMEA    0.00000      
+4.87571         NAV_HEADING          iDivisorNMEA    147.07000    
+4.87571         GPS_HEADING          iDivisorNMEA    201.80000    
+4.87572         ANGULO_LEME          iDivisorNMEA    -13.77000    
+4.87969         MSG_UDP              iDivisorNMEA    $MXPGN,00FF16,7808,FF0000002B0A9F41*1B
+ 
+4.87973         NAV_LAT              iDivisorNMEA    -22.91280    
+4.87973         NAV_LONG             iDivisorNMEA    -43.15990    
+4.87973         NAV_SPEED            iDivisorNMEA    0.00000      
+4.87973         NAV_HEADING          iDivisorNMEA    147.07000    
+4.87974         GPS_HEADING          iDivisorNMEA    201.80000    
+4.89361         MSG_UDP              iDivisorNMEA    $MXPGN,01FF1A,680B,FF022B849F410520*6E
+ 
+4.89365         NAV_LAT              iDivisorNMEA    -22.91280    
+4.89365         NAV_LONG             iDivisorNMEA    -43.15990    
+4.89366         NAV_SPEED            iDivisorNMEA    0.00000      
+4.89366         NAV_HEADING          iDivisorNMEA    147.07000    
+4.89366         GPS_HEADING          iDivisorNMEA    201.80000    
+4.92563         MSG_UDP              iDivisorNMEA    $GPHDT,147.07,T*00
+ 
+4.92568         NAV_LAT              iDivisorNMEA    -22.91280    
+4.92569         NAV_LONG             iDivisorNMEA    -43.15990    
+4.92572         NAV_SPEED            iDivisorNMEA    0.00000      
+4.92572         NAV_HEADING          iDivisorNMEA    147.07000    
+4.92572         GPS_HEADING          iDivisorNMEA    201.80000    
+4.93880         MSG_UDP              iDivisorNMEA    $MXPGN,01F803,281C,000000000000A01B*66
+ 
+4.93882         NAV_LAT              iDivisorNMEA    -22.91280    
+4.93883         NAV_LONG             iDivisorNMEA    -43.15990    
+4.93883         NAV_SPEED            iDivisorNMEA    0.00000      
+4.93883         NAV_HEADING          iDivisorNMEA    147.07000    
+4.93883         GPS_HEADING          iDivisorNMEA    201.80000    
+4.93974         MSG_UDP              iDivisorNMEA    $MXPGN,01F804,281C,000000F268C1A01B*69
+ 
+4.93982         NAV_LAT              iDivisorNMEA    -22.91280    
+4.93983         NAV_LONG             iDivisorNMEA    -43.15990    
+4.93985         NAV_SPEED            iDivisorNMEA    0.00000      
+4.93985         NAV_HEADING          iDivisorNMEA    147.07000    
+4.93987         GPS_HEADING          iDivisorNMEA    201.80000    
+4.94907         MSG_UDP              iDivisorNMEA    $MXPGN,00FF00,280B,0002000005049913*19
+ 
+4.94909         NAV_LAT              iDivisorNMEA    -22.91280    
+4.94909         NAV_LONG             iDivisorNMEA    -43.15990    
+4.94910         NAV_SPEED            iDivisorNMEA    0.00000      
+4.94910         NAV_HEADING          iDivisorNMEA    147.07000    
+4.94910         GPS_HEADING          iDivisorNMEA    201.80000    
+4.97558         MSG_UDP              iDivisorNMEA    $AGRSA,-13.77,A,,V*50
+ 
+4.97560         NAV_LAT              iDivisorNMEA    -22.91280    
+4.97560         NAV_LONG             iDivisorNMEA    -43.15990    
+4.97560         NAV_SPEED            iDivisorNMEA    0.00000      
+4.97560         NAV_HEADING          iDivisorNMEA    147.07000    
+4.97561         GPS_HEADING          iDivisorNMEA    201.80000    
+4.97561         ANGULO_LEME          iDivisorNMEA    -13.77000    
+4.97660         MSG_UDP              iDivisorNMEA    $WIMTW,31.82,C*35
+ 
+4.97661         NAV_LAT              iDivisorNMEA    -22.91280    
+4.97661         NAV_LONG             iDivisorNMEA    -43.15990    
+4.97662         NAV_SPEED            iDivisorNMEA    0.00000      
+4.97662         NAV_HEADING          iDivisorNMEA    147.07000    
+4.97662         GPS_HEADING          iDivisorNMEA    201.80000    
+5.01267         MSG_UDP              iDivisorNMEA    $MXPGN,01FA06,681C,78008C00C81D0F60*16
+ 
+5.01268         NAV_LAT              iDivisorNMEA    -22.91280    
+5.01268         NAV_LONG             iDivisorNMEA    -43.15990    
+5.01268         NAV_SPEED            iDivisorNMEA    0.00000      
+5.01269         NAV_HEADING          iDivisorNMEA    147.07000    
+5.01270         GPS_HEADING          iDivisorNMEA    201.80000    
+5.01361         MSG_UDP              iDivisorNMEA    $MXPGN,01FA06,681C,00820083D7480061*65
+ 
+5.01362         NAV_LAT              iDivisorNMEA    -22.91280    
+5.01362         NAV_LONG             iDivisorNMEA    -43.15990    
+5.01362         NAV_SPEED            iDivisorNMEA    0.00000      
+5.01362         NAV_HEADING          iDivisorNMEA    147.07000    
+5.01362         GPS_HEADING          iDivisorNMEA    201.80000    
+5.02373         MSG_UDP              iDivisorNMEA    $MXPGN,01FA06,681C,FFFFFFFFFF015D62*68
+ 
+5.02374         NAV_LAT              iDivisorNMEA    -22.91280    
+5.02374         NAV_LONG             iDivisorNMEA    -43.15990    
+5.02374         NAV_SPEED            iDivisorNMEA    0.00000      
+5.02374         NAV_HEADING          iDivisorNMEA    147.07000    
+5.02374         GPS_HEADING          iDivisorNMEA    201.80000    
+5.03382         MSG_UDP              iDivisorNMEA    $GPRMC,171659.200,A,2254.76779,S,04309.59400,W,0.01,355.55,040923,23.45,W,A*16
+ 
+5.03384         NAV_LAT              iDivisorNMEA    -22.91280    
+5.03384         NAV_LONG             iDivisorNMEA    -43.15990    
+5.03384         NAV_SPEED            iDivisorNMEA    0.00000      
+5.03384         NAV_HEADING          iDivisorNMEA    147.07000    
+5.03384         GPS_HEADING          iDivisorNMEA    355.55000    
+5.04392         MSG_UDP              iDivisorNMEA    $GPHDT,147.07,T*00
+ 
+5.04393         NAV_LAT              iDivisorNMEA    -22.91280    
+5.04393         NAV_LONG             iDivisorNMEA    -43.15990    
+5.04393         NAV_SPEED            iDivisorNMEA    0.00000      
+5.04393         NAV_HEADING          iDivisorNMEA    147.07000    
+5.04393         GPS_HEADING          iDivisorNMEA    355.55000    
+5.05406         MSG_UDP              iDivisorNMEA    $MXPGN,01F803,281C,000000000000141E*15
+ 
+5.05406         NAV_LAT              iDivisorNMEA    -22.91280    
+5.05407         NAV_LONG             iDivisorNMEA    -43.15990    
+5.05407         NAV_SPEED            iDivisorNMEA    0.00000      
+5.05407         NAV_HEADING          iDivisorNMEA    147.07000    
+5.05407         GPS_HEADING          iDivisorNMEA    355.55000    
+5.06415         MSG_UDP              iDivisorNMEA    $MXPGN,01F804,281C,000000725CC1141E*13
+ 
+5.06416         NAV_LAT              iDivisorNMEA    -22.91280    
+5.06416         NAV_LONG             iDivisorNMEA    -43.15990    
+5.06416         NAV_SPEED            iDivisorNMEA    0.00000      
+5.06416         NAV_HEADING          iDivisorNMEA    147.07000    
+5.06416         GPS_HEADING          iDivisorNMEA    355.55000    
+5.07425         MSG_UDP              iDivisorNMEA    $MXPGN,00FF19,7806,0000000003019F41*19
+ 
+5.07426         NAV_LAT              iDivisorNMEA    -22.91280    
+5.07426         NAV_LONG             iDivisorNMEA    -43.15990    
+5.07426         NAV_SPEED            iDivisorNMEA    0.00000      
+5.07426         NAV_HEADING          iDivisorNMEA    147.07000    
+5.07426         GPS_HEADING          iDivisorNMEA    355.55000    
+5.08439         MSG_UDP              iDivisorNMEA    $AGRSA,-13.77,A,,V*50
+ 
+5.08440         NAV_LAT              iDivisorNMEA    -22.91280    
+5.08440         NAV_LONG             iDivisorNMEA    -43.15990    
+5.08440         NAV_SPEED            iDivisorNMEA    0.00000      
+5.08441         NAV_HEADING          iDivisorNMEA    147.07000    
+5.08441         GPS_HEADING          iDivisorNMEA    355.55000    
+5.08441         ANGULO_LEME          iDivisorNMEA    -13.77000    
+5.12563         MSG_UDP              iDivisorNMEA    $GPHDT,147.06,T*01
+ 
+5.12564         NAV_LAT              iDivisorNMEA    -22.91280    
+5.12564         NAV_LONG             iDivisorNMEA    -43.15990    
+5.12564         NAV_SPEED            iDivisorNMEA    0.00000      
+5.12564         NAV_HEADING          iDivisorNMEA    147.07000    
+5.12564         GPS_HEADING          iDivisorNMEA    355.55000    
+5.13962         MSG_UDP              iDivisorNMEA    $MXPGN,01F803,281C,000000000000281F*19
+ 
+5.13963         NAV_LAT              iDivisorNMEA    -22.91280    
+5.13963         NAV_LONG             iDivisorNMEA    -43.15990    
+5.13964         NAV_SPEED            iDivisorNMEA    0.00000      
+5.13964         NAV_HEADING          iDivisorNMEA    147.06000    
+5.13964         GPS_HEADING          iDivisorNMEA    355.55000    
+5.14058         MSG_UDP              iDivisorNMEA    $MXPGN,01F804,281C,00000068AAC1281F*62
+ 
+5.14060         NAV_LAT              iDivisorNMEA    -22.91280    
+5.14060         NAV_LONG             iDivisorNMEA    -43.15990    
+5.14060         NAV_SPEED            iDivisorNMEA    0.00000      
+5.14060         NAV_HEADING          iDivisorNMEA    147.06000    
+5.14060         GPS_HEADING          iDivisorNMEA    355.55000    
+5.17554         MSG_UDP              iDivisorNMEA    $AGRSA,-13.77,A,,V*50
+ 
+5.17556         NAV_LAT              iDivisorNMEA    -22.91280    
+5.17556         NAV_LONG             iDivisorNMEA    -43.15990    
+5.17556         NAV_SPEED            iDivisorNMEA    0.00000      
+5.17556         NAV_HEADING          iDivisorNMEA    147.06000    
+5.17556         GPS_HEADING          iDivisorNMEA    355.55000    
+5.17556         ANGULO_LEME          iDivisorNMEA    -13.77000    
+5.19457         MSG_UDP              iDivisorNMEA    $MXPGN,00FF00,280B,0002000005049913*19
+ 
+5.19458         NAV_LAT              iDivisorNMEA    -22.91280    
+5.19458         NAV_LONG             iDivisorNMEA    -43.15990    
+5.19458         NAV_SPEED            iDivisorNMEA    0.00000      
+5.19458         NAV_HEADING          iDivisorNMEA    147.06000    
+5.19458         GPS_HEADING          iDivisorNMEA    355.55000    
+5.22561         MSG_UDP              iDivisorNMEA    $GPHDT,147.06,T*01
+ 
+5.22565         NAV_LAT              iDivisorNMEA    -22.91280    
+5.22565         NAV_LONG             iDivisorNMEA    -43.15990    
+5.22565         NAV_SPEED            iDivisorNMEA    0.00000      
+5.22565         NAV_HEADING          iDivisorNMEA    147.06000    
+5.22566         GPS_HEADING          iDivisorNMEA    355.55000    
+5.23867         MSG_UDP              iDivisorNMEA    $MXPGN,01F803,281C,0000000000003C20*16
+ 
+5.23871         NAV_LAT              iDivisorNMEA    -22.91280    
+5.23871         NAV_LONG             iDivisorNMEA    -43.15990    
+5.23872         NAV_SPEED            iDivisorNMEA    0.00000      
+5.23872         NAV_HEADING          iDivisorNMEA    147.06000    
+5.23872         GPS_HEADING          iDivisorNMEA    355.55000    
+5.23968         MSG_UDP              iDivisorNMEA    $MXPGN,01F804,281C,00000068AAC13C20*6D
+ 
+5.23971         NAV_LAT              iDivisorNMEA    -22.91280    
+5.23971         NAV_LONG             iDivisorNMEA    -43.15990    
+5.23971         NAV_SPEED            iDivisorNMEA    0.00000      
+5.23971         NAV_HEADING          iDivisorNMEA    147.06000    
+5.23972         GPS_HEADING          iDivisorNMEA    355.55000    
+5.27566         MSG_UDP              iDivisorNMEA    $AGRSA,-13.77,A,,V*50
+ 
+5.27569         NAV_LAT              iDivisorNMEA    -22.91280    
+5.27569         NAV_LONG             iDivisorNMEA    -43.15990    
+5.27570         NAV_SPEED            iDivisorNMEA    0.00000      
+5.27570         NAV_HEADING          iDivisorNMEA    147.06000    
+5.27570         GPS_HEADING          iDivisorNMEA    355.55000    
+5.27571         ANGULO_LEME          iDivisorNMEA    -13.77000    
+5.27870         MSG_UDP              iDivisorNMEA    $MXPGN,01FF2C,7808,FFFFFFFF9F411760*6D
+ 
+5.27872         NAV_LAT              iDivisorNMEA    -22.91280    
+5.27873         NAV_LONG             iDivisorNMEA    -43.15990    
+5.27873         NAV_SPEED            iDivisorNMEA    0.00000      
+5.27873         NAV_HEADING          iDivisorNMEA    147.06000    
+5.27873         GPS_HEADING          iDivisorNMEA    355.55000    
+5.28592         MSG_UDP              iDivisorNMEA    $MXPGN,01FF2C,7808,FFFF7FFFFFFF7F61*10
+ 
+5.28595         NAV_LAT              iDivisorNMEA    -22.91280    
+5.28595         NAV_LONG             iDivisorNMEA    -43.15990    
+5.28596         NAV_SPEED            iDivisorNMEA    0.00000      
+5.28596         NAV_HEADING          iDivisorNMEA    147.06000    
+5.28597         GPS_HEADING          iDivisorNMEA    355.55000    
+5.29619         MSG_UDP              iDivisorNMEA    $MXPGN,01FF2C,7808,FF7FFFFFFFFFFF62*62
+ 
+5.29621         NAV_LAT              iDivisorNMEA    -22.91280    
+5.29621         NAV_LONG             iDivisorNMEA    -43.15990    
+5.29621         NAV_SPEED            iDivisorNMEA    0.00000      
+5.29622         NAV_HEADING          iDivisorNMEA    147.06000    
+5.29622         GPS_HEADING          iDivisorNMEA    355.55000    
+5.30639         MSG_UDP              iDivisorNMEA    $MXPGN,01FF2C,7808,FFFFFFFF7FFFFF63*63
+ 
+5.30640         NAV_LAT              iDivisorNMEA    -22.91280    
+5.30641         NAV_LONG             iDivisorNMEA    -43.15990    
+5.30641         NAV_SPEED            iDivisorNMEA    0.00000      
+5.30641         NAV_HEADING          iDivisorNMEA    147.06000    
+5.30641         GPS_HEADING          iDivisorNMEA    355.55000    
+5.31660         MSG_UDP              iDivisorNMEA    $MXPGN,00FF3D,6808,7FFFFF0DFFFF9F41*6E
+ 
+5.31662         NAV_LAT              iDivisorNMEA    -22.91280    
+5.31662         NAV_LONG             iDivisorNMEA    -43.15990    
+5.31663         NAV_SPEED            iDivisorNMEA    0.00000      
+5.31663         NAV_HEADING          iDivisorNMEA    147.06000    
+5.31663         GPS_HEADING          iDivisorNMEA    355.55000    
+5.32676         MSG_UDP              iDivisorNMEA    $GPHDT,147.06,T*01
+ 
+5.32678         NAV_LAT              iDivisorNMEA    -22.91280    
+5.32678         NAV_LONG             iDivisorNMEA    -43.15990    
+5.32679         NAV_SPEED            iDivisorNMEA    0.00000      
+5.32679         NAV_HEADING          iDivisorNMEA    147.06000    
+5.32679         GPS_HEADING          iDivisorNMEA    355.55000    
+5.33870         MSG_UDP              iDivisorNMEA    $MXPGN,01F803,281C,0000000000005021*62
+ 
+5.33874         NAV_LAT              iDivisorNMEA    -22.91280    
+5.33874         NAV_LONG             iDivisorNMEA    -43.15990    
+5.33874         NAV_SPEED            iDivisorNMEA    0.00000      
+5.33874         NAV_HEADING          iDivisorNMEA    147.06000    
+5.33875         GPS_HEADING          iDivisorNMEA    355.55000    
+5.34788         MSG_UDP              iDivisorNMEA    $MXPGN,01F804,281C,00000068AAC15021*19
+ 
+5.34789         NAV_LAT              iDivisorNMEA    -22.91280    
+5.34789         NAV_LONG             iDivisorNMEA    -43.15990    
+5.34790         NAV_SPEED            iDivisorNMEA    0.00000      
+5.34790         NAV_HEADING          iDivisorNMEA    147.06000    
+5.34790         GPS_HEADING          iDivisorNMEA    355.55000    
+5.35802         MSG_UDP              iDivisorNMEA    !AIVDO,1,1,,,B:UOH3P3wk?8mP=18D3Q3wwUkP06,0*70
+ 
+5.35802         NAV_LAT              iDivisorNMEA    -22.91280    
+5.35802         NAV_LONG             iDivisorNMEA    -43.15990    
+5.35802         NAV_SPEED            iDivisorNMEA    0.00000      
+5.35802         NAV_HEADING          iDivisorNMEA    147.06000    
+5.35802         GPS_HEADING          iDivisorNMEA    355.55000    
+5.37560         MSG_UDP              iDivisorNMEA    $AGRSA,-13.77,A,,V*50
+ 
+5.37560         NAV_LAT              iDivisorNMEA    -22.91280    
+5.37561         NAV_LONG             iDivisorNMEA    -43.15990    
+5.37561         NAV_SPEED            iDivisorNMEA    0.00000      
+5.37561         NAV_HEADING          iDivisorNMEA    147.06000    
+5.37561         GPS_HEADING          iDivisorNMEA    355.55000    
+5.37561         ANGULO_LEME          iDivisorNMEA    -13.77000    
+5.42650         MSG_UDP              iDivisorNMEA    $GPHDT,147.06,T*01
+ 
+5.42651         NAV_LAT              iDivisorNMEA    -22.91280    
+5.42651         NAV_LONG             iDivisorNMEA    -43.15990    
+5.42651         NAV_SPEED            iDivisorNMEA    0.00000      
+5.42651         NAV_HEADING          iDivisorNMEA    147.06000    
+5.42651         GPS_HEADING          iDivisorNMEA    355.55000    
+5.43868         MSG_UDP              iDivisorNMEA    $MXPGN,01F803,281C,0000000000006422*66
+ 
+5.43868         NAV_LAT              iDivisorNMEA    -22.91280    
+5.43868         NAV_LONG             iDivisorNMEA    -43.15990    
+5.43869         NAV_SPEED            iDivisorNMEA    0.00000      
+5.43869         NAV_HEADING          iDivisorNMEA    147.06000    
+5.43869         GPS_HEADING          iDivisorNMEA    355.55000    
+5.43955         MSG_UDP              iDivisorNMEA    $MXPGN,01F804,281C,0000008942C16422*14
+ 
+5.43956         NAV_LAT              iDivisorNMEA    -22.91280    
+5.43956         NAV_LONG             iDivisorNMEA    -43.15990    
+5.43956         NAV_SPEED            iDivisorNMEA    0.00000      
+5.43956         NAV_HEADING          iDivisorNMEA    147.06000    
+5.43956         GPS_HEADING          iDivisorNMEA    355.55000    
+5.44965         MSG_UDP              iDivisorNMEA    $MXPGN,00FF00,280B,0002000005049913*19
+ 
+5.44967         NAV_LAT              iDivisorNMEA    -22.91280    
+5.44967         NAV_LONG             iDivisorNMEA    -43.15990    
+5.44968         NAV_SPEED            iDivisorNMEA    0.00000      
+5.44968         NAV_HEADING          iDivisorNMEA    147.06000    
+5.44968         GPS_HEADING          iDivisorNMEA    355.55000    
+5.47555         MSG_UDP              iDivisorNMEA    $AGRSA,-13.77,A,,V*50
+ 
+5.47557         NAV_LAT              iDivisorNMEA    -22.91280    
+5.47557         NAV_LONG             iDivisorNMEA    -43.15990    
+5.47557         NAV_SPEED            iDivisorNMEA    0.00000      
+5.47557         NAV_HEADING          iDivisorNMEA    147.06000    
+5.47557         GPS_HEADING          iDivisorNMEA    355.55000    
+5.47558         ANGULO_LEME          iDivisorNMEA    -13.77000    
+5.49765         MSG_UDP              iDivisorNMEA    !AIVDM,1,1,,A,3:U7;pPP00trGvmjpjgP10Sn210P,0*44
+ 
+5.49766         NAV_LAT              iDivisorNMEA    -22.91280    
+5.49766         NAV_LONG             iDivisorNMEA    -43.15990    
+5.49767         NAV_SPEED            iDivisorNMEA    0.00000      
+5.49767         NAV_HEADING          iDivisorNMEA    147.06000    
+5.49767         GPS_HEADING          iDivisorNMEA    355.55000    
+5.50354         MSG_UDP              iDivisorNMEA    $MXPGN,00FF19,7808,0000000202009F41*15
+ 
+5.50356         NAV_LAT              iDivisorNMEA    -22.91280    
+5.50357         NAV_LONG             iDivisorNMEA    -43.15990    
+5.50357         NAV_SPEED            iDivisorNMEA    0.00000      
+5.50357         NAV_HEADING          iDivisorNMEA    147.06000    
+5.50357         GPS_HEADING          iDivisorNMEA    355.55000    
+5.52560         MSG_UDP              iDivisorNMEA    $GPHDT,147.05,T*02
+ 
+5.52563         NAV_LAT              iDivisorNMEA    -22.91280    
+5.52563         NAV_LONG             iDivisorNMEA    -43.15990    
+5.52563         NAV_SPEED            iDivisorNMEA    0.00000      
+5.52564         NAV_HEADING          iDivisorNMEA    147.06000    
+5.52564         GPS_HEADING          iDivisorNMEA    355.55000    
+5.52853         MSG_UDP              iDivisorNMEA    $MXPGN,00FF19,7808,0080000A0A009F41*1D
+ 
+5.52856         NAV_LAT              iDivisorNMEA    -22.91280    
+5.52856         NAV_LONG             iDivisorNMEA    -43.15990    
+5.52856         NAV_SPEED            iDivisorNMEA    0.00000      
+5.52857         NAV_HEADING          iDivisorNMEA    147.05000    
+5.52857         GPS_HEADING          iDivisorNMEA    355.55000    
+5.53866         MSG_UDP              iDivisorNMEA    $MXPGN,01F803,281C,0000000000007823*6A
+ 
+5.53868         NAV_LAT              iDivisorNMEA    -22.91280    
+5.53868         NAV_LONG             iDivisorNMEA    -43.15990    
+5.53868         NAV_SPEED            iDivisorNMEA    0.00000      
+5.53868         NAV_HEADING          iDivisorNMEA    147.05000    
+5.53868         GPS_HEADING          iDivisorNMEA    355.55000    
+5.54785         MSG_UDP              iDivisorNMEA    $MXPGN,01F804,281C,0000008942C17823*18
+ 
+5.54786         NAV_LAT              iDivisorNMEA    -22.91280    
+5.54786         NAV_LONG             iDivisorNMEA    -43.15990    
+5.54786         NAV_SPEED            iDivisorNMEA    0.00000      
+5.54786         NAV_HEADING          iDivisorNMEA    147.05000    
+5.54786         GPS_HEADING          iDivisorNMEA    355.55000    
+5.57658         MSG_UDP              iDivisorNMEA    $AGRSA,-13.77,A,,V*50
+ 
+5.57659         NAV_LAT              iDivisorNMEA    -22.91280    
+5.57659         NAV_LONG             iDivisorNMEA    -43.15990    
+5.57659         NAV_SPEED            iDivisorNMEA    0.00000      
+5.57660         NAV_HEADING          iDivisorNMEA    147.05000    
+5.57660         GPS_HEADING          iDivisorNMEA    355.55000    
+5.57660         ANGULO_LEME          iDivisorNMEA    -13.77000    
+5.57766         MSG_UDP              iDivisorNMEA    !AIVDM,1,1,,B,3:U8?H0P1ItrK>mjqI:2h?wl21Pk,0*1E
+ 
+5.57768         NAV_LAT              iDivisorNMEA    -22.91280    
+5.57768         NAV_LONG             iDivisorNMEA    -43.15990    
+5.57768         NAV_SPEED            iDivisorNMEA    0.00000      
+5.57768         NAV_HEADING          iDivisorNMEA    147.05000    
+5.57768         GPS_HEADING          iDivisorNMEA    355.55000    
+5.58687         MSG_UDP              iDivisorNMEA    $MXPGN,00FF8C,6808,FFF1097195F49F41*61
+ 
+5.58688         NAV_LAT              iDivisorNMEA    -22.91280    
+5.58689         NAV_LONG             iDivisorNMEA    -43.15990    
+5.58689         NAV_SPEED            iDivisorNMEA    0.00000      
+5.58689         NAV_HEADING          iDivisorNMEA    147.05000    
+5.58689         GPS_HEADING          iDivisorNMEA    355.55000    
+5.59704         MSG_UDP              iDivisorNMEA    $MXPGN,00FF19,7806,000000000B019F41*68
+ 
+5.59705         NAV_LAT              iDivisorNMEA    -22.91280    
+5.59705         NAV_LONG             iDivisorNMEA    -43.15990    
+5.59705         NAV_SPEED            iDivisorNMEA    0.00000      
+5.59706         NAV_HEADING          iDivisorNMEA    147.05000    
+5.59706         GPS_HEADING          iDivisorNMEA    355.55000    
+5.62560         MSG_UDP              iDivisorNMEA    $GPHDT,147.04,T*03
+ 
+5.62563         NAV_LAT              iDivisorNMEA    -22.91280    
+5.62563         NAV_LONG             iDivisorNMEA    -43.15990    
+5.62563         NAV_SPEED            iDivisorNMEA    0.00000      
+5.62564         NAV_HEADING          iDivisorNMEA    147.05000    
+5.62564         GPS_HEADING          iDivisorNMEA    355.55000    
+5.63968         MSG_UDP              iDivisorNMEA    $MXPGN,01F803,281C,0000000000008C24*19
+ 
+5.63971         NAV_LAT              iDivisorNMEA    -22.91280    
+5.63971         NAV_LONG             iDivisorNMEA    -43.15990    
+5.63971         NAV_SPEED            iDivisorNMEA    0.00000      
+5.63972         NAV_HEADING          iDivisorNMEA    147.04000    
+5.63972         GPS_HEADING          iDivisorNMEA    355.55000    
+5.64056         MSG_UDP              iDivisorNMEA    $MXPGN,01F804,281C,0000005E20C18C24*1E
+ 
+5.64059         NAV_LAT              iDivisorNMEA    -22.91280    
+5.64059         NAV_LONG             iDivisorNMEA    -43.15990    
+5.64059         NAV_SPEED            iDivisorNMEA    0.00000      
+5.64060         NAV_HEADING          iDivisorNMEA    147.04000    
+5.64060         GPS_HEADING          iDivisorNMEA    355.55000    
+5.67668         MSG_UDP              iDivisorNMEA    $AGRSA,-13.77,A,,V*50
+ 
+5.67672         NAV_LAT              iDivisorNMEA    -22.91280    
+5.67672         NAV_LONG             iDivisorNMEA    -43.15990    
+5.67672         NAV_SPEED            iDivisorNMEA    0.00000      
+5.67673         NAV_HEADING          iDivisorNMEA    147.04000    
+5.67673         GPS_HEADING          iDivisorNMEA    355.55000    
+5.67674         ANGULO_LEME          iDivisorNMEA    -13.77000    
+5.67677         MSG_UDP              iDivisorNMEA    $SDDPT,2.39,0.00,*73
+ 
+5.67678         NAV_LAT              iDivisorNMEA    -22.91280    
+5.67678         NAV_LONG             iDivisorNMEA    -43.15990    
+5.67679         NAV_SPEED            iDivisorNMEA    0.00000      
+5.67679         NAV_HEADING          iDivisorNMEA    147.04000    
+5.67679         GPS_HEADING          iDivisorNMEA    355.55000    
+5.69363         MSG_UDP              iDivisorNMEA    $MXPGN,00FF00,280B,0002000005049913*19
+ 
+5.69367         NAV_LAT              iDivisorNMEA    -22.91280    
+5.69368         NAV_LONG             iDivisorNMEA    -43.15990    
+5.69368         NAV_SPEED            iDivisorNMEA    0.00000      
+5.69368         NAV_HEADING          iDivisorNMEA    147.04000    
+5.69369         GPS_HEADING          iDivisorNMEA    355.55000    
+5.69785         MSG_UDP              iDivisorNMEA    $MXPGN,01FF0D,780B,FF030000989005C0*15
+ 
+5.69786         NAV_LAT              iDivisorNMEA    -22.91280    
+5.69787         NAV_LONG             iDivisorNMEA    -43.15990    
+5.69787         NAV_SPEED            iDivisorNMEA    0.00000      
+5.69787         NAV_HEADING          iDivisorNMEA    147.04000    
+5.69787         GPS_HEADING          iDivisorNMEA    355.55000    
+5.72560         MSG_UDP              iDivisorNMEA    $GPHDT,147.03,T*04
+ 
+5.72564         NAV_LAT              iDivisorNMEA    -22.91280    
+5.72564         NAV_LONG             iDivisorNMEA    -43.15990    
+5.72565         NAV_SPEED            iDivisorNMEA    0.00000      
+5.72565         NAV_HEADING          iDivisorNMEA    147.04000    
+5.72566         GPS_HEADING          iDivisorNMEA    355.55000    
+5.73875         MSG_UDP              iDivisorNMEA    $MXPGN,01F803,281C,0000000000008C24*19
+ 
+5.73878         NAV_LAT              iDivisorNMEA    -22.91280    
+5.73878         NAV_LONG             iDivisorNMEA    -43.15990    
+5.73879         NAV_SPEED            iDivisorNMEA    0.00000      
+5.73879         NAV_HEADING          iDivisorNMEA    147.03000    
+5.73879         GPS_HEADING          iDivisorNMEA    355.55000    
+5.73958         MSG_UDP              iDivisorNMEA    $MXPGN,01F804,281C,0000005E20C18C24*1E
+ 
+5.73962         NAV_LAT              iDivisorNMEA    -22.91280    
+5.73962         NAV_LONG             iDivisorNMEA    -43.15990    
+5.73963         NAV_SPEED            iDivisorNMEA    0.00000      
+5.73963         NAV_HEADING          iDivisorNMEA    147.03000    
+5.73963         GPS_HEADING          iDivisorNMEA    355.55000    
+5.76775         MSG_UDP              iDivisorNMEA    !AIVDM,1,1,,B,3:U7?hE000tr`NmjrdCVE9800Dj:,0*10
+ 
+5.76777         NAV_LAT              iDivisorNMEA    -22.91280    
+5.76777         NAV_LONG             iDivisorNMEA    -43.15990    
+5.76778         NAV_SPEED            iDivisorNMEA    0.00000      
+5.76778         NAV_HEADING          iDivisorNMEA    147.03000    
+5.76778         GPS_HEADING          iDivisorNMEA    355.55000    
+5.77658         MSG_UDP              iDivisorNMEA    $AGRSA,-13.77,A,,V*50
+ 
+5.77663         NAV_LAT              iDivisorNMEA    -22.91280    
+5.77663         NAV_LONG             iDivisorNMEA    -43.15990    
+5.77663         NAV_SPEED            iDivisorNMEA    0.00000      
+5.77664         NAV_HEADING          iDivisorNMEA    147.03000    
+5.77664         GPS_HEADING          iDivisorNMEA    355.55000    
+5.77665         ANGULO_LEME          iDivisorNMEA    -13.77000    
+5.77878         MSG_UDP              iDivisorNMEA    $VWVLW,3198.38,N,1536.19,N*4D
+ 
+5.77880         NAV_LAT              iDivisorNMEA    -22.91280    
+5.77880         NAV_LONG             iDivisorNMEA    -43.15990    
+5.77880         NAV_SPEED            iDivisorNMEA    0.00000      
+5.77880         NAV_HEADING          iDivisorNMEA    147.03000    
+5.77880         GPS_HEADING          iDivisorNMEA    355.55000    
+5.78899         MSG_UDP              iDivisorNMEA    $MXPGN,00FF3C,3808,8000F8FE00009F41*1C
+ 
+5.78901         NAV_LAT              iDivisorNMEA    -22.91280    
+5.78901         NAV_LONG             iDivisorNMEA    -43.15990    
+5.78901         NAV_SPEED            iDivisorNMEA    0.00000      
+5.78901         NAV_HEADING          iDivisorNMEA    147.03000    
+5.78901         GPS_HEADING          iDivisorNMEA    355.55000    
+5.82650         MSG_UDP              iDivisorNMEA    $GPHDT,147.03,T*04
+ 
+5.82653         NAV_LAT              iDivisorNMEA    -22.91280    
+5.82653         NAV_LONG             iDivisorNMEA    -43.15990    
+5.82653         NAV_SPEED            iDivisorNMEA    0.00000      
+5.82653         NAV_HEADING          iDivisorNMEA    147.03000    
+5.82653         GPS_HEADING          iDivisorNMEA    355.55000    
+5.83862         MSG_UDP              iDivisorNMEA    $MXPGN,01F803,281C,000000000000B426*16
+ 
+5.83865         NAV_LAT              iDivisorNMEA    -22.91280    
+5.83865         NAV_LONG             iDivisorNMEA    -43.15990    
+5.83865         NAV_SPEED            iDivisorNMEA    0.00000      
+5.83865         NAV_HEADING          iDivisorNMEA    147.03000    
+5.83866         GPS_HEADING          iDivisorNMEA    355.55000    
+5.83968         MSG_UDP              iDivisorNMEA    $MXPGN,01F804,281C,0000005E20C1B426*11
+ 
+5.83971         NAV_LAT              iDivisorNMEA    -22.91280    
+5.83972         NAV_LONG             iDivisorNMEA    -43.15990    
+5.83972         NAV_SPEED            iDivisorNMEA    0.00000      
+5.83972         NAV_HEADING          iDivisorNMEA    147.03000    
+5.83972         GPS_HEADING          iDivisorNMEA    355.55000    

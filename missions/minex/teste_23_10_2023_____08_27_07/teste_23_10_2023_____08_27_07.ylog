@@ -1,0 +1,9 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% LOG FILE:       ./teste_23_10_2023_____08_27_07/teste_23_10_2023_____08_27_07.ylog
+%% FILE OPENED ON  Wed Dec 31 21:00:00 1969
+%% LOGSTART           1698060426.758614
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+0.6218059  MOOS_DEBUG           pHelmIvP             pHelmIvP AllStop: ManualOverride 
+253.3544   MOOS_DEBUG           pHelmIvP             pHelmIvP AllStop: clear 
+272.1504   MOOS_DEBUG           pHelmIvP             pHelmIvP AllStop: ManualOverride 
+291.9617   MOOS_DEBUG           pHelmIvP             pHelmIvP AllStop: clear 

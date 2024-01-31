@@ -15,7 +15,7 @@ LongOrigin = -70.330400
 // Antler configuration  block
 ProcessConfig = ANTLER
 {
-  MSBetweenLaunches = 200
+  MSBetweenLaunches = 100
 
   Run = MOOSDB		@ NewConsole = false
   Run = uSimMarine	@ NewConsole = false
@@ -25,7 +25,7 @@ ProcessConfig = ANTLER
   Run = uProcessWatch   @ NewConsole = false
   Run = pHelmIvP	@ NewConsole = false
   //Run = iSerial	@ NewConsole = false
-  Run = iDivisorNMEA	@ NewConsole = false
+  //Run = iDivisorNMEA	@ NewConsole = false
 }
 
 //------------------------------------------
@@ -77,7 +77,7 @@ ProcessConfig = pHelmIvP
   Domain     = course:0:359:360
   Domain     = speed:0:4:21
 
-  IVP_BEHAVIOR_DIR = ../../lib
+  IVP_BEHAVIOR_DIR = /home/dueiras/VSNT/moos-ivp-vsnt/lib
   //IVP_BEHAVIOR_DIR = /Users/mikerb/Research/moos-ivp-extend/trunk/lib
 
   ok_skew = any
@@ -159,22 +159,4 @@ ProcessConfig = pNodeReporter
   VESSEL_TYPE   = KAYAK
 }
 
-
-//-------------------------------------------
-// iSerial bloco de config
-
-//ProcessConfig = iSerial
-//{
-//   AppTick   = 4
-//   CommsTick = 4
-//}
-
-//------------------------------------------------
-// iDivisorNMEA config block
-
-ProcessConfig = iDivisorNMEA
-{
-   AppTick   = 4
-   CommsTick = 4
-}
 
