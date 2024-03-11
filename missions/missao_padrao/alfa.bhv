@@ -3,19 +3,12 @@
 initialize   DEPLOY  = false
 initialize   RETURN  = false
 initialize   END  = false
-initialize   STATION_KEEP = false
 initialize   SEARCH  = true
-initialize   AVOID   = true
 initialize   CONSTANT_HEADING = false 
 
 set MODE = ACTIVE {
   DEPLOY = true
-} INACTIVE
-
-set MODE = STATION-KEEPING {
-  MODE = ACTIVE
-  STATION_KEEP = true
-}                       
+} INACTIVE                   
 
 set MODE = RETURNING {
   MODE = ACTIVE
@@ -79,8 +72,9 @@ Behavior = BHV_ConstantHeading
 Behavior = BHV_Waypoint
 {
   name       = waypt_return
-  pwt        = 100
+  pwt        = 150
   condition  = (RETURN = true)
   condition  = (DEPLOY = true)
+  updates    = RETURN_UPDATE // parameter = value # parameter = value # ... # parameter = value
 
 }

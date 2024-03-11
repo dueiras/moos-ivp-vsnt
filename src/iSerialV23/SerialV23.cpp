@@ -42,12 +42,20 @@ Serial::Serial()
   desired_gear = 0;
   last_gear = 0;
 
+  limite_positivo = 40; //Ângulo máximo do leme
+  limite_negativo = -55;
+
   min_thrust = 5;
 
   //Simulador de ângulo do leme
   //angulo_leme = 0; //Começa zerado
   
   thrust_convertido = "NULL"; //Valor inicial de máquina
+
+  erro_maximo_devagar = 1.7;
+  erro_minimo_devagar = -erro_maximo_devagar;
+  erro_maximo_rapido = 5.5;
+  erro_minimo_rapido = -erro_maximo_rapido;
 
 }
 

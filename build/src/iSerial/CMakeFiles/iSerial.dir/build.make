@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/moos-ivp-douglas
+CMAKE_SOURCE_DIR = /home/dueiras/vsnt/moos-ivp-vsnt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/moos-ivp-douglas/build
+CMAKE_BINARY_DIR = /home/dueiras/vsnt/moos-ivp-vsnt/build
 
 # Include any dependencies generated for this target.
 include src/iSerial/CMakeFiles/iSerial.dir/depend.make
@@ -72,44 +72,44 @@ include src/iSerial/CMakeFiles/iSerial.dir/flags.make
 src/iSerial/CMakeFiles/iSerial.dir/Serial.cpp.o: src/iSerial/CMakeFiles/iSerial.dir/flags.make
 src/iSerial/CMakeFiles/iSerial.dir/Serial.cpp.o: ../src/iSerial/Serial.cpp
 src/iSerial/CMakeFiles/iSerial.dir/Serial.cpp.o: src/iSerial/CMakeFiles/iSerial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moos-ivp-douglas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/iSerial/CMakeFiles/iSerial.dir/Serial.cpp.o"
-	cd /home/moos-ivp-douglas/build/src/iSerial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/iSerial/CMakeFiles/iSerial.dir/Serial.cpp.o -MF CMakeFiles/iSerial.dir/Serial.cpp.o.d -o CMakeFiles/iSerial.dir/Serial.cpp.o -c /home/moos-ivp-douglas/src/iSerial/Serial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dueiras/vsnt/moos-ivp-vsnt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/iSerial/CMakeFiles/iSerial.dir/Serial.cpp.o"
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build/src/iSerial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/iSerial/CMakeFiles/iSerial.dir/Serial.cpp.o -MF CMakeFiles/iSerial.dir/Serial.cpp.o.d -o CMakeFiles/iSerial.dir/Serial.cpp.o -c /home/dueiras/vsnt/moos-ivp-vsnt/src/iSerial/Serial.cpp
 
 src/iSerial/CMakeFiles/iSerial.dir/Serial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iSerial.dir/Serial.cpp.i"
-	cd /home/moos-ivp-douglas/build/src/iSerial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moos-ivp-douglas/src/iSerial/Serial.cpp > CMakeFiles/iSerial.dir/Serial.cpp.i
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build/src/iSerial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dueiras/vsnt/moos-ivp-vsnt/src/iSerial/Serial.cpp > CMakeFiles/iSerial.dir/Serial.cpp.i
 
 src/iSerial/CMakeFiles/iSerial.dir/Serial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iSerial.dir/Serial.cpp.s"
-	cd /home/moos-ivp-douglas/build/src/iSerial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moos-ivp-douglas/src/iSerial/Serial.cpp -o CMakeFiles/iSerial.dir/Serial.cpp.s
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build/src/iSerial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dueiras/vsnt/moos-ivp-vsnt/src/iSerial/Serial.cpp -o CMakeFiles/iSerial.dir/Serial.cpp.s
 
 src/iSerial/CMakeFiles/iSerial.dir/Serial_Info.cpp.o: src/iSerial/CMakeFiles/iSerial.dir/flags.make
 src/iSerial/CMakeFiles/iSerial.dir/Serial_Info.cpp.o: ../src/iSerial/Serial_Info.cpp
 src/iSerial/CMakeFiles/iSerial.dir/Serial_Info.cpp.o: src/iSerial/CMakeFiles/iSerial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moos-ivp-douglas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/iSerial/CMakeFiles/iSerial.dir/Serial_Info.cpp.o"
-	cd /home/moos-ivp-douglas/build/src/iSerial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/iSerial/CMakeFiles/iSerial.dir/Serial_Info.cpp.o -MF CMakeFiles/iSerial.dir/Serial_Info.cpp.o.d -o CMakeFiles/iSerial.dir/Serial_Info.cpp.o -c /home/moos-ivp-douglas/src/iSerial/Serial_Info.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dueiras/vsnt/moos-ivp-vsnt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/iSerial/CMakeFiles/iSerial.dir/Serial_Info.cpp.o"
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build/src/iSerial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/iSerial/CMakeFiles/iSerial.dir/Serial_Info.cpp.o -MF CMakeFiles/iSerial.dir/Serial_Info.cpp.o.d -o CMakeFiles/iSerial.dir/Serial_Info.cpp.o -c /home/dueiras/vsnt/moos-ivp-vsnt/src/iSerial/Serial_Info.cpp
 
 src/iSerial/CMakeFiles/iSerial.dir/Serial_Info.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iSerial.dir/Serial_Info.cpp.i"
-	cd /home/moos-ivp-douglas/build/src/iSerial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moos-ivp-douglas/src/iSerial/Serial_Info.cpp > CMakeFiles/iSerial.dir/Serial_Info.cpp.i
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build/src/iSerial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dueiras/vsnt/moos-ivp-vsnt/src/iSerial/Serial_Info.cpp > CMakeFiles/iSerial.dir/Serial_Info.cpp.i
 
 src/iSerial/CMakeFiles/iSerial.dir/Serial_Info.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iSerial.dir/Serial_Info.cpp.s"
-	cd /home/moos-ivp-douglas/build/src/iSerial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moos-ivp-douglas/src/iSerial/Serial_Info.cpp -o CMakeFiles/iSerial.dir/Serial_Info.cpp.s
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build/src/iSerial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dueiras/vsnt/moos-ivp-vsnt/src/iSerial/Serial_Info.cpp -o CMakeFiles/iSerial.dir/Serial_Info.cpp.s
 
 src/iSerial/CMakeFiles/iSerial.dir/main.cpp.o: src/iSerial/CMakeFiles/iSerial.dir/flags.make
 src/iSerial/CMakeFiles/iSerial.dir/main.cpp.o: ../src/iSerial/main.cpp
 src/iSerial/CMakeFiles/iSerial.dir/main.cpp.o: src/iSerial/CMakeFiles/iSerial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moos-ivp-douglas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/iSerial/CMakeFiles/iSerial.dir/main.cpp.o"
-	cd /home/moos-ivp-douglas/build/src/iSerial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/iSerial/CMakeFiles/iSerial.dir/main.cpp.o -MF CMakeFiles/iSerial.dir/main.cpp.o.d -o CMakeFiles/iSerial.dir/main.cpp.o -c /home/moos-ivp-douglas/src/iSerial/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dueiras/vsnt/moos-ivp-vsnt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/iSerial/CMakeFiles/iSerial.dir/main.cpp.o"
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build/src/iSerial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/iSerial/CMakeFiles/iSerial.dir/main.cpp.o -MF CMakeFiles/iSerial.dir/main.cpp.o.d -o CMakeFiles/iSerial.dir/main.cpp.o -c /home/dueiras/vsnt/moos-ivp-vsnt/src/iSerial/main.cpp
 
 src/iSerial/CMakeFiles/iSerial.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iSerial.dir/main.cpp.i"
-	cd /home/moos-ivp-douglas/build/src/iSerial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moos-ivp-douglas/src/iSerial/main.cpp > CMakeFiles/iSerial.dir/main.cpp.i
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build/src/iSerial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dueiras/vsnt/moos-ivp-vsnt/src/iSerial/main.cpp > CMakeFiles/iSerial.dir/main.cpp.i
 
 src/iSerial/CMakeFiles/iSerial.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iSerial.dir/main.cpp.s"
-	cd /home/moos-ivp-douglas/build/src/iSerial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moos-ivp-douglas/src/iSerial/main.cpp -o CMakeFiles/iSerial.dir/main.cpp.s
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build/src/iSerial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dueiras/vsnt/moos-ivp-vsnt/src/iSerial/main.cpp -o CMakeFiles/iSerial.dir/main.cpp.s
 
 # Object files for target iSerial
 iSerial_OBJECTS = \
@@ -124,20 +124,21 @@ iSerial_EXTERNAL_OBJECTS =
 ../bin/iSerial: src/iSerial/CMakeFiles/iSerial.dir/Serial_Info.cpp.o
 ../bin/iSerial: src/iSerial/CMakeFiles/iSerial.dir/main.cpp.o
 ../bin/iSerial: src/iSerial/CMakeFiles/iSerial.dir/build.make
-../bin/iSerial: /home/moos-ivp/build/MOOS/MOOSCore/lib/libMOOS.a
+../bin/iSerial: /usr/lib/x86_64-linux-gnu/libserial.so
+../bin/iSerial: /home/dueiras/vsnt/moos-ivp/build/MOOS/MOOSCore/lib/libMOOS.a
 ../bin/iSerial: src/iSerial/CMakeFiles/iSerial.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/moos-ivp-douglas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../../../bin/iSerial"
-	cd /home/moos-ivp-douglas/build/src/iSerial && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/iSerial.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dueiras/vsnt/moos-ivp-vsnt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../../../bin/iSerial"
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build/src/iSerial && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/iSerial.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/iSerial/CMakeFiles/iSerial.dir/build: ../bin/iSerial
 .PHONY : src/iSerial/CMakeFiles/iSerial.dir/build
 
 src/iSerial/CMakeFiles/iSerial.dir/clean:
-	cd /home/moos-ivp-douglas/build/src/iSerial && $(CMAKE_COMMAND) -P CMakeFiles/iSerial.dir/cmake_clean.cmake
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build/src/iSerial && $(CMAKE_COMMAND) -P CMakeFiles/iSerial.dir/cmake_clean.cmake
 .PHONY : src/iSerial/CMakeFiles/iSerial.dir/clean
 
 src/iSerial/CMakeFiles/iSerial.dir/depend:
-	cd /home/moos-ivp-douglas/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/moos-ivp-douglas /home/moos-ivp-douglas/src/iSerial /home/moos-ivp-douglas/build /home/moos-ivp-douglas/build/src/iSerial /home/moos-ivp-douglas/build/src/iSerial/CMakeFiles/iSerial.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dueiras/vsnt/moos-ivp-vsnt /home/dueiras/vsnt/moos-ivp-vsnt/src/iSerial /home/dueiras/vsnt/moos-ivp-vsnt/build /home/dueiras/vsnt/moos-ivp-vsnt/build/src/iSerial /home/dueiras/vsnt/moos-ivp-vsnt/build/src/iSerial/CMakeFiles/iSerial.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/iSerial/CMakeFiles/iSerial.dir/depend
 

@@ -1,5 +1,5 @@
 src/lib/documentation/CMakeFiles/xml-documentation.dir/MOOSAppDocumentation.cpp.o: \
- /home/moos-ivp-douglas/src/lib/documentation/MOOSAppDocumentation.cpp \
+ /home/dueiras/vsnt/moos-ivp-vsnt/src/lib/documentation/MOOSAppDocumentation.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/cstdlib \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -152,13 +152,13 @@ src/lib/documentation/CMakeFiles/xml-documentation.dir/MOOSAppDocumentation.cpp.
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc \
- /home/moos-ivp/ivp/src/lib_mbutil/ColorParse.h \
+ /home/dueiras/vsnt/moos-ivp/ivp/src/lib_mbutil/ColorParse.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/moos-ivp-douglas/src/lib/documentation/MOOSAppDocumentation.h \
- /home/moos-ivp-douglas/src/lib/documentation/tinyxml2.h \
+ /home/dueiras/vsnt/moos-ivp-vsnt/src/lib/documentation/MOOSAppDocumentation.h \
+ /home/dueiras/vsnt/moos-ivp-vsnt/src/lib/documentation/tinyxml2.h \
  /usr/include/c++/11/climits \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -169,7 +169,7 @@ src/lib/documentation/CMakeFiles/xml-documentation.dir/MOOSAppDocumentation.cpp.
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h /usr/include/c++/11/cstring \
  /usr/include/string.h /usr/include/strings.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSUtilityFunctions.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSUtilityFunctions.h \
  /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \

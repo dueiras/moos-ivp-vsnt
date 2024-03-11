@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/moos-ivp-douglas
+CMAKE_SOURCE_DIR = /home/dueiras/vsnt/moos-ivp-vsnt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/moos-ivp-douglas/build
+CMAKE_BINARY_DIR = /home/dueiras/vsnt/moos-ivp-vsnt/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/moos-ivp-douglas/build/CMakeFiles /home/moos-ivp-douglas/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dueiras/vsnt/moos-ivp-vsnt/build/CMakeFiles /home/dueiras/vsnt/moos-ivp-vsnt/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/moos-ivp-douglas/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dueiras/vsnt/moos-ivp-vsnt/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -208,6 +208,19 @@ iSerial/fast:
 .PHONY : iSerial/fast
 
 #=============================================================================
+# Target rules for targets named iSerialV23
+
+# Build rule for target.
+iSerialV23: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 iSerialV23
+.PHONY : iSerialV23
+
+# fast build rule for target.
+iSerialV23/fast:
+	$(MAKE) $(MAKESILENT) -f src/iSerialV23/CMakeFiles/iSerialV23.dir/build.make src/iSerialV23/CMakeFiles/iSerialV23.dir/build
+.PHONY : iSerialV23/fast
+
+#=============================================================================
 # Target rules for targets named iDivisorNMEA
 
 # Build rule for target.
@@ -259,6 +272,97 @@ pUDP_Receiver/fast:
 	$(MAKE) $(MAKESILENT) -f src/pUDP_Receiver/CMakeFiles/pUDP_Receiver.dir/build.make src/pUDP_Receiver/CMakeFiles/pUDP_Receiver.dir/build
 .PHONY : pUDP_Receiver/fast
 
+#=============================================================================
+# Target rules for targets named planchaPID
+
+# Build rule for target.
+planchaPID: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 planchaPID
+.PHONY : planchaPID
+
+# fast build rule for target.
+planchaPID/fast:
+	$(MAKE) $(MAKESILENT) -f src/planchaPID/CMakeFiles/planchaPID.dir/build.make src/planchaPID/CMakeFiles/planchaPID.dir/build
+.PHONY : planchaPID/fast
+
+#=============================================================================
+# Target rules for targets named xbow440
+
+# Build rule for target.
+xbow440: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 xbow440
+.PHONY : xbow440
+
+# fast build rule for target.
+xbow440/fast:
+	$(MAKE) $(MAKESILENT) -f src/pIMU/CMakeFiles/xbow440.dir/build.make src/pIMU/CMakeFiles/xbow440.dir/build
+.PHONY : xbow440/fast
+
+#=============================================================================
+# Target rules for targets named pIMU
+
+# Build rule for target.
+pIMU: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pIMU
+.PHONY : pIMU
+
+# fast build rule for target.
+pIMU/fast:
+	$(MAKE) $(MAKESILENT) -f src/pIMU/CMakeFiles/pIMU.dir/build.make src/pIMU/CMakeFiles/pIMU.dir/build
+.PHONY : pIMU/fast
+
+#=============================================================================
+# Target rules for targets named serial
+
+# Build rule for target.
+serial: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 serial
+.PHONY : serial
+
+# fast build rule for target.
+serial/fast:
+	$(MAKE) $(MAKESILENT) -f src/pIMU/serial/CMakeFiles/serial.dir/build.make src/pIMU/serial/CMakeFiles/serial.dir/build
+.PHONY : serial/fast
+
+#=============================================================================
+# Target rules for targets named serial_example
+
+# Build rule for target.
+serial_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 serial_example
+.PHONY : serial_example
+
+# fast build rule for target.
+serial_example/fast:
+	$(MAKE) $(MAKESILENT) -f src/pIMU/serial/CMakeFiles/serial_example.dir/build.make src/pIMU/serial/CMakeFiles/serial_example.dir/build
+.PHONY : serial_example/fast
+
+#=============================================================================
+# Target rules for targets named pSimpass
+
+# Build rule for target.
+pSimpass: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pSimpass
+.PHONY : pSimpass
+
+# fast build rule for target.
+pSimpass/fast:
+	$(MAKE) $(MAKESILENT) -f src/pSimpass/CMakeFiles/pSimpass.dir/build.make src/pSimpass/CMakeFiles/pSimpass.dir/build
+.PHONY : pSimpass/fast
+
+#=============================================================================
+# Target rules for targets named pSimpass_autogen
+
+# Build rule for target.
+pSimpass_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pSimpass_autogen
+.PHONY : pSimpass_autogen
+
+# fast build rule for target.
+pSimpass_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f src/pSimpass/CMakeFiles/pSimpass_autogen.dir/build.make src/pSimpass/CMakeFiles/pSimpass_autogen.dir/build
+.PHONY : pSimpass_autogen/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -267,16 +371,24 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... pSimpass_autogen"
 	@echo "... BHV_SimpleWaypoint"
 	@echo "... NMEAParserLib"
 	@echo "... graphics"
 	@echo "... iDivisorNMEA"
 	@echo "... iSerial"
+	@echo "... iSerialV23"
 	@echo "... libais"
 	@echo "... pExampleApp"
+	@echo "... pIMU"
 	@echo "... pOdometry"
+	@echo "... pSimpass"
 	@echo "... pUDP_Receiver"
 	@echo "... pXRelayTest"
+	@echo "... planchaPID"
+	@echo "... serial"
+	@echo "... serial_example"
+	@echo "... xbow440"
 	@echo "... xml-documentation"
 .PHONY : help
 

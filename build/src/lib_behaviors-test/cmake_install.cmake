@@ -1,4 +1,4 @@
-# Install script for directory: /home/moos-ivp-douglas/src/lib_behaviors-test
+# Install script for directory: /home/dueiras/vsnt/moos-ivp-vsnt/src/lib_behaviors-test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

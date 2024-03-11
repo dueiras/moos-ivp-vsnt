@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
      bool connected = SIMPASS::getInstancePtr()->GetNetworkManager()->Connect();
 
     MoosConnect App;
-    App.Run("pSimpass", "alpha.moos");
+    App.Run("pSimpass", "simpass.moos");
    
 
      return a.exec();

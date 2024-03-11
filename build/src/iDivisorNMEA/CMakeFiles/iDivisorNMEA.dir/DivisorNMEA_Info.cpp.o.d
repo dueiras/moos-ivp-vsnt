@@ -1,5 +1,5 @@
 src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/DivisorNMEA_Info.cpp.o: \
- /home/moos-ivp-douglas/src/iDivisorNMEA/DivisorNMEA_Info.cpp \
+ /home/dueiras/vsnt/moos-ivp-vsnt/src/iDivisorNMEA/DivisorNMEA_Info.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/cstdlib \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -147,10 +147,10 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/DivisorNMEA_Info.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/moos-ivp-douglas/src/iDivisorNMEA/DivisorNMEA_Info.h \
- /home/moos-ivp/ivp/src/lib_mbutil/ColorParse.h \
+ /home/dueiras/vsnt/moos-ivp-vsnt/src/iDivisorNMEA/DivisorNMEA_Info.h \
+ /home/dueiras/vsnt/moos-ivp/ivp/src/lib_mbutil/ColorParse.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/moos-ivp/ivp/src/lib_mbutil/ReleaseInfo.h
+ /home/dueiras/vsnt/moos-ivp/ivp/src/lib_mbutil/ReleaseInfo.h

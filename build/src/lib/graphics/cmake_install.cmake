@@ -1,4 +1,4 @@
-# Install script for directory: /home/moos-ivp-douglas/src/lib/graphics
+# Install script for directory: /home/dueiras/vsnt/moos-ivp-vsnt/src/lib/graphics
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -69,6 +69,12 @@ protected:
     void ProcessOwnShipMachinePercentageCommand( const std::vector<QString>& msg );
     void ProcessOwnShipRudderCommand( const std::vector<QString>& msg );
     void ProcessOpenCPNGPSRouteCommand( const std::vector<QString>& msg );
+    void ProcessShipPosition( const std::vector<QString>& msg );
+    void ProcessShipHeading(const std::vector<QString> &msg);
+    void ProcessOwnShipRudderAngle(const std::vector<QString> &msg);
+    void ProcessShipSpeed(const std::vector<QString> &msg);
+
+
 
     //
     void ProcessMOOS_MANUAL_OVERRIDE_REQUESTCommand( const std::vector<QString>& msg );

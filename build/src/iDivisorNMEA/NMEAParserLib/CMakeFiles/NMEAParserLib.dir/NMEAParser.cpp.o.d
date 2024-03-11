@@ -1,5 +1,5 @@
 src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEAParser.cpp.o: \
- /home/moos-ivp-douglas/src/iDivisorNMEA/NMEAParserLib/NMEAParser.cpp \
+ /home/dueiras/vsnt/moos-ivp-vsnt/src/iDivisorNMEA/NMEAParserLib/NMEAParser.cpp \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -27,7 +27,7 @@ src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEAParser.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \
- /home/moos-ivp-douglas/src/iDivisorNMEA/NMEAParserLib/NMEAParser.h \
+ /home/dueiras/vsnt/moos-ivp-vsnt/src/iDivisorNMEA/NMEAParserLib/NMEAParser.h \
  /usr/include/c++/11/cstddef \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -73,7 +73,7 @@ src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEAParser.cpp.o: \
  /usr/include/c++/11/bits/invoke.h \
  /usr/include/c++/11/bits/stl_multimap.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/moos-ivp-douglas/src/iDivisorNMEA/NMEAParserLib/NMEAParserData.h \
+ /home/dueiras/vsnt/moos-ivp-vsnt/src/iDivisorNMEA/NMEAParserLib/NMEAParserData.h \
  /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h \
  /usr/include/x86_64-linux-gnu/bits/timex.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
@@ -86,8 +86,8 @@ src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEAParser.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
- /home/moos-ivp-douglas/src/iDivisorNMEA/NMEAParserLib/NMEAParserPacket.h \
- /home/moos-ivp-douglas/src/iDivisorNMEA/NMEAParserLib/NMEASentenceGGA.h \
+ /home/dueiras/vsnt/moos-ivp-vsnt/src/iDivisorNMEA/NMEAParserLib/NMEAParserPacket.h \
+ /home/dueiras/vsnt/moos-ivp-vsnt/src/iDivisorNMEA/NMEAParserLib/NMEASentenceGGA.h \
  /usr/include/c++/11/string /usr/include/c++/11/bits/stringfwd.h \
  /usr/include/c++/11/bits/char_traits.h \
  /usr/include/c++/11/bits/postypes.h /usr/include/c++/11/cwchar \
@@ -142,7 +142,7 @@ src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEAParser.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /home/moos-ivp-douglas/src/iDivisorNMEA/NMEAParserLib/NMEASentenceBase.h \
- /home/moos-ivp-douglas/src/iDivisorNMEA/NMEAParserLib/NMEASentenceGSV.h \
- /home/moos-ivp-douglas/src/iDivisorNMEA/NMEAParserLib/NMEASentenceGSA.h \
- /home/moos-ivp-douglas/src/iDivisorNMEA/NMEAParserLib/NMEASentenceRMC.h
+ /home/dueiras/vsnt/moos-ivp-vsnt/src/iDivisorNMEA/NMEAParserLib/NMEASentenceBase.h \
+ /home/dueiras/vsnt/moos-ivp-vsnt/src/iDivisorNMEA/NMEAParserLib/NMEASentenceGSV.h \
+ /home/dueiras/vsnt/moos-ivp-vsnt/src/iDivisorNMEA/NMEAParserLib/NMEASentenceGSA.h \
+ /home/dueiras/vsnt/moos-ivp-vsnt/src/iDivisorNMEA/NMEAParserLib/NMEASentenceRMC.h

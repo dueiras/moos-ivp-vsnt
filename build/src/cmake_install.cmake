@@ -1,4 +1,4 @@
-# Install script for directory: /home/moos-ivp-douglas/src
+# Install script for directory: /home/dueiras/vsnt/moos-ivp-vsnt/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,14 +44,18 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/moos-ivp-douglas/build/src/lib/cmake_install.cmake")
-  include("/home/moos-ivp-douglas/build/src/lib_behaviors-test/cmake_install.cmake")
-  include("/home/moos-ivp-douglas/build/src/pExampleApp/cmake_install.cmake")
-  include("/home/moos-ivp-douglas/build/src/pXRelayTest/cmake_install.cmake")
-  include("/home/moos-ivp-douglas/build/src/pOdometry/cmake_install.cmake")
-  include("/home/moos-ivp-douglas/build/src/iSerial/cmake_install.cmake")
-  include("/home/moos-ivp-douglas/build/src/iDivisorNMEA/cmake_install.cmake")
-  include("/home/moos-ivp-douglas/build/src/pUDP_Receiver/cmake_install.cmake")
+  include("/home/dueiras/vsnt/moos-ivp-vsnt/build/src/lib/cmake_install.cmake")
+  include("/home/dueiras/vsnt/moos-ivp-vsnt/build/src/lib_behaviors-test/cmake_install.cmake")
+  include("/home/dueiras/vsnt/moos-ivp-vsnt/build/src/pExampleApp/cmake_install.cmake")
+  include("/home/dueiras/vsnt/moos-ivp-vsnt/build/src/pXRelayTest/cmake_install.cmake")
+  include("/home/dueiras/vsnt/moos-ivp-vsnt/build/src/pOdometry/cmake_install.cmake")
+  include("/home/dueiras/vsnt/moos-ivp-vsnt/build/src/iSerial/cmake_install.cmake")
+  include("/home/dueiras/vsnt/moos-ivp-vsnt/build/src/iSerialV23/cmake_install.cmake")
+  include("/home/dueiras/vsnt/moos-ivp-vsnt/build/src/iDivisorNMEA/cmake_install.cmake")
+  include("/home/dueiras/vsnt/moos-ivp-vsnt/build/src/pUDP_Receiver/cmake_install.cmake")
+  include("/home/dueiras/vsnt/moos-ivp-vsnt/build/src/planchaPID/cmake_install.cmake")
+  include("/home/dueiras/vsnt/moos-ivp-vsnt/build/src/pIMU/cmake_install.cmake")
+  include("/home/dueiras/vsnt/moos-ivp-vsnt/build/src/pSimpass/cmake_install.cmake")
 
 endif()
 

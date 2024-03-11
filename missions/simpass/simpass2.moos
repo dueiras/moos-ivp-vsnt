@@ -11,7 +11,6 @@ MOOSTimeWarp = 1
 LatOrigin = -22.93335 
 LongOrigin = -43.136666665 
 
- 
 
 //------------------------------------------
 // Antler configuration  block
@@ -21,21 +20,13 @@ ProcessConfig = ANTLER
     // Uncomment uSimMarine and comment iDivisorNMEA,iSerial for simulation
     
     Run = MOOSDB		@ NewConsole = false
-    //Run = uSimMarineV22	@ NewConsole = false
     Run = pNodeReporter	@ NewConsole = false
     Run = pHelmIvP	@ NewConsole = false
-    //Run = pIMU	@ NewConsole = false
-    //Run = iSerial	@ NewConsole = false  
-    //Run = pMarinePIDV22	@ NewConsole = false
     Run = planchaPID @ NewConsole = false
-    //Run = uProcessWatch   @ NewConsole = false
     //Run = pContactMgrV20	@ NewConsole = false
-    Run = pMarineViewer	@ NewConsole = false 
-    //Run = iDivisorNMEA	@ NewConsole = false
+    //Run = pMarineViewer	@ NewConsole = false 
     //Run = pLogger	@ NewConsole = false
-    //Run = iRemoteLite	@ NewConsole = false
     Run = pRealm	      @ NewConsole = false
-    //Run = pShare	      @ NewConsole = false
     
     
   }
@@ -65,31 +56,6 @@ ProcessConfig = pShare
 
 }*/ 
 
-//------------------------------------------
-// uSimMarine config block
-
-ProcessConfig = uSimMarineV22
-{
-  AppTick	= 10
-  CommsTick	= 10
-
-START_X = -2355.0 
-START_Y = 2355.0 
-  START_SPEED   = 0
-START_HEADING = 0.0 
-
-  PREFIX        = NAV
-  thrust_map =  "0:0,18:1, 48:6, 60:9, 62:10, 70:18, 100:28"
-  turn_rate = 50
-}
-
-// pIMUconfig block
-
-ProcessConfig = pIMU
-{
-   AppTick   = 100
-   CommsTick = 100
-}
 
 //------------------------------------------
 // uProcessWatch config block
@@ -131,40 +97,6 @@ ProcessConfig = pHelmIvP
 //  hold_on_apps = pContactMgrV20
 }
 
-//------------------------------------------
-// pMarinePID config block
-
-ProcessConfig = pMarinePIDV22
-{
-  AppTick    = 100
-  CommsTick  = 100
-
-  verbose       = true
-  depth_control = false
-
-  // SIM_INSTABILITY = 20
-
-  // Yaw PID controller
-  yaw_pid_kp		 = 0.8
-  yaw_pid_kd		 = 0.0
-  yaw_pid_ki		 = 0.1 //
-  yaw_pid_integral_limit = 0.07
-
-  // Speed PID controller
-  speed_pid_kp		 = 1.0
-  speed_pid_kd		 = 0.0
-  speed_pid_ki		 = 0.1
-  speed_pid_integral_limit = 0.07
-
-  //MAXIMUMS
-  //maxrudder    = 100*/ 
-  maxrudder    = 35 //Limite máximo do leme 
-  maxthrust    = 100
-
-  // A non-zero SPEED_FACTOR overrides use of SPEED_PID
-  // Will set DESIRED_THRUST = DESIRED_SPEED * SPEED_FACTOR
-  speed_factor = 20
-}
 
 //------------------------------------------
 // pMarineViewer config block

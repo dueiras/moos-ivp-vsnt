@@ -197,7 +197,7 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/DivisorNMEA.cpp.o: ../src/iDivisorN
   /usr/include/c++/11/typeinfo \
   /usr/include/c++/11/bits/nested_exception.h \
   /usr/include/c++/11/bits/streambuf.tcc \
-  /home/moos-ivp/ivp/src/lib_mbutil/MBUtils.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_mbutil/MBUtils.h \
   /usr/include/c++/11/vector \
   /usr/include/c++/11/bits/stl_uninitialized.h \
   /usr/include/c++/11/bits/stl_vector.h \
@@ -214,7 +214,7 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/DivisorNMEA.cpp.o: ../src/iDivisorN
   /usr/include/c++/11/bits/stl_list.h \
   /usr/include/c++/11/bits/allocated_ptr.h \
   /usr/include/c++/11/bits/list.tcc \
-  /home/moos-ivp/ivp/src/lib_apputil/ACTable.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_apputil/ACTable.h \
   ../src/iDivisorNMEA/libais/ais.h \
   /usr/include/c++/11/array \
   /usr/include/c++/11/utility \
@@ -258,7 +258,7 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/DivisorNMEA.cpp.o: ../src/iDivisorN
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
   ../src/iDivisorNMEA/DivisorNMEA.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/AppCasting/include/MOOS/libMOOS/Thirdparty/AppCasting/AppCastingMOOSApp.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/AppCasting/include/MOOS/libMOOS/Thirdparty/AppCasting/AppCastingMOOSApp.h \
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/bits/sstream.tcc \
   /usr/include/c++/11/fstream \
@@ -266,8 +266,8 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/DivisorNMEA.cpp.o: ../src/iDivisorN
   /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
   /usr/include/c++/11/bits/fstream.tcc \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/App/include/MOOS/libMOOS/App/MOOSApp.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSUtilityFunctions.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/App/include/MOOS/libMOOS/App/MOOSApp.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSUtilityFunctions.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -306,23 +306,23 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/DivisorNMEA.cpp.o: ../src/iDivisorN
   /usr/include/c++/11/bits/hashtable_policy.h \
   /usr/include/c++/11/bits/enable_special_members.h \
   /usr/include/c++/11/bits/unordered_map.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/ProcessConfigReader.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSFileReader.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/ProcessConfigReader.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSFileReader.h \
   /usr/include/c++/11/map \
   /usr/include/c++/11/bits/stl_map.h \
   /usr/include/c++/11/bits/stl_multimap.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/SuicidalSleeper.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MemberFuncBinding.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSThread.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSLock.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSScopedLock.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/CommandLineParser.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSScopedPtr.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/CommandLineParser.hxx \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/getpot/include/MOOS/libMOOS/Thirdparty/getpot/GetPot.hpp \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/ProcInfo.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/Macros.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSCommClient.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/SuicidalSleeper.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MemberFuncBinding.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSThread.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSLock.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSScopedLock.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/CommandLineParser.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSScopedPtr.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/CommandLineParser.hxx \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/getpot/include/MOOS/libMOOS/Thirdparty/getpot/GetPot.hpp \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/ProcInfo.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/Macros.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSCommClient.h \
   /usr/include/c++/11/iomanip \
   /usr/include/c++/11/locale \
   /usr/include/c++/11/bits/locale_facets_nonio.h \
@@ -333,37 +333,37 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/DivisorNMEA.cpp.o: ../src/iDivisorN
   /usr/include/c++/11/bits/locale_facets_nonio.tcc \
   /usr/include/c++/11/bits/locale_conv.h \
   /usr/include/c++/11/bits/quoted_string.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSCommObject.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSCommPkt.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/CommsTypes.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSMsg.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/ActiveMailQueue.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/SafeList.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/ScopedLock.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Foundation.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Config.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Platform.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Platform_POSIX.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Bugcheck.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Types.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Event.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Exception.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Event_POSIX.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Mutex.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Mutex_POSIX.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MessageFunction.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/ClientCommsStatus.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/EndToEndAudit.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MulticastNode.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/IPV4Address.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSCommClient.hxx \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSVariable.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSMsg.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/App/include/MOOS/libMOOS/App/ClientDefines.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSAsyncCommClient.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/App/include/MOOS/libMOOS/App/MOOSApp.hxx \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/AppCasting/include/MOOS/libMOOS/Thirdparty/AppCasting/AppCast.h \
-  /home/moos-ivp/MOOS/MOOSGeodesy/libMOOSGeodesy/include/MOOS/libMOOSGeodesy/MOOSGeodesy.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSCommObject.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSCommPkt.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/CommsTypes.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSMsg.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/ActiveMailQueue.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/SafeList.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/ScopedLock.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Foundation.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Config.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Platform.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Platform_POSIX.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Bugcheck.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Types.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Event.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Exception.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Event_POSIX.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Mutex.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Mutex_POSIX.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MessageFunction.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/ClientCommsStatus.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/EndToEndAudit.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MulticastNode.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/IPV4Address.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSCommClient.hxx \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSVariable.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSMsg.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/App/include/MOOS/libMOOS/App/ClientDefines.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSAsyncCommClient.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/App/include/MOOS/libMOOS/App/MOOSApp.hxx \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/AppCasting/include/MOOS/libMOOS/Thirdparty/AppCasting/AppCast.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSGeodesy/libMOOSGeodesy/include/MOOS/libMOOSGeodesy/MOOSGeodesy.h \
   /usr/include/boost/asio.hpp \
   /usr/include/boost/asio/associated_allocator.hpp \
   /usr/include/boost/asio/detail/config.hpp \
@@ -1290,9 +1290,9 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/DivisorNMEA.cpp.o: ../src/iDivisorN
   /usr/include/boost/asio/windows/stream_handle.hpp \
   /usr/include/boost/asio/write_at.hpp \
   /usr/include/boost/asio/impl/write_at.hpp \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSLinuxSerialPort.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSLinuxSerialPort.h \
   /usr/include/x86_64-linux-gnu/sys/signal.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSSerialPort.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSSerialPort.h \
   ../src/iDivisorNMEA/NMEAParserLib/NMEAParser.h \
   ../src/iDivisorNMEA/NMEAParserLib/NMEAParserData.h \
   ../src/iDivisorNMEA/NMEAParserLib/NMEAParserPacket.h \
@@ -1314,7 +1314,9 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/DivisorNMEA.cpp.o: ../src/iDivisorN
   ../src/iDivisorNMEA/libais/ais.h \
   ../src/iDivisorNMEA/libais/ais_bitset.cpp \
   ../src/iDivisorNMEA/libais/ais1_2_3.cpp \
-  /home/moos-ivp/MOOS/MOOSGeodesy/libMOOSGeodesy/include/MOOS/libMOOSGeodesy/MOOSGeodesy.h
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSGeodesy/libMOOSGeodesy/include/MOOS/libMOOSGeodesy/MOOSGeodesy.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSGeodesy/libMOOSGeodesy/MOOSGeodesy.cpp \
+  /usr/include/c++/11/math.h
 
 src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/DivisorNMEA_Info.cpp.o: ../src/iDivisorNMEA/DivisorNMEA_Info.cpp \
   /usr/include/stdc-predef.h \
@@ -1497,13 +1499,13 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/DivisorNMEA_Info.cpp.o: ../src/iDiv
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
   ../src/iDivisorNMEA/DivisorNMEA_Info.h \
-  /home/moos-ivp/ivp/src/lib_mbutil/ColorParse.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_mbutil/ColorParse.h \
   /usr/include/c++/11/vector \
   /usr/include/c++/11/bits/stl_uninitialized.h \
   /usr/include/c++/11/bits/stl_vector.h \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
-  /home/moos-ivp/ivp/src/lib_mbutil/ReleaseInfo.h
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_mbutil/ReleaseInfo.h
 
 src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/main.cpp \
   /usr/include/stdc-predef.h \
@@ -1656,7 +1658,7 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
-  /home/moos-ivp/ivp/src/lib_mbutil/MBUtils.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_mbutil/MBUtils.h \
   /usr/include/c++/11/vector \
   /usr/include/c++/11/bits/stl_uninitialized.h \
   /usr/include/c++/11/bits/stl_vector.h \
@@ -1673,9 +1675,9 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
   /usr/include/c++/11/bits/stl_list.h \
   /usr/include/c++/11/bits/allocated_ptr.h \
   /usr/include/c++/11/bits/list.tcc \
-  /home/moos-ivp/ivp/src/lib_mbutil/ColorParse.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_mbutil/ColorParse.h \
   ../src/iDivisorNMEA/DivisorNMEA.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/AppCasting/include/MOOS/libMOOS/Thirdparty/AppCasting/AppCastingMOOSApp.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/AppCasting/include/MOOS/libMOOS/Thirdparty/AppCasting/AppCastingMOOSApp.h \
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/ios \
@@ -1712,8 +1714,8 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
   /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
   /usr/include/c++/11/bits/fstream.tcc \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/App/include/MOOS/libMOOS/App/MOOSApp.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSUtilityFunctions.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/App/include/MOOS/libMOOS/App/MOOSApp.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSUtilityFunctions.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -1761,26 +1763,26 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
   /usr/include/c++/11/bits/enable_special_members.h \
   /usr/include/c++/11/bits/unordered_map.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/ProcessConfigReader.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSFileReader.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/ProcessConfigReader.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSFileReader.h \
   /usr/include/c++/11/map \
   /usr/include/c++/11/bits/stl_map.h \
   /usr/include/c++/11/bits/stl_multimap.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/SuicidalSleeper.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MemberFuncBinding.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSThread.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSLock.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSScopedLock.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/CommandLineParser.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSScopedPtr.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/CommandLineParser.hxx \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/getpot/include/MOOS/libMOOS/Thirdparty/getpot/GetPot.hpp \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/SuicidalSleeper.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MemberFuncBinding.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSThread.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSLock.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSScopedLock.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/CommandLineParser.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSScopedPtr.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/CommandLineParser.hxx \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/getpot/include/MOOS/libMOOS/Thirdparty/getpot/GetPot.hpp \
   /usr/include/assert.h \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/ProcInfo.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/Macros.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSCommClient.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/ProcInfo.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/Macros.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSCommClient.h \
   /usr/include/c++/11/iomanip \
   /usr/include/c++/11/locale \
   /usr/include/c++/11/bits/locale_facets_nonio.h \
@@ -1804,37 +1806,37 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
   /usr/include/c++/11/bits/atomic_lockfree_defines.h \
   /usr/include/c++/11/backward/auto_ptr.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSCommObject.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSCommPkt.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/CommsTypes.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSMsg.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/ActiveMailQueue.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/SafeList.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/ScopedLock.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Foundation.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Config.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Platform.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Platform_POSIX.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Bugcheck.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Types.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Event.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Exception.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Event_POSIX.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Mutex.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Mutex_POSIX.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MessageFunction.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/ClientCommsStatus.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/EndToEndAudit.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MulticastNode.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/IPV4Address.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSCommClient.hxx \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSVariable.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSMsg.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/App/include/MOOS/libMOOS/App/ClientDefines.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSAsyncCommClient.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/App/include/MOOS/libMOOS/App/MOOSApp.hxx \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/AppCasting/include/MOOS/libMOOS/Thirdparty/AppCasting/AppCast.h \
-  /home/moos-ivp/MOOS/MOOSGeodesy/libMOOSGeodesy/include/MOOS/libMOOSGeodesy/MOOSGeodesy.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSCommObject.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSCommPkt.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/CommsTypes.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSMsg.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/ActiveMailQueue.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/SafeList.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/ScopedLock.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Foundation.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Config.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Platform.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Platform_POSIX.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Bugcheck.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Types.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Event.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Exception.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Event_POSIX.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Mutex.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Mutex_POSIX.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MessageFunction.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/ClientCommsStatus.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/EndToEndAudit.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MulticastNode.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/IPV4Address.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSCommClient.hxx \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSVariable.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSMsg.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/App/include/MOOS/libMOOS/App/ClientDefines.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSAsyncCommClient.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/App/include/MOOS/libMOOS/App/MOOSApp.hxx \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/AppCasting/include/MOOS/libMOOS/Thirdparty/AppCasting/AppCast.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSGeodesy/libMOOSGeodesy/include/MOOS/libMOOSGeodesy/MOOSGeodesy.h \
   /usr/include/boost/asio.hpp \
   /usr/include/boost/asio/associated_allocator.hpp \
   /usr/include/boost/asio/detail/config.hpp \
@@ -2792,19 +2794,25 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
   /usr/include/boost/asio/windows/stream_handle.hpp \
   /usr/include/boost/asio/write_at.hpp \
   /usr/include/boost/asio/impl/write_at.hpp \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSLinuxSerialPort.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSLinuxSerialPort.h \
   /usr/include/x86_64-linux-gnu/sys/signal.h \
-  /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSSerialPort.h \
+  /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSSerialPort.h \
   ../src/iDivisorNMEA/DivisorNMEA_Info.h
 
 
 ../src/iDivisorNMEA/main.cpp:
 
-/home/moos-ivp/ivp/src/lib_mbutil/ReleaseInfo.h:
+/home/dueiras/vsnt/moos-ivp/ivp/src/lib_mbutil/ReleaseInfo.h:
+
+/home/dueiras/vsnt/moos-ivp/ivp/src/lib_mbutil/ColorParse.h:
 
 ../src/iDivisorNMEA/DivisorNMEA_Info.h:
 
 ../src/iDivisorNMEA/DivisorNMEA_Info.cpp:
+
+/usr/include/c++/11/math.h:
+
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSGeodesy/libMOOSGeodesy/MOOSGeodesy.cpp:
 
 ../src/iDivisorNMEA/libais/ais1_2_3.cpp:
 
@@ -2827,6 +2835,8 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 ../src/iDivisorNMEA/NMEAParserLib/NMEAParserData.h:
 
 ../src/iDivisorNMEA/NMEAParserLib/NMEAParser.h:
+
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSSerialPort.h:
 
 /usr/include/x86_64-linux-gnu/sys/signal.h:
 
@@ -2884,8 +2894,6 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/boost/predef/hardware/simd/x86.h:
 
-/usr/include/boost/predef/hardware/simd.h:
-
 /usr/include/boost/predef/hardware.h:
 
 /usr/include/boost/predef/platform/windows_runtime.h:
@@ -2925,6 +2933,8 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 /usr/include/boost/predef/detail/os_detected.h:
 
 /usr/include/boost/predef/os/linux.h:
+
+/usr/include/boost/predef/os/irix.h:
 
 /usr/include/boost/predef/os/haiku.h:
 
@@ -2988,6 +2998,8 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/boost/predef/library.h:
 
+/usr/include/boost/predef/compiler/visualc.h:
+
 /usr/include/boost/predef/compiler/tendra.h:
 
 /usr/include/boost/predef/compiler/sunpro.h:
@@ -2996,11 +3008,11 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/boost/predef/compiler/pgi.h:
 
+/usr/include/boost/predef/compiler/nvcc.h:
+
 /usr/include/boost/predef/compiler/mpw.h:
 
 /usr/include/boost/predef/compiler/microtec.h:
-
-/usr/include/boost/predef/compiler/metaware.h:
 
 /usr/include/boost/predef/compiler/llvm.h:
 
@@ -3021,8 +3033,6 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 /usr/include/boost/predef/detail/comp_detected.h:
 
 /usr/include/boost/predef/compiler/gcc.h:
-
-/usr/include/boost/predef/compiler/ekopath.h:
 
 /usr/include/boost/predef/compiler/edg.h:
 
@@ -3102,17 +3112,15 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/c++/11/bits/locale_conv.h:
 
+/usr/include/boost/asio/detail/posix_mutex.hpp:
+
 /usr/include/boost/asio/detail/mutex.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
 
 /usr/include/boost/asio/impl/error.ipp:
 
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSFileReader.h:
-
 /usr/include/x86_64-linux-gnu/bits/netdb.h:
-
-/usr/include/rpc/netdb.h:
 
 /usr/include/c++/11/bits/predefined_ops.h:
 
@@ -3120,11 +3128,9 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/c++/11/bits/stl_tempbuf.h:
 
-/usr/include/x86_64-linux-gnu/asm/posix_types.h:
+/usr/include/boost/asio/detail/posix_static_mutex.hpp:
 
 /usr/include/linux/posix_types.h:
-
-/home/moos-ivp/ivp/src/lib_mbutil/ColorParse.h:
 
 /usr/include/netinet/in.h:
 
@@ -3133,10 +3139,6 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 /usr/include/netdb.h:
 
 /usr/include/boost/asio/buffered_stream_fwd.hpp:
-
-/usr/include/boost/asio/error.hpp:
-
-/usr/include/asm-generic/errno-base.h:
 
 /usr/include/boost/asio/detail/impl/throw_error.ipp:
 
@@ -3148,9 +3150,7 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/boost/date_time/gregorian_calendar.hpp:
 
-/usr/include/boost/asio/detail/posix_static_mutex.hpp:
-
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSAsyncCommClient.h:
+/usr/include/c++/11/ratio:
 
 /usr/include/boost/cerrno.hpp:
 
@@ -3166,17 +3166,7 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/boost/asio/basic_stream_socket.hpp:
 
-/usr/include/boost/predef/hardware/simd/ppc.h:
-
-/usr/include/x86_64-linux-gnu/bits/socket.h:
-
-/usr/include/boost/asio/query.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/fp-logb.h:
-
-/usr/include/boost/predef/compiler/nvcc.h:
-
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Event_POSIX.h:
 
 /usr/include/boost/asio/local/connect_pair.hpp:
 
@@ -3184,9 +3174,11 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
 
-/usr/include/boost/asio/detail/conditionally_enabled_event.hpp:
+/usr/include/boost/asio/prefer.hpp:
 
-/usr/include/boost/asio/ip/basic_resolver.hpp:
+/usr/include/boost/exception/exception.hpp:
+
+/usr/include/boost/asio/detail/resolve_op.hpp:
 
 /usr/include/boost/asio/detail/throw_exception.hpp:
 
@@ -3206,19 +3198,13 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
-
 /usr/include/x86_64-linux-gnu/bits/local_lim.h:
 
 /usr/include/boost/mpl/aux_/lambda_arity_param.hpp:
 
-/usr/include/c++/11/backward/auto_ptr.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
-
 /usr/include/boost/asio/detail/assert.hpp:
+
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Mutex.h:
 
 /usr/include/boost/asio/detail/noncopyable.hpp:
 
@@ -3226,11 +3212,11 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/c++/11/locale:
 
-/usr/include/boost/asio/impl/buffered_write_stream.hpp:
-
 /usr/include/boost/asio/ip/detail/endpoint.hpp:
 
 /usr/include/boost/asio/traits/connect_member.hpp:
+
+/usr/include/boost/asio/execution/start.hpp:
 
 /usr/include/boost/asio/traits/query_member.hpp:
 
@@ -3243,8 +3229,6 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 /usr/include/boost/asio/detail/thread_info_base.hpp:
 
 /usr/include/boost/asio/execution/detail/as_operation.hpp:
-
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/ProcInfo.h:
 
 /usr/include/boost/asio/generic/stream_protocol.hpp:
 
@@ -3262,6 +3246,8 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/boost/asio/system_executor.hpp:
 
+/usr/include/boost/asio/execution/schedule.hpp:
+
 /usr/include/c++/11/bits/vector.tcc:
 
 /usr/include/boost/type_traits/detail/config.hpp:
@@ -3273,10 +3259,6 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 /usr/include/boost/asio/traits/set_value_free.hpp:
 
 /usr/include/boost/asio/traits/query_static_constexpr_member.hpp:
-
-/usr/include/c++/11/bits/hash_bytes.h:
-
-/usr/include/boost/asio/execution/set_value.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 
@@ -3290,19 +3272,9 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/c++/11/bits/stl_heap.h:
 
-/usr/include/boost/asio/execution/impl/receiver_invocation_error.ipp:
-
-/usr/include/boost/predef/compiler/gcc_xml.h:
-
-/usr/include/boost/system/detail/generic_category.hpp:
-
 /usr/include/boost/asio/execution/receiver_invocation_error.hpp:
 
 /usr/include/boost/asio/detail/atomic_count.hpp:
-
-/usr/include/boost/asio/detail/memory.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
 /usr/include/c++/11/atomic:
 
@@ -3311,6 +3283,12 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 /usr/include/boost/predef/library/std/_prefix.h:
 
 /usr/include/boost/asio/execution/execute.hpp:
+
+/usr/include/boost/asio/ip/basic_resolver.hpp:
+
+/usr/include/boost/asio/detail/pop_options.hpp:
+
+/usr/include/boost/asio/detail/type_traits.hpp:
 
 /usr/include/boost/version.hpp:
 
@@ -3342,85 +3320,73 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/boost/asio/detail/config.hpp:
 
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSCommPkt.h:
-
 /usr/include/boost/asio.hpp:
 
 /usr/include/asm-generic/ioctl.h:
 
 /usr/include/boost/type_traits/is_base_of.hpp:
 
-/home/moos-ivp/MOOS/MOOSGeodesy/libMOOSGeodesy/include/MOOS/libMOOSGeodesy/MOOSGeodesy.h:
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/AppCasting/include/MOOS/libMOOS/Thirdparty/AppCasting/AppCast.h:
 
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+/usr/include/boost/mpl/aux_/na_spec.hpp:
 
-/usr/include/boost/numeric/conversion/detail/numeric_cast_traits.hpp:
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
-/usr/include/c++/11/ratio:
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSVariable.h:
 
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/AppCasting/include/MOOS/libMOOS/Thirdparty/AppCasting/AppCast.h:
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSCommClient.hxx:
 
-/usr/include/boost/asio/traits/prefer_free.hpp:
+/usr/include/boost/asio/error.hpp:
 
-/usr/include/boost/asio/detail/timer_queue_ptime.hpp:
+/usr/include/asm-generic/errno-base.h:
 
-/usr/include/boost/asio/detail/strand_service.hpp:
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Mutex_POSIX.h:
 
-/usr/include/boost/asio/detail/pop_options.hpp:
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Exception.h:
 
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/App/include/MOOS/libMOOS/App/MOOSApp.hxx:
+/usr/include/boost/asio/execution/impl/receiver_invocation_error.ipp:
 
-/usr/include/x86_64-linux-gnu/bits/struct_stat.h:
+/usr/include/boost/predef/compiler/gcc_xml.h:
 
-/usr/include/signal.h:
+/usr/include/boost/system/detail/generic_category.hpp:
 
-/usr/include/boost/asio/prefer.hpp:
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Event.h:
 
-/usr/include/boost/predef/os/irix.h:
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Platform_POSIX.h:
 
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSCommClient.hxx:
+/usr/include/boost/asio/detail/handler_alloc_helpers.hpp:
 
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MulticastNode.h:
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Config.h:
 
-/usr/include/boost/checked_delete.hpp:
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSMsg.h:
 
-/usr/include/c++/11/bits/exception_defines.h:
+/usr/include/boost/date_time/constrained_value.hpp:
 
-/usr/include/boost/mpl/aux_/numeric_cast_utils.hpp:
+/usr/include/boost/predef/hardware/simd/ppc.h:
 
-/usr/include/boost/asio/packaged_task.hpp:
+/usr/include/x86_64-linux-gnu/bits/socket.h:
 
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Mutex.h:
+/usr/include/boost/asio/query.hpp:
 
-/usr/include/boost/system/detail/system_category_posix.hpp:
+/usr/include/boost/asio/execution/set_value.hpp:
 
-/usr/include/boost/asio/io_context.hpp:
+/usr/include/c++/11/bits/hash_bytes.h:
 
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Event.h:
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
 
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Platform_POSIX.h:
+/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:
 
-/usr/include/boost/asio/detail/thread_group.hpp:
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSCommPkt.h:
 
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Platform.h:
+/usr/include/boost/smart_ptr/detail/sp_thread_pause.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+/usr/include/boost/asio/execution/any_executor.hpp:
 
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Foundation.h:
-
-/usr/include/boost/asio/basic_waitable_timer.hpp:
-
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/ActiveMailQueue.h:
+/usr/include/c++/11/bits/quoted_string.h:
 
 /usr/include/boost/config/platform/linux.hpp:
 
 /usr/include/boost/smart_ptr/detail/sp_convertible.hpp:
-
-/usr/include/boost/regex_fwd.hpp:
-
-/usr/include/c++/11/bits/locale_facets_nonio.tcc:
-
-/usr/include/boost/date_time/gregorian/gregorian_types.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
@@ -3434,37 +3400,49 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/boost/asio/detail/reactive_socket_accept_op.hpp:
 
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/EndToEndAudit.h:
-
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/CommandLineParser.h:
-
-/usr/include/c++/11/bits/locale_facets.tcc:
-
 /usr/include/c++/11/bits/locale_facets_nonio.h:
 
-/usr/include/boost/asio/execution/start.hpp:
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/Macros.h:
 
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSCommClient.h:
+/usr/include/x86_64-linux-gnu/asm/posix_types.h:
 
-/usr/include/boost/asio/detail/handler_alloc_helpers.hpp:
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/CommandLineParser.h:
 
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Types.h:
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSScopedLock.h:
 
-/usr/include/c++/11/bits/stl_multimap.h:
+/usr/include/boost/asio/detail/memory.hpp:
 
-/usr/include/boost/mpl/apply_wrap.hpp:
+/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/getpot/include/MOOS/libMOOS/Thirdparty/getpot/GetPot.hpp:
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSLock.h:
 
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSScopedPtr.h:
+/usr/include/boost/asio/detail/impl/timer_queue_set.ipp:
 
-/usr/include/boost/asio/detail/posix_mutex.hpp:
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSThread.h:
 
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSScopedLock.h:
+/usr/include/c++/11/backward/auto_ptr.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/usr/include/x86_64-linux-gnu/sys/ttydefaults.h:
+
+/usr/include/boost/regex_fwd.hpp:
+
+/usr/include/c++/11/bits/locale_facets_nonio.tcc:
+
+/usr/include/boost/date_time/gregorian/gregorian_types.hpp:
+
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/SuicidalSleeper.h:
 
 /usr/include/boost/asio/traits/execute_free.hpp:
 
 /usr/include/c++/11/bits/std_thread.h:
+
+/usr/include/c++/11/bits/stl_multimap.h:
+
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSUtilityFunctions.h:
 
 /usr/include/c++/11/bits/stl_map.h:
 
@@ -3472,9 +3450,13 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/x86_64-linux-gnu/sys/un.h:
 
-/usr/include/boost/exception/exception.hpp:
+/usr/include/boost/asio/buffered_read_stream.hpp:
 
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/ProcessConfigReader.h:
+/usr/include/rpc/netdb.h:
+
+/usr/include/boost/predef/compiler/metaware.h:
+
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/ProcessConfigReader.h:
 
 /usr/include/c++/11/bits/unordered_map.h:
 
@@ -3505,8 +3487,6 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 /usr/include/c++/11/algorithm:
 
 /usr/include/boost/asio/ip/v6_only.hpp:
-
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/Macros.h:
 
 /usr/include/c++/11/bits/ostream.tcc:
 
@@ -3542,13 +3522,7 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/boost/numeric/conversion/numeric_cast_traits.hpp:
 
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSUtilityFunctions.h:
-
-/usr/include/boost/asio/detail/type_traits.hpp:
-
-/usr/include/boost/asio/execution/schedule.hpp:
-
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/App/include/MOOS/libMOOS/App/MOOSApp.h:
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/App/include/MOOS/libMOOS/App/MOOSApp.h:
 
 /usr/include/asm-generic/posix_types.h:
 
@@ -3564,9 +3538,9 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/c++/11/sstream:
 
-/usr/include/boost/asio/execution/any_executor.hpp:
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/AppCasting/include/MOOS/libMOOS/Thirdparty/AppCasting/AppCastingMOOSApp.h:
 
-/usr/include/c++/11/bits/quoted_string.h:
+/usr/include/boost/preprocessor/detail/auto_rec.hpp:
 
 ../src/iDivisorNMEA/DivisorNMEA.h:
 
@@ -3580,9 +3554,15 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/c++/11/bits/allocated_ptr.h:
 
+/usr/include/boost/mpl/aux_/config/has_xxx.hpp:
+
+/usr/include/assert.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
 /usr/include/c++/11/bits/std_function.h:
+
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSAsyncCommClient.h:
 
 /usr/include/boost/preprocessor/control/expr_iif.hpp:
 
@@ -3598,6 +3578,8 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/boost/asio/execution/allocator.hpp:
 
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/ClientCommsStatus.h:
+
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
 
 /usr/include/c++/11/bits/list.tcc:
@@ -3605,10 +3587,6 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 /usr/include/boost/asio/detail/consuming_buffers.hpp:
 
 /usr/include/boost/asio/deadline_timer.hpp:
-
-/usr/include/assert.h:
-
-/usr/include/boost/mpl/aux_/config/has_xxx.hpp:
 
 /usr/include/boost/shared_ptr.hpp:
 
@@ -3640,13 +3618,7 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/boost/asio/traits/bulk_execute_member.hpp:
 
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSMsg.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
-
-/usr/include/boost/asio/detail/concurrency_hint.hpp:
-
-/usr/include/c++/11/bits/functexcept.h:
 
 /usr/include/x86_64-linux-gnu/bits/getopt_core.h:
 
@@ -3654,9 +3626,15 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/boost/type_traits/conditional.hpp:
 
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Config.h:
-
 /usr/include/boost/asio/detail/throw_error.hpp:
+
+/usr/include/boost/config/stdlib/libstdcpp3.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_stat.h:
+
+/usr/include/signal.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
@@ -3684,8 +3662,6 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/boost/asio/detail/posix_thread.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
-
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
 /usr/include/boost/preprocessor/arithmetic/inc.hpp:
@@ -3707,6 +3683,8 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 /usr/include/x86_64-linux-gnu/sys/eventfd.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/App/include/MOOS/libMOOS/App/MOOSApp.hxx:
 
 /usr/include/c++/11/bits/char_traits.h:
 
@@ -3766,6 +3744,10 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/boost/asio/detail/call_stack.hpp:
 
+/usr/include/boost/predef/hardware/simd.h:
+
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/EndToEndAudit.h:
+
 /usr/include/x86_64-linux-gnu/bits/posix_opt.h:
 
 /usr/include/c++/11/bits/stl_algobase.h:
@@ -3773,6 +3755,10 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
 /usr/include/boost/asio/detail/string_view.hpp:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/boost/numeric/conversion/detail/numeric_cast_traits.hpp:
 
 /usr/include/boost/asio/execution/prefer_only.hpp:
 
@@ -3804,8 +3790,6 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/c++/11/debug/debug.h:
 
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSVariable.h:
-
 /usr/include/features-time64.h:
 
 /usr/include/c++/11/system_error:
@@ -3820,11 +3804,7 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/features.h:
 
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Mutex_POSIX.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSLock.h:
 
 /usr/include/x86_64-linux-gnu/sys/ioctl.h:
 
@@ -3846,6 +3826,10 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/c++/11/vector:
 
+/usr/include/boost/mpl/aux_/config/integral.hpp:
+
+/usr/include/c++/11/bits/align.h:
+
 /usr/include/c++/11/bits/specfun.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
@@ -3853,8 +3837,6 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 ../src/iDivisorNMEA/DivisorNMEA.cpp:
 
 /usr/include/boost/asio/impl/connect.hpp:
-
-/usr/include/c++/11/bits/stl_raw_storage_iter.h:
 
 /usr/include/c++/11/ostream:
 
@@ -3872,13 +3854,11 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/boost/config.hpp:
 
+/usr/include/boost/predef/compiler/ekopath.h:
+
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/App/include/MOOS/libMOOS/App/ClientDefines.h:
+
 /usr/include/x86_64-linux-gnu/bits/time64.h:
-
-/usr/include/boost/is_placeholder.hpp:
-
-/usr/include/boost/asio/execution/impl/bad_executor.ipp:
-
-/usr/include/wchar.h:
 
 /usr/include/boost/predef/library/std/vacpp.h:
 
@@ -3887,6 +3867,8 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 /usr/include/x86_64-linux-gnu/bits/statx-generic.h:
 
 /usr/include/boost/date_time/gregorian/greg_duration_types.hpp:
+
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MemberFuncBinding.h:
 
 /usr/include/boost/asio/posix/descriptor.hpp:
 
@@ -3920,6 +3902,12 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/x86_64-linux-gnu/bits/fcntl.h:
 
+/usr/include/boost/asio/impl/buffered_write_stream.hpp:
+
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSScopedPtr.h:
+
+/usr/include/boost/config/detail/suffix.hpp:
+
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
 /usr/include/boost/asio/system_context.hpp:
@@ -3939,8 +3927,6 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 /usr/include/wctype.h:
 
 /usr/include/boost/asio/local/detail/impl/endpoint.ipp:
-
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MemberFuncBinding.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
 
@@ -3964,6 +3950,8 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/x86_64-linux-gnu/bits/termios-c_cflag.h:
 
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Foundation.h:
+
 /usr/include/x86_64-linux-gnu/bits/termios-misc.h:
 
 /usr/include/boost/asio/traits/set_error_member.hpp:
@@ -3983,10 +3971,6 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 /usr/include/x86_64-linux-gnu/bits/sigthread.h:
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
-
-/usr/include/c++/11/bits/basic_string.tcc:
-
-/usr/include/c++/11/bits/algorithmfwd.h:
 
 /usr/include/c++/11/bits/cxxabi_forced.h:
 
@@ -4030,17 +4014,15 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/c++/11/functional:
 
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MessageFunction.h:
-
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
 
+/home/dueiras/vsnt/moos-ivp/ivp/src/lib_mbutil/MBUtils.h:
+
 /usr/include/c++/11/bitset:
 
 /usr/include/c++/11/bits/stl_iterator_base_types.h:
-
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/AppCasting/include/MOOS/libMOOS/Thirdparty/AppCasting/AppCastingMOOSApp.h:
 
 /usr/include/boost/mpl/void_fwd.hpp:
 
@@ -4067,6 +4049,8 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 /usr/include/c++/11/bits/ios_base.h:
 
 /usr/include/boost/asio/detail/epoll_reactor.hpp:
+
+/usr/include/boost/config/detail/posix_features.hpp:
 
 /usr/include/c++/11/iterator:
 
@@ -4096,19 +4080,13 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/poll.h:
 
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Exception.h:
-
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
-
-/usr/include/boost/config/stdlib/libstdcpp3.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
-
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Bugcheck.h:
 
 /usr/include/boost/numeric/conversion/int_float_mixture_enum.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/termios-c_iflag.h:
+
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Platform.h:
 
 /usr/include/c++/11/cwctype:
 
@@ -4132,6 +4110,8 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/boost/asio/local/stream_protocol.hpp:
 
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+
 /usr/include/boost/predef/architecture/x86/64.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
@@ -4141,8 +4121,6 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 /usr/include/c++/11/bits/locale_classes.h:
 
 /usr/include/boost/asio/detail/winsock_init.hpp:
-
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/App/include/MOOS/libMOOS/App/ClientDefines.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
 
@@ -4176,6 +4154,16 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
+/usr/include/boost/is_placeholder.hpp:
+
+/usr/include/wchar.h:
+
+/usr/include/boost/asio/execution/impl/bad_executor.ipp:
+
+/usr/include/boost/system/detail/system_category_posix.hpp:
+
+/usr/include/boost/asio/io_context.hpp:
+
 /usr/include/boost/asio/detail/impl/service_registry.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
@@ -4186,6 +4174,12 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/c++/11/initializer_list:
 
+/usr/include/boost/asio/traits/prefer_free.hpp:
+
+/usr/include/boost/asio/detail/timer_queue_ptime.hpp:
+
+/usr/include/boost/asio/detail/strand_service.hpp:
+
 /usr/include/stdc-predef.h:
 
 /usr/include/boost/asio/detail/impl/eventfd_select_interrupter.ipp:
@@ -4194,7 +4188,7 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/netinet/tcp.h:
 
-/usr/include/x86_64-linux-gnu/sys/ttydefaults.h:
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MulticastNode.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
 
@@ -4204,7 +4198,7 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/boost/mpl/aux_/adl_barrier.hpp:
 
-/usr/include/boost/preprocessor/detail/auto_rec.hpp:
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Bugcheck.h:
 
 /usr/include/c++/11/bits/stl_set.h:
 
@@ -4220,13 +4214,17 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/boost/asio/buffered_stream.hpp:
 
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/CommsTypes.h:
-
 /usr/include/c++/11/bits/string_view.tcc:
+
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/ScopedLock.h:
 
 /usr/include/boost/preprocessor/list/detail/fold_right.hpp:
 
 /usr/include/c++/11/ext/string_conversions.h:
+
+/usr/include/boost/smart_ptr/detail/local_sp_deleter.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
 /usr/include/boost/asio/generic/seq_packet_protocol.hpp:
 
@@ -4258,21 +4256,19 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/boost/asio/detail/handler_work.hpp:
 
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/IPV4Address.h:
-
 /usr/include/x86_64-linux-gnu/bits/termios-c_lflag.h:
 
 /usr/include/c++/11/bits/std_abs.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
+/usr/include/c++/11/bits/algorithmfwd.h:
+
+/usr/include/c++/11/bits/basic_string.tcc:
+
 /usr/include/boost/asio/impl/read_until.hpp:
 
 /usr/include/boost/asio/is_executor.hpp:
-
-/usr/include/boost/config/detail/suffix.hpp:
-
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/ScopedLock.h:
 
 /usr/include/c++/11/bits/stl_vector.h:
 
@@ -4292,6 +4288,8 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/c++/11/typeinfo:
 
+/usr/include/c++/11/bits/nested_exception.h:
+
 /usr/include/boost/asio/traits/equality_comparable.hpp:
 
 /usr/include/string.h:
@@ -4300,23 +4298,9 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/boost/mpl/if.hpp:
 
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSThread.h:
-
-/usr/include/c++/11/bits/erase_if.h:
-
 /usr/include/c++/11/bits/atomic_lockfree_defines.h:
 
 /usr/include/boost/asio/ip/tcp.hpp:
-
-/usr/include/c++/11/bits/nested_exception.h:
-
-/usr/include/boost/config/detail/posix_features.hpp:
-
-/home/moos-ivp/ivp/src/lib_mbutil/MBUtils.h:
-
-/usr/include/x86_64-linux-gnu/bits/poll.h:
-
-/usr/include/boost/asio/wait_traits.hpp:
 
 /usr/include/c++/11/bits/stl_uninitialized.h:
 
@@ -4334,21 +4318,19 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/stdint.h:
 
+/usr/include/c++/11/bits/erase_if.h:
+
 /usr/include/boost/asio/connect.hpp:
 
 /usr/include/c++/11/bits/stl_list.h:
 
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSCommObject.h:
+
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
 
-/usr/include/boost/asio/detail/resolve_op.hpp:
+/usr/include/c++/11/bits/stl_raw_storage_iter.h:
 
-/usr/include/boost/predef/compiler/visualc.h:
-
-/home/moos-ivp/ivp/src/lib_apputil/ACTable.h:
-
-/usr/include/boost/type_traits/is_same.hpp:
-
-/usr/include/boost/date_time/int_adapter.hpp:
+/usr/include/boost/mpl/aux_/config/msvc_typename.hpp:
 
 /usr/include/c++/11/bits/std_mutex.h:
 
@@ -4362,23 +4344,15 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/boost/mpl/bool_fwd.hpp:
 
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/SuicidalSleeper.h:
-
-/usr/include/boost/asio/ip/address_v4_iterator.hpp:
-
-/usr/include/boost/numeric/conversion/detail/bounds.hpp:
-
 /usr/include/boost/asio/associated_allocator.hpp:
-
-/usr/include/c++/11/tr1/poly_laguerre.tcc:
-
-/usr/include/boost/asio/compose.hpp:
-
-/usr/include/c++/11/array:
 
 /usr/include/c++/11/tr1/riemann_zeta.tcc:
 
 /usr/include/limits.h:
+
+/usr/include/boost/type_traits/remove_cv.hpp:
+
+/usr/include/boost/mpl/aux_/config/has_apply.hpp:
 
 /usr/include/boost/asio/traits/require_concept_member.hpp:
 
@@ -4387,6 +4361,8 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 /usr/include/c++/11/cstring:
 
 /usr/include/boost/asio/signal_set.hpp:
+
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/getpot/include/MOOS/libMOOS/Thirdparty/getpot/GetPot.hpp:
 
 /usr/include/c++/11/bits/atomic_futex.h:
 
@@ -4398,6 +4374,8 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
+/usr/include/c++/11/bits/locale_facets.tcc:
+
 /usr/include/c++/11/bits/codecvt.h:
 
 /usr/include/c++/11/bits/basic_ios.tcc:
@@ -4405,10 +4383,6 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 /usr/include/c++/11/istream:
 
 /usr/include/boost/date_time/time_resolution_traits.hpp:
-
-/usr/include/boost/asio/detail/posix_signal_blocker.hpp:
-
-/usr/include/boost/asio/basic_streambuf.hpp:
 
 /usr/include/boost/asio/detail/variadic_templates.hpp:
 
@@ -4420,6 +4394,10 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/c++/11/bits/refwrap.h:
 
+/usr/include/boost/asio/detail/conditionally_enabled_event.hpp:
+
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/IPV4Address.h:
+
 /usr/include/c++/11/iomanip:
 
 /usr/include/c++/11/bits/shared_ptr_atomic.h:
@@ -4427,8 +4405,6 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 /usr/include/x86_64-linux-gnu/bits/errno.h:
 
 /usr/include/boost/asio/execution/detail/submit_receiver.hpp:
-
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/SafeList.h:
 
 /usr/include/boost/asio/traits/submit_member.hpp:
 
@@ -4457,10 +4433,6 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 /usr/include/boost/asio/detail/scheduler.hpp:
 
 /usr/include/boost/mpl/aux_/lambda_support.hpp:
-
-/usr/include/boost/asio/defer.hpp:
-
-/usr/include/boost/asio/execution_context.hpp:
 
 /usr/include/boost/asio/impl/execution_context.hpp:
 
@@ -4510,6 +4482,14 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/boost/asio/detail/impl/posix_thread.ipp:
 
+/usr/include/c++/11/bits/functexcept.h:
+
+/usr/include/boost/asio/detail/concurrency_hint.hpp:
+
+/usr/include/boost/asio/basic_streambuf.hpp:
+
+/usr/include/boost/asio/detail/posix_signal_blocker.hpp:
+
 /usr/include/boost/asio/detail/limits.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/sigcontext.h:
@@ -4517,6 +4497,8 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 /usr/include/boost/asio/detail/reactor.hpp:
 
 /usr/include/boost/asio/detail/object_pool.hpp:
+
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Types.h:
 
 /usr/include/boost/preprocessor/detail/is_binary.hpp:
 
@@ -4560,8 +4542,6 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/boost/asio/detail/socket_types.hpp:
 
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSLinuxSerialPort.h:
-
 /usr/include/x86_64-linux-gnu/asm/ioctls.h:
 
 /usr/include/asm-generic/ioctls.h:
@@ -4572,11 +4552,15 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/boost/predef/platform/mingw64.h:
 
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/CommsTypes.h:
+
 /usr/include/x86_64-linux-gnu/bits/ioctl-types.h:
 
-/usr/include/boost/predef/detail/_exception.h:
+/usr/include/x86_64-linux-gnu/bits/poll.h:
 
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSCommObject.h:
+/usr/include/boost/asio/wait_traits.hpp:
+
+/usr/include/boost/predef/detail/_exception.h:
 
 /usr/include/x86_64-linux-gnu/sys/uio.h:
 
@@ -4586,13 +4570,13 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/boost/mpl/less.hpp:
 
-/usr/include/boost/asio/detail/impl/timer_queue_set.ipp:
-
 /usr/include/boost/predef/os.h:
 
 /usr/include/x86_64-linux-gnu/sys/timerfd.h:
 
 /usr/include/x86_64-linux-gnu/bits/timerfd.h:
+
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Event_POSIX.h:
 
 /usr/include/boost/asio/detail/impl/epoll_reactor.hpp:
 
@@ -4605,8 +4589,6 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 /usr/include/boost/system/detail/std_interoperability.hpp:
 
 /usr/include/boost/type_traits/is_class.hpp:
-
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSSerialPort.h:
 
 /usr/include/boost/asio/read_until.hpp:
 
@@ -4659,6 +4641,8 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 /usr/include/c++/11/limits:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
+
+/usr/include/boost/asio/detail/thread_group.hpp:
 
 /usr/include/boost/asio/basic_datagram_socket.hpp:
 
@@ -4722,6 +4706,12 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/boost/asio/detail/reactive_socket_recv_op.hpp:
 
+/usr/include/boost/asio/basic_serial_port.hpp:
+
+/usr/include/boost/asio/read_at.hpp:
+
+/usr/include/boost/asio/detail/reactive_socket_recvmsg_op.hpp:
+
 /usr/include/boost/asio/detail/reactive_wait_op.hpp:
 
 /usr/include/boost/asio/ip/impl/host_name.ipp:
@@ -4746,6 +4736,8 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/ProcInfo.h:
+
 /usr/include/boost/asio/impl/io_context.ipp:
 
 /usr/include/boost/date_time/time_clock.hpp:
@@ -4765,6 +4757,8 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 /usr/include/boost/limits.hpp:
 
 /usr/include/x86_64-linux-gnu/sys/time.h:
+
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MessageFunction.h:
 
 /usr/include/boost/core/checked_delete.hpp:
 
@@ -4808,6 +4802,14 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/boost/smart_ptr/detail/sp_noexcept.hpp:
 
+/usr/include/boost/checked_delete.hpp:
+
+/usr/include/c++/11/bits/exception_defines.h:
+
+/usr/include/boost/mpl/aux_/numeric_cast_utils.hpp:
+
+/usr/include/boost/asio/packaged_task.hpp:
+
 /usr/include/boost/core/addressof.hpp:
 
 /usr/include/c++/11/map:
@@ -4818,8 +4820,6 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/boost/smart_ptr/detail/sp_nullptr_t.hpp:
 
-/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
 /usr/include/boost/smart_ptr/detail/spinlock.hpp:
@@ -4829,12 +4829,6 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 /usr/include/c++/11/version:
 
 /usr/include/boost/smart_ptr/detail/yield_k.hpp:
-
-/usr/include/boost/smart_ptr/detail/sp_thread_pause.hpp:
-
-/usr/include/c++/11/bits/align.h:
-
-/usr/include/boost/mpl/aux_/config/integral.hpp:
 
 /usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:
 
@@ -4847,10 +4841,6 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
 /usr/include/boost/asio/ip/impl/address_v4.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
-
-/usr/include/boost/smart_ptr/detail/local_sp_deleter.hpp:
 
 /usr/include/boost/date_time/posix_time/ptime.hpp:
 
@@ -4872,6 +4862,10 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/boost/type_traits/integral_constant.hpp:
 
+/usr/include/boost/type_traits/is_same.hpp:
+
+/usr/include/boost/date_time/int_adapter.hpp:
+
 /usr/include/boost/asio/use_future.hpp:
 
 /usr/include/c++/11/bits/stl_algo.h:
@@ -4888,8 +4882,6 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/boost/date_time/gregorian/greg_weekday.hpp:
 
-/usr/include/boost/date_time/constrained_value.hpp:
-
 /usr/include/c++/11/pstl/glue_memory_defs.h:
 
 /usr/include/boost/type_traits/is_base_and_derived.hpp:
@@ -4897,10 +4889,6 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 /usr/include/boost/asio/detail/impl/reactive_descriptor_service.ipp:
 
 /usr/include/boost/type_traits/intrinsics.hpp:
-
-/usr/include/boost/mpl/aux_/config/has_apply.hpp:
-
-/usr/include/boost/type_traits/remove_cv.hpp:
 
 /usr/include/boost/date_time/date_defs.hpp:
 
@@ -4946,6 +4934,8 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/boost/asio/associated_executor.hpp:
 
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/ActiveMailQueue.h:
+
 /usr/include/boost/asio/ip/network_v4.hpp:
 
 /usr/include/boost/asio/posix/descriptor_base.hpp:
@@ -4970,14 +4960,6 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/boost/mpl/aux_/config/msvc.hpp:
 
-/usr/include/boost/mpl/aux_/na_spec.hpp:
-
-/usr/include/boost/asio/read_at.hpp:
-
-/usr/include/boost/asio/detail/reactive_socket_recvmsg_op.hpp:
-
-/usr/include/boost/asio/basic_serial_port.hpp:
-
 /usr/include/boost/mpl/lambda_fwd.hpp:
 
 /usr/include/boost/mpl/aux_/na.hpp:
@@ -4987,6 +4969,8 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 /usr/include/boost/mpl/integral_c_tag.hpp:
 
 /usr/include/boost/asio/execution/mapping.hpp:
+
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSCommClient.h:
 
 /usr/include/boost/preprocessor/punctuation/comma.hpp:
 
@@ -5046,6 +5030,10 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/boost/preprocessor/debug/error.hpp:
 
+/usr/include/boost/asio/ip/address.hpp:
+
+/usr/include/boost/preprocessor/tuple/eat.hpp:
+
 /usr/include/c++/11/bits/sstream.tcc:
 
 /usr/include/boost/mpl/limits/arity.hpp:
@@ -5053,6 +5041,8 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 /usr/include/boost/asio/detail/signal_op.hpp:
 
 /usr/include/boost/preprocessor/logical/bitand.hpp:
+
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSGeodesy/libMOOSGeodesy/include/MOOS/libMOOSGeodesy/MOOSGeodesy.h:
 
 /usr/include/c++/11/set:
 
@@ -5080,11 +5070,11 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/boost/asio/impl/write.hpp:
 
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/SafeList.h:
+
 /usr/include/boost/preprocessor/tuple/elem.hpp:
 
 /usr/include/boost/asio/posix/basic_descriptor.hpp:
-
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/ClientCommsStatus.h:
 
 /usr/include/boost/asio/detail/reactor_fwd.hpp:
 
@@ -5116,13 +5106,13 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/boost/mpl/numeric_cast.hpp:
 
+/usr/include/boost/mpl/apply_wrap.hpp:
+
 /usr/include/boost/mpl/aux_/has_apply.hpp:
 
 /usr/include/boost/mpl/has_xxx.hpp:
 
 /usr/include/boost/mpl/aux_/config/arrays.hpp:
-
-/usr/include/boost/mpl/aux_/config/msvc_typename.hpp:
 
 /usr/include/boost/preprocessor/array/data.hpp:
 
@@ -5159,6 +5149,8 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 /usr/include/boost/mpl/aux_/is_msvc_eti_arg.hpp:
 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/equal_to.hpp:
+
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/CommandLineParser.hxx:
 
 /usr/include/boost/mpl/not.hpp:
 
@@ -5270,11 +5262,21 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/boost/asio/basic_socket_streambuf.hpp:
 
+/usr/include/boost/asio/basic_waitable_timer.hpp:
+
+/usr/include/boost/asio/execution_context.hpp:
+
+/usr/include/boost/asio/defer.hpp:
+
+/home/dueiras/vsnt/moos-ivp/ivp/src/lib_apputil/ACTable.h:
+
+/usr/include/boost/numeric/conversion/detail/bounds.hpp:
+
+/usr/include/boost/asio/ip/address_v4_iterator.hpp:
+
 /usr/include/boost/preprocessor/list/reverse.hpp:
 
 /usr/include/boost/asio/basic_streambuf_fwd.hpp:
-
-/usr/include/boost/asio/buffered_read_stream.hpp:
 
 /usr/include/boost/asio/detail/buffered_stream_storage.hpp:
 
@@ -5291,6 +5293,12 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
 /usr/include/boost/asio/co_spawn.hpp:
+
+/usr/include/c++/11/tr1/poly_laguerre.tcc:
+
+/usr/include/c++/11/array:
+
+/usr/include/boost/asio/compose.hpp:
 
 /usr/include/boost/preprocessor/variadic/size.hpp:
 
@@ -5318,10 +5326,6 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/boost/asio/ip/detail/socket_option.hpp:
 
-/usr/include/boost/preprocessor/tuple/eat.hpp:
-
-/usr/include/boost/asio/ip/address.hpp:
-
 /usr/include/boost/asio/ip/address_v4.hpp:
 
 /usr/include/boost/mpl/aux_/config/adl.hpp:
@@ -5335,6 +5339,8 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 /usr/include/boost/assert.hpp:
 
 /usr/include/boost/asio/ip/impl/address_v6.hpp:
+
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSLinuxSerialPort.h:
 
 /usr/include/boost/asio/ip/impl/address.hpp:
 
@@ -5364,9 +5370,9 @@ src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/mai
 
 /usr/include/boost/asio/ip/resolver_base.hpp:
 
-/usr/include/boost/asio/detail/resolver_service.hpp:
+/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSFileReader.h:
 
-/home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/CommandLineParser.hxx:
+/usr/include/boost/asio/detail/resolver_service.hpp:
 
 /usr/include/boost/asio/buffered_read_stream_fwd.hpp:
 

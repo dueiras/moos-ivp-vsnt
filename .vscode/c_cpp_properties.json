@@ -4,7 +4,7 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/home/moos-ivp/MOOS_Jul0519/MOOSGeodesy/libMOOSGeodesy/include"
+                "/home/VSNT/moos-ivp/MOOS_Jul0519/MOOSGeodesy/libMOOSGeodesy/include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",

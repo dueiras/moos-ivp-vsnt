@@ -1,5 +1,5 @@
 src/iDivisorNMEA/libais/CMakeFiles/libais.dir/ais.cpp.o: \
- /home/moos-ivp-douglas/src/iDivisorNMEA/libais/ais.cpp \
+ /home/dueiras/vsnt/moos-ivp-vsnt/src/iDivisorNMEA/libais/ais.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -128,7 +128,7 @@ src/iDivisorNMEA/libais/CMakeFiles/libais.dir/ais.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /home/moos-ivp-douglas/src/iDivisorNMEA/libais/ais.h \
+ /home/dueiras/vsnt/moos-ivp-vsnt/src/iDivisorNMEA/libais/ais.h \
  /usr/include/c++/11/array /usr/include/c++/11/utility \
  /usr/include/c++/11/bits/stl_relops.h /usr/include/c++/11/bitset \
  /usr/include/c++/11/cassert /usr/include/assert.h \

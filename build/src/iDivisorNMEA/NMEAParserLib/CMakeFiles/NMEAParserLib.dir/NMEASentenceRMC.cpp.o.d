@@ -1,8 +1,8 @@
 src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEASentenceRMC.cpp.o: \
- /home/moos-ivp-douglas/src/iDivisorNMEA/NMEAParserLib/NMEASentenceRMC.cpp \
+ /home/dueiras/vsnt/moos-ivp-vsnt/src/iDivisorNMEA/NMEAParserLib/NMEASentenceRMC.cpp \
  /usr/include/stdc-predef.h \
- /home/moos-ivp-douglas/src/iDivisorNMEA/NMEAParserLib/NMEASentenceRMC.h \
- /home/moos-ivp-douglas/src/iDivisorNMEA/NMEAParserLib/NMEASentenceBase.h \
+ /home/dueiras/vsnt/moos-ivp-vsnt/src/iDivisorNMEA/NMEAParserLib/NMEASentenceRMC.h \
+ /home/dueiras/vsnt/moos-ivp-vsnt/src/iDivisorNMEA/NMEAParserLib/NMEASentenceBase.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -131,5 +131,5 @@ src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEASentenceRMC.cpp.
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /home/moos-ivp-douglas/src/iDivisorNMEA/NMEAParserLib/NMEAParserData.h \
+ /home/dueiras/vsnt/moos-ivp-vsnt/src/iDivisorNMEA/NMEAParserLib/NMEAParserData.h \
  /usr/include/c++/11/cstddef /usr/include/c++/11/stdlib.h

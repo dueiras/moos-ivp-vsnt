@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/moos-ivp-douglas
+CMAKE_SOURCE_DIR = /home/dueiras/vsnt/moos-ivp-vsnt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/moos-ivp-douglas/build
+CMAKE_BINARY_DIR = /home/dueiras/vsnt/moos-ivp-vsnt/build
 
 # Include any dependencies generated for this target.
 include src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/depend.make
@@ -72,44 +72,44 @@ include src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/flags.make
 src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/DivisorNMEA.cpp.o: src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/flags.make
 src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/DivisorNMEA.cpp.o: ../src/iDivisorNMEA/DivisorNMEA.cpp
 src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/DivisorNMEA.cpp.o: src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moos-ivp-douglas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/DivisorNMEA.cpp.o"
-	cd /home/moos-ivp-douglas/build/src/iDivisorNMEA && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/DivisorNMEA.cpp.o -MF CMakeFiles/iDivisorNMEA.dir/DivisorNMEA.cpp.o.d -o CMakeFiles/iDivisorNMEA.dir/DivisorNMEA.cpp.o -c /home/moos-ivp-douglas/src/iDivisorNMEA/DivisorNMEA.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dueiras/vsnt/moos-ivp-vsnt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/DivisorNMEA.cpp.o"
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build/src/iDivisorNMEA && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/DivisorNMEA.cpp.o -MF CMakeFiles/iDivisorNMEA.dir/DivisorNMEA.cpp.o.d -o CMakeFiles/iDivisorNMEA.dir/DivisorNMEA.cpp.o -c /home/dueiras/vsnt/moos-ivp-vsnt/src/iDivisorNMEA/DivisorNMEA.cpp
 
 src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/DivisorNMEA.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iDivisorNMEA.dir/DivisorNMEA.cpp.i"
-	cd /home/moos-ivp-douglas/build/src/iDivisorNMEA && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moos-ivp-douglas/src/iDivisorNMEA/DivisorNMEA.cpp > CMakeFiles/iDivisorNMEA.dir/DivisorNMEA.cpp.i
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build/src/iDivisorNMEA && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dueiras/vsnt/moos-ivp-vsnt/src/iDivisorNMEA/DivisorNMEA.cpp > CMakeFiles/iDivisorNMEA.dir/DivisorNMEA.cpp.i
 
 src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/DivisorNMEA.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iDivisorNMEA.dir/DivisorNMEA.cpp.s"
-	cd /home/moos-ivp-douglas/build/src/iDivisorNMEA && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moos-ivp-douglas/src/iDivisorNMEA/DivisorNMEA.cpp -o CMakeFiles/iDivisorNMEA.dir/DivisorNMEA.cpp.s
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build/src/iDivisorNMEA && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dueiras/vsnt/moos-ivp-vsnt/src/iDivisorNMEA/DivisorNMEA.cpp -o CMakeFiles/iDivisorNMEA.dir/DivisorNMEA.cpp.s
 
 src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/DivisorNMEA_Info.cpp.o: src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/flags.make
 src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/DivisorNMEA_Info.cpp.o: ../src/iDivisorNMEA/DivisorNMEA_Info.cpp
 src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/DivisorNMEA_Info.cpp.o: src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moos-ivp-douglas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/DivisorNMEA_Info.cpp.o"
-	cd /home/moos-ivp-douglas/build/src/iDivisorNMEA && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/DivisorNMEA_Info.cpp.o -MF CMakeFiles/iDivisorNMEA.dir/DivisorNMEA_Info.cpp.o.d -o CMakeFiles/iDivisorNMEA.dir/DivisorNMEA_Info.cpp.o -c /home/moos-ivp-douglas/src/iDivisorNMEA/DivisorNMEA_Info.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dueiras/vsnt/moos-ivp-vsnt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/DivisorNMEA_Info.cpp.o"
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build/src/iDivisorNMEA && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/DivisorNMEA_Info.cpp.o -MF CMakeFiles/iDivisorNMEA.dir/DivisorNMEA_Info.cpp.o.d -o CMakeFiles/iDivisorNMEA.dir/DivisorNMEA_Info.cpp.o -c /home/dueiras/vsnt/moos-ivp-vsnt/src/iDivisorNMEA/DivisorNMEA_Info.cpp
 
 src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/DivisorNMEA_Info.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iDivisorNMEA.dir/DivisorNMEA_Info.cpp.i"
-	cd /home/moos-ivp-douglas/build/src/iDivisorNMEA && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moos-ivp-douglas/src/iDivisorNMEA/DivisorNMEA_Info.cpp > CMakeFiles/iDivisorNMEA.dir/DivisorNMEA_Info.cpp.i
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build/src/iDivisorNMEA && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dueiras/vsnt/moos-ivp-vsnt/src/iDivisorNMEA/DivisorNMEA_Info.cpp > CMakeFiles/iDivisorNMEA.dir/DivisorNMEA_Info.cpp.i
 
 src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/DivisorNMEA_Info.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iDivisorNMEA.dir/DivisorNMEA_Info.cpp.s"
-	cd /home/moos-ivp-douglas/build/src/iDivisorNMEA && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moos-ivp-douglas/src/iDivisorNMEA/DivisorNMEA_Info.cpp -o CMakeFiles/iDivisorNMEA.dir/DivisorNMEA_Info.cpp.s
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build/src/iDivisorNMEA && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dueiras/vsnt/moos-ivp-vsnt/src/iDivisorNMEA/DivisorNMEA_Info.cpp -o CMakeFiles/iDivisorNMEA.dir/DivisorNMEA_Info.cpp.s
 
 src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/flags.make
 src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: ../src/iDivisorNMEA/main.cpp
 src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o: src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moos-ivp-douglas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o"
-	cd /home/moos-ivp-douglas/build/src/iDivisorNMEA && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o -MF CMakeFiles/iDivisorNMEA.dir/main.cpp.o.d -o CMakeFiles/iDivisorNMEA.dir/main.cpp.o -c /home/moos-ivp-douglas/src/iDivisorNMEA/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dueiras/vsnt/moos-ivp-vsnt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o"
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build/src/iDivisorNMEA && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o -MF CMakeFiles/iDivisorNMEA.dir/main.cpp.o.d -o CMakeFiles/iDivisorNMEA.dir/main.cpp.o -c /home/dueiras/vsnt/moos-ivp-vsnt/src/iDivisorNMEA/main.cpp
 
 src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iDivisorNMEA.dir/main.cpp.i"
-	cd /home/moos-ivp-douglas/build/src/iDivisorNMEA && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moos-ivp-douglas/src/iDivisorNMEA/main.cpp > CMakeFiles/iDivisorNMEA.dir/main.cpp.i
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build/src/iDivisorNMEA && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dueiras/vsnt/moos-ivp-vsnt/src/iDivisorNMEA/main.cpp > CMakeFiles/iDivisorNMEA.dir/main.cpp.i
 
 src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iDivisorNMEA.dir/main.cpp.s"
-	cd /home/moos-ivp-douglas/build/src/iDivisorNMEA && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moos-ivp-douglas/src/iDivisorNMEA/main.cpp -o CMakeFiles/iDivisorNMEA.dir/main.cpp.s
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build/src/iDivisorNMEA && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dueiras/vsnt/moos-ivp-vsnt/src/iDivisorNMEA/main.cpp -o CMakeFiles/iDivisorNMEA.dir/main.cpp.s
 
 # Object files for target iDivisorNMEA
 iDivisorNMEA_OBJECTS = \
@@ -124,20 +124,20 @@ iDivisorNMEA_EXTERNAL_OBJECTS =
 ../bin/iDivisorNMEA: src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/DivisorNMEA_Info.cpp.o
 ../bin/iDivisorNMEA: src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o
 ../bin/iDivisorNMEA: src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/build.make
-../bin/iDivisorNMEA: /home/moos-ivp/build/MOOS/MOOSCore/lib/libMOOS.a
+../bin/iDivisorNMEA: /home/dueiras/vsnt/moos-ivp/build/MOOS/MOOSCore/lib/libMOOS.a
 ../bin/iDivisorNMEA: src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/moos-ivp-douglas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../../../bin/iDivisorNMEA"
-	cd /home/moos-ivp-douglas/build/src/iDivisorNMEA && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/iDivisorNMEA.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dueiras/vsnt/moos-ivp-vsnt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../../../bin/iDivisorNMEA"
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build/src/iDivisorNMEA && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/iDivisorNMEA.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/build: ../bin/iDivisorNMEA
 .PHONY : src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/build
 
 src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/clean:
-	cd /home/moos-ivp-douglas/build/src/iDivisorNMEA && $(CMAKE_COMMAND) -P CMakeFiles/iDivisorNMEA.dir/cmake_clean.cmake
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build/src/iDivisorNMEA && $(CMAKE_COMMAND) -P CMakeFiles/iDivisorNMEA.dir/cmake_clean.cmake
 .PHONY : src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/clean
 
 src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/depend:
-	cd /home/moos-ivp-douglas/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/moos-ivp-douglas /home/moos-ivp-douglas/src/iDivisorNMEA /home/moos-ivp-douglas/build /home/moos-ivp-douglas/build/src/iDivisorNMEA /home/moos-ivp-douglas/build/src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dueiras/vsnt/moos-ivp-vsnt /home/dueiras/vsnt/moos-ivp-vsnt/src/iDivisorNMEA /home/dueiras/vsnt/moos-ivp-vsnt/build /home/dueiras/vsnt/moos-ivp-vsnt/build/src/iDivisorNMEA /home/dueiras/vsnt/moos-ivp-vsnt/build/src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/depend
 

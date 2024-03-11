@@ -15,13 +15,10 @@
 #include <iostream>
 #include <chrono>
 #include <thread>
-
-//#define MARCHA_NEUTRA 0
-//#define MARCHA_RE -1
-//#define MARCHA_AVANTE 1
+#include <libserial/SerialStream.h>
 
 using namespace std;
-
+using namespace LibSerial;
 
 //---------------------------------------------------------
 // Constructor()
@@ -31,9 +28,8 @@ Serial::Serial()
   //Configurações para envio de dados via Serial
 
   endereco_porta_serial = "/dev/ttyUSB0"; //Porta real na lancha
-  //endereco_porta_serial = "/dev/ttyVIRT0"; //Porta simulada para testes
-  //endereco_porta_serial = "/dev/pts/3";
   baudrate = 9600;
+  portOpened = 0;
 
   // Valores padrões:
   rudder = 0; //Valor inicial do leme
@@ -63,13 +59,12 @@ Serial::Serial()
 
 Serial::~Serial()
 {
-  enviaSerial("L0D"); //Para o leme quando encerra o programa
+  enviaSerial("LD0"); //Para o leme quando encerra o programa
   enviaSerial("A000"); //Para o atuador de máquina a 0%
-  std::chrono::milliseconds delay(500);
-  std::this_thread::sleep_for(delay);
   enviaSerial("E0");  // Marcha no neutro
   last_gear = 0;
-  std::cout << "Leme a meio" << std::endl;
+  serial_port.Close();
+  std::cout << "Serial port closed." << std::endl;
 }
 
 //---------------------------------------------------------
@@ -167,12 +162,14 @@ bool Serial::Iterate()
 
   std::ostringstream osstring;
   if (rudder < 0){
-    int intRudder = -1*rudder; 
-    osstring << "L1" << std::setfill('0') << std::setw(2) << intRudder;
+    int intRudder = -1*rudder;
+    //LE = Leme Esquerda (bombordo) 
+    osstring << "LE" << std::setfill('0') << std::setw(2) << intRudder;
   }
   else {
     int intRudder = (int) rudder;
-    osstring << "L2" << std::setfill('0') << std::setw(2) << intRudder;
+    //LD = Leme Direita (boreste)
+    osstring << "LD" << std::setfill('0') << std::setw(2) << intRudder;
   }
   ultimo_comando = osstring.str(); 
   enviaSerial(ultimo_comando);
@@ -198,14 +195,12 @@ bool Serial::OnStartUp()
   for(p=sParams.begin(); p!=sParams.end(); p++) {
     string orig  = *p;
     string line  = *p;
-    string param = tolower(biteStringX(line, '='));
+    string param = tolower(biteStringX(line, '=')); //lower parameter  name
     string value = line;
 
     bool handled = false;
-    if(param == "foo") {
-      handled = true;
-    }
-    else if(param == "bar") {
+    if(param == "serialport") {
+      endereco_porta_serial = value;
       handled = true;
     }
 
@@ -214,57 +209,47 @@ bool Serial::OnStartUp()
 
   }
 
-  //da permissoes para a porta usb /dev/ttyUSB0
+  //da permissoes para a porta usb
 
   std::string password = "eduard0";  // Replace with your actual sudo password
-
-  std::string command = "echo '" + password + "' | sudo -S chmod 777 /dev/ttyUSB0";
-
+  std::string command = "echo '" + password + "' | sudo -S chmod 777 " +  endereco_porta_serial;
   int result = system(command.c_str());
 
   if (result == 0) {
-        std::cout << "Permissions changed successfully to /dev/ttyUSB0." << std::endl;
+        std::cout << " \nPermissions changed successfully to " + endereco_porta_serial << std::endl;
     } else {
-        std::cerr << "Failed to change permissions." << std::endl;
+        std::cerr << "\nFailed to change permissions." << std::endl;
+        return(false);
     }
 
-  //permissoes para /dev/ttyUSB1
-
-  std::string command2 = "echo '" + password + "' | sudo -S chmod 777 /dev/ttyUSB1";
-
-  int result2 = system(command2.c_str());
-
-  if (result2 == 0) {
-    std::cout << "Permissions changed successfully to /dev/ttyUSB1." << std::endl;
-  } 
-  else {
-    std::cerr << "Failed to change permissions." << std::endl;
+  std::string command_ = "stty -F " +  endereco_porta_serial + " -hupcl"; // Disable Hangup on Close
+  int result_ = system(command_.c_str());
+  if (result_ == 0) {
+      std::cout << "\nHangup on Close Disabled" << std::endl;
+  } else {
+      std::cerr << "\nHangup on Close NOT Disabled" << std::endl;
+      return(false);
   }
-  
-  
-  bool portOpened = porta_serial.Create(endereco_porta_serial.c_str(), baudrate); //Abertura da porta serial
-  
-  if (!portOpened) {
-	  endereco_porta_serial = "/dev/ttyUSB1";
-	  portOpened = porta_serial.Create(endereco_porta_serial.c_str(), baudrate); //Abertura da porta serial
-	  if (portOpened) {
-	    std::cout << "Conectado na Porta 1" << std::endl;     
-	  } 
-    else { 
-	    std::cout << "Falhou porta 1" << std::endl;}
-  } 
+
+ // Open the serial port
+  serial_port.Open(endereco_porta_serial);
+  if (!serial_port.good()) {
+      std::cerr << "Error: Unable to open serial port." << std::endl;
+      portOpened = 0;
+      return false;
+  }
   else {
-    std::cout << "abriu porta zero" << std::endl;
-  } 
+    portOpened = 1;
+  }
+  // Set baud rate
+  serial_port.SetBaudRate(BaudRate::BAUD_9600);
+  if (!serial_port.good()) {
+      std::cerr << "Error: Unable to set baud rate." << std::endl;
+      return false;
+  }
 
   registerVariables();	
   return(true);
-
-  //enviaSerial("L0D"); //Para o leme quando encerra o programa
-  enviaSerial("A000"); //Para o atuador de máquina a 0%
-  //std::chrono::milliseconds delay(1000);
-  //std::this_thread::sleep_for(delay);
-  //enviaSerial("E0");  // Marcha no neutro
 
 }
 
@@ -296,11 +281,19 @@ bool Serial::buildReport()
   m_msgs << "File:                                       " << endl;
   m_msgs << "============================================" << endl;
 
-  ACTable actab(2);
-  actab << "deploy | angulo_leme | ultimo_comando | thrust_convertido ";
+  ACTable actab(4);
+  actab << "deploy | serial_read | portOpened | msg_serial ";
   actab.addHeaderLines();
-  actab << deploy << angulo_leme << ultimo_comando << thrust_convertido;
+  actab << deploy << serial_read << portOpened << ultimo_comando;
   m_msgs << actab.getFormattedString();
+
+  m_msgs << endl << "============================================" << endl;
+
+  ACTable actab2(1);
+  actab2 << "endereco_porta_serial ";
+  actab2.addHeaderLines();
+  actab2 << endereco_porta_serial;
+  m_msgs << actab2.getFormattedString();
 
   return(true);
 }
@@ -313,17 +306,15 @@ void Serial::enviaSerial(std::string sentenca)
   if (deploy == "true" || manual_overide == "true") {
     //Envio de feedback do leme para a porta serial
     try {
-      porta_serial.Write(sentenca.c_str(),sentenca.size()); //Envia a sentença via serial
+      serial_port << sentenca << std::endl;
     }
     catch (std::system_error& e)
     {
       std::cout << e.what();
     }
+    std::getline(serial_port, serial_read);
+    std::cout << "Received: " << serial_read << std::endl;
 
-    //Delay de 100ms
-    std::chrono::milliseconds delay(40);
-
-    std::this_thread::sleep_for(delay);
   }
 
 }

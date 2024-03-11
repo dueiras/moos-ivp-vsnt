@@ -24,16 +24,11 @@ ProcessConfig = ANTLER
     Run = uSimMarineV22	@ NewConsole = false
     Run = pNodeReporter	@ NewConsole = false
     Run = pHelmIvP	@ NewConsole = false
-    Run = pIMU	@ NewConsole = false
-    //Run = iSerial	@ NewConsole = false  
-    //Run = pMarinePIDV22	@ NewConsole = false
+    Run = iSerial	@ NewConsole = false
     Run = planchaPID @ NewConsole = false
     //Run = uProcessWatch   @ NewConsole = false
     //Run = pContactMgrV20	@ NewConsole = false
     Run = pMarineViewer	@ NewConsole = false 
-    //Run = iDivisorNMEA	@ NewConsole = false
-    //Run = pLogger	@ NewConsole = false
-    //Run = iRemoteLite	@ NewConsole = false
     Run = pRealm	      @ NewConsole = false
     //Run = pShare	      @ NewConsole = false
     
@@ -46,8 +41,8 @@ ProcessConfig = ANTLER
 ProcessConfig = pShare
 {
 
-  AppTick   = 100
-  CommsTick = 100
+  AppTick   = 50
+  CommsTick = 50
 
   input = route = 192.168.14.115:9001 //recebe dados da lancha
 
@@ -96,8 +91,8 @@ ProcessConfig = pIMU
 
 ProcessConfig = uProcessWatch
 {
-  AppTick   = 100
-  CommsTick = 100
+  AppTick   = 20
+  CommsTick = 20
 
   term_report_interval = 0.8
 
@@ -115,15 +110,15 @@ ProcessConfig = uProcessWatch
 
 ProcessConfig = pHelmIvP
 {
-  AppTick    = 100
-  CommsTick  = 100
+  AppTick    = 50
+  CommsTick  = 50
 
   Behaviors  = alfa.bhv
   Verbose    = quiet
   Domain     = course:0:359:360
   Domain     = speed:0:20:40
 
-  IVP_BEHAVIOR_DIR = /home/dueiras/VSNT/moos-ivp-vsnt/lib
+  IVP_BEHAVIOR_DIR = /home/dueiras/vsnt/moos-ivp-vsnt/lib
   //IVP_BEHAVIOR_DIR = /Users/mikerb/Research/moos-ivp-extend/trunk/lib
 
   ok_skew = any
@@ -222,16 +217,19 @@ ProcessConfig = pNodeReporter
 
 ProcessConfig = iSerial
 {
-   AppTick   = 100
-   CommsTick = 100
+   AppTick   = 20
+   CommsTick = 20
+
+  //SerialPort = /dev/serial/by-id/usb-RoboCore_BlackBoard_v1.1_RCBB-5DJCKG-if00-port0
+  SerialPort = /dev/serial/by-id/usb-1a86_USB2.0-Ser_-if00-port0
 }
 //-------------------------------------------
 // planchaPID bloco de config
 
 ProcessConfig = planchaPID
 {
-   AppTick   = 100
-   CommsTick = 100
+   AppTick   = 20
+   CommsTick = 20
 }
 //------------------------------------------------
 // iDivisorNMEA config blockmoos ivp how to change
@@ -283,7 +281,7 @@ ProcessConfig = pLogger
       File        = sim
   
       //where is the root log directory
-      PATH        = /home/dueiras/VSNT/moos-ivp-vsnt/log
+      PATH        = /home/dueiras/vsnt/moos-ivp-vsnt/log
   
       //yes we want some sync logging for crude
       //performance checking

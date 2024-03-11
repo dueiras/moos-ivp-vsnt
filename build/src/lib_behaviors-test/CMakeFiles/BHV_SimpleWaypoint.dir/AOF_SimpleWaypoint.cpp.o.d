@@ -1,5 +1,5 @@
 src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/AOF_SimpleWaypoint.cpp.o: \
- /home/moos-ivp-douglas/src/lib_behaviors-test/AOF_SimpleWaypoint.cpp \
+ /home/dueiras/vsnt/moos-ivp-vsnt/src/lib_behaviors-test/AOF_SimpleWaypoint.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/math.h \
  /usr/include/c++/11/cmath \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -85,9 +85,9 @@ src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/AOF_SimpleWaypoint.cpp.
  /usr/include/c++/11/tr1/poly_hermite.tcc \
  /usr/include/c++/11/tr1/poly_laguerre.tcc \
  /usr/include/c++/11/tr1/riemann_zeta.tcc \
- /home/moos-ivp-douglas/src/lib_behaviors-test/AOF_SimpleWaypoint.h \
- /home/moos-ivp/ivp/src/lib_ivpbuild/AOF.h /usr/include/c++/11/vector \
- /usr/include/c++/11/bits/allocator.h \
+ /home/dueiras/vsnt/moos-ivp-vsnt/src/lib_behaviors-test/AOF_SimpleWaypoint.h \
+ /home/dueiras/vsnt/moos-ivp/ivp/src/lib_ivpbuild/AOF.h \
+ /usr/include/c++/11/vector /usr/include/c++/11/bits/allocator.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
  /usr/include/c++/11/ext/new_allocator.h /usr/include/c++/11/new \
  /usr/include/c++/11/bits/exception.h \
@@ -161,13 +161,13 @@ src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/AOF_SimpleWaypoint.cpp.
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /home/moos-ivp/ivp/src/lib_ivpcore/IvPBox.h \
- /home/moos-ivp/ivp/src/lib_ivpcore/IvPDomain.h \
- /home/moos-ivp/ivp/src/lib_ivpcore/IvPBox.h \
- /home/moos-ivp/ivp/src/lib_geometry/AngleUtils.h \
- /home/moos-ivp/ivp/src/lib_geometry/XYPoint.h \
- /home/moos-ivp/ivp/src/lib_geometry/XYObject.h /usr/include/c++/11/map \
- /usr/include/c++/11/bits/stl_tree.h \
+ /home/dueiras/vsnt/moos-ivp/ivp/src/lib_ivpcore/IvPBox.h \
+ /home/dueiras/vsnt/moos-ivp/ivp/src/lib_ivpcore/IvPDomain.h \
+ /home/dueiras/vsnt/moos-ivp/ivp/src/lib_ivpcore/IvPBox.h \
+ /home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/AngleUtils.h \
+ /home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/XYPoint.h \
+ /home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/XYObject.h \
+ /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/node_handle.h \
  /usr/include/c++/11/bits/stl_map.h /usr/include/c++/11/tuple \
  /usr/include/c++/11/utility /usr/include/c++/11/bits/stl_relops.h \
@@ -175,15 +175,15 @@ src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/AOF_SimpleWaypoint.cpp.
  /usr/include/c++/11/bits/invoke.h \
  /usr/include/c++/11/bits/stl_multimap.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/moos-ivp/ivp/src/lib_mbutil/ColorPack.h \
- /home/moos-ivp/ivp/src/lib_mbutil/MBUtils.h /usr/include/c++/11/set \
- /usr/include/c++/11/bits/stl_set.h \
+ /home/dueiras/vsnt/moos-ivp/ivp/src/lib_mbutil/ColorPack.h \
+ /home/dueiras/vsnt/moos-ivp/ivp/src/lib_mbutil/MBUtils.h \
+ /usr/include/c++/11/set /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h \
- /home/moos-ivp/ivp/src/lib_mbutil/ColorParse.h \
- /home/moos-ivp/ivp/src/lib_geometry/XYPolygon.h \
- /home/moos-ivp/ivp/src/lib_geometry/XYSegList.h \
- /home/moos-ivp/ivp/src/lib_geometry/EdgeTagSet.h \
- /home/moos-ivp/ivp/src/lib_geometry/EdgeTag.h \
+ /home/dueiras/vsnt/moos-ivp/ivp/src/lib_mbutil/ColorParse.h \
+ /home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/XYPolygon.h \
+ /home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/XYSegList.h \
+ /home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/EdgeTagSet.h \
+ /home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/EdgeTag.h \
  /usr/include/c++/11/iostream /usr/include/c++/11/ostream \
  /usr/include/c++/11/ios /usr/include/c++/11/exception \
  /usr/include/c++/11/bits/exception_ptr.h \
@@ -206,6 +206,8 @@ src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/AOF_SimpleWaypoint.cpp.
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/moos-ivp/ivp/src/lib_geometry/XYSquare.h \
- /home/moos-ivp/ivp/src/lib_geometry/GeomUtils.h \
- /home/moos-ivp/ivp/src/lib_mbutil/HintHolder.h
+ /home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/XYSquare.h \
+ /home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/GeomUtils.h \
+ /home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/XYSeglr.h \
+ /home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/Seglr.h \
+ /home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/HintHolder.h

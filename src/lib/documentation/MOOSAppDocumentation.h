@@ -10,7 +10,7 @@
 
 #include <string>
 #include <vector>
-#include </home/dueiras/VSNT/moos-ivp-vsnt/src/lib/documentation/tinyxml2.h>
+#include </home/dueiras/vsnt/moos-ivp-vsnt/src/lib/documentation/tinyxml2.h>
 #include "MOOS/libMOOS/Utils/MOOSUtilityFunctions.h"
 
 #define PROJECT_PATH_NAME "MOOS_IVP_ENSTABRETAGNE_PATH"

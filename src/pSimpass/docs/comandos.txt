@@ -4,3 +4,4 @@ casnav@VSNTLAB:~/moos-ivp-douglas/bin$ ./pSimpass alpha.moos
 casnav@VSNTLAB:~/moos-ivp-douglas/bin$ ./uXMS_Monitor.sh
 
 vsnt.moos => arquivo para conectar na lancha
+uMS (alternativa para o uXMS)

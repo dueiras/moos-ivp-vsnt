@@ -1,5 +1,5 @@
 src/pXRelayTest/CMakeFiles/pXRelayTest.dir/Relayer.cpp.o: \
- /home/moos-ivp-douglas/src/pXRelayTest/Relayer.cpp \
+ /home/dueiras/vsnt/moos-ivp-vsnt/src/pXRelayTest/Relayer.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iterator \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -137,12 +137,12 @@ src/pXRelayTest/CMakeFiles/pXRelayTest.dir/Relayer.cpp.o: \
  /usr/include/c++/11/bits/cxxabi_init_exception.h \
  /usr/include/c++/11/typeinfo /usr/include/c++/11/bits/nested_exception.h \
  /usr/include/c++/11/bits/streambuf.tcc \
- /home/moos-ivp-douglas/src/pXRelayTest/Relayer.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/include/MOOS/libMOOS/MOOSLib.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSException.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSPlaybackStatus.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSUtils.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSUtilityFunctions.h \
+ /home/dueiras/vsnt/moos-ivp-vsnt/src/pXRelayTest/Relayer.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/include/MOOS/libMOOS/MOOSLib.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSException.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSPlaybackStatus.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSUtils.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSUtilityFunctions.h \
  /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -203,17 +203,17 @@ src/pXRelayTest/CMakeFiles/pXRelayTest.dir/Relayer.cpp.o: \
  /usr/include/c++/11/bits/unordered_map.h \
  /usr/include/c++/11/bits/erase_if.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSFileReader.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSFileReader.h \
  /usr/include/c++/11/fstream /usr/include/c++/11/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc /usr/include/c++/11/map \
  /usr/include/c++/11/bits/stl_tree.h /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/ProcessConfigReader.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/ProcessConfigReader.h \
  /usr/include/c++/11/set /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSLinuxSerialPort.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSLinuxSerialPort.h \
  /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
@@ -259,25 +259,25 @@ src/pXRelayTest/CMakeFiles/pXRelayTest.dir/Relayer.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/termios-tcflow.h \
  /usr/include/x86_64-linux-gnu/bits/termios-misc.h \
  /usr/include/x86_64-linux-gnu/sys/ttydefaults.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSSerialPort.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSLock.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSCommServer.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSSerialPort.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSLock.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSCommServer.h \
  /usr/include/x86_64-linux-gnu/sys/time.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSCommObject.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSCommPkt.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/CommsTypes.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSMsg.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSCommPkt.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSThread.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSScopedLock.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSCommObject.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSCommPkt.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/CommsTypes.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSMsg.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSCommPkt.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSThread.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSScopedLock.h \
  /usr/include/c++/11/iostream \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/CommandLineParser.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSScopedPtr.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/CommandLineParser.hxx \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/getpot/include/MOOS/libMOOS/Thirdparty/getpot/GetPot.hpp \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/CommandLineParser.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MOOSScopedPtr.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/CommandLineParser.hxx \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/getpot/include/MOOS/libMOOS/Thirdparty/getpot/GetPot.hpp \
  /usr/include/assert.h /usr/include/string.h /usr/include/strings.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/ServerAudit.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSCommClient.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/ServerAudit.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSCommClient.h \
  /usr/include/c++/11/iomanip /usr/include/c++/11/locale \
  /usr/include/c++/11/bits/locale_facets_nonio.h /usr/include/c++/11/ctime \
  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
@@ -296,35 +296,35 @@ src/pXRelayTest/CMakeFiles/pXRelayTest.dir/Relayer.cpp.o: \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/Macros.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/ActiveMailQueue.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/SafeList.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/ScopedLock.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Foundation.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Config.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Platform.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Platform_POSIX.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Bugcheck.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Types.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Event.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Exception.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Event_POSIX.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Mutex.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Mutex_POSIX.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MessageFunction.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/ClientCommsStatus.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/EndToEndAudit.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MulticastNode.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/IPV4Address.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/ProcInfo.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSCommClient.hxx \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/App/include/MOOS/libMOOS/App/MOOSApp.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/SuicidalSleeper.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MemberFuncBinding.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSVariable.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSMsg.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/App/include/MOOS/libMOOS/App/ClientDefines.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSAsyncCommClient.h \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/App/include/MOOS/libMOOS/App/MOOSApp.hxx \
- /home/moos-ivp/MOOS/MOOSCore/Core/libMOOS/App/include/MOOS/libMOOS/App/MOOSInstrument.h \
- /home/moos-ivp/ivp/src/lib_mbutil/MBUtils.h
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/Macros.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/ActiveMailQueue.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/SafeList.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/ScopedLock.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Foundation.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Config.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Platform.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Platform_POSIX.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Bugcheck.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Types.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Event.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Exception.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Event_POSIX.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Mutex.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include/MOOS/libMOOS/Thirdparty/PocoBits/Mutex_POSIX.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MessageFunction.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/ClientCommsStatus.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/EndToEndAudit.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MulticastNode.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/IPV4Address.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/ProcInfo.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSCommClient.hxx \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/App/include/MOOS/libMOOS/App/MOOSApp.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/SuicidalSleeper.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include/MOOS/libMOOS/Utils/MemberFuncBinding.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSVariable.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSMsg.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/App/include/MOOS/libMOOS/App/ClientDefines.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include/MOOS/libMOOS/Comms/MOOSAsyncCommClient.h \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/App/include/MOOS/libMOOS/App/MOOSApp.hxx \
+ /home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/App/include/MOOS/libMOOS/App/MOOSInstrument.h \
+ /home/dueiras/vsnt/moos-ivp/ivp/src/lib_mbutil/MBUtils.h

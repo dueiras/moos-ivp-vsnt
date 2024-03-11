@@ -1,4 +1,4 @@
-# Install script for directory: /home/moos-ivp-douglas/src/iDivisorNMEA/NMEAParserLib
+# Install script for directory: /home/dueiras/vsnt/moos-ivp-vsnt/src/iDivisorNMEA/NMEAParserLib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

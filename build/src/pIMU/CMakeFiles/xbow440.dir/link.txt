@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libxbow440.a CMakeFiles/xbow440.dir/src/xbow440.cpp.o
+/usr/bin/ranlib ../../../lib/libxbow440.a

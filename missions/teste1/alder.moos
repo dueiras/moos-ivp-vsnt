@@ -24,7 +24,6 @@ ProcessConfig = ANTLER
   Run = pMarineViewer	@ NewConsole = false
   Run = uProcessWatch @ NewConsole = false
   Run = pHelmIvP      @ NewConsole = false
-  //Run = pOdometry     @ NewConsole = false
 }
 
 //------------------------------------------
@@ -71,12 +70,12 @@ ProcessConfig = pHelmIvP
   AppTick    = 4
   CommsTick  = 4
 
-  Behaviors  = alder.bhv
+  Behaviors  = /home/dueiras/VSNT/moos-ivp-vsnt/missions/teste1/alder.bhv
   Verbose    = quiet
   Domain     = course:0:359:360
   Domain     = speed:0:4:21
 
-  IVP_BEHAVIOR_DIR = ../../lib
+  IVP_BEHAVIOR_DIR = /home/dueiras/VSNT/moos-ivp-vsnt/missions/teste1
   //IVP_BEHAVIOR_DIR = /Users/mikerb/Research/moos-ivp-extend/trunk/lib
 
   ok_skew = any

@@ -44,8 +44,8 @@ std::string constant_heading; //Variável para verificar se o rumo constante é 
 double setpoint_heading; //Variável em que eu coloco o setpoint de rumo
 
 //Cria os objetos para o controle PID com valores iniciais de kp, ki e kd lidos do arquivo
-PIDController speedController("/home/dueiras/VSNT/moos-ivp-vsnt/src/planchaPID/speed_pid_parameters.txt");
-PIDController headingController("/home/dueiras/VSNT/moos-ivp-vsnt/src/planchaPID/heading_pid_parameters.txt");
+PIDController speedController("/home/dueiras/vsnt/moos-ivp-vsnt/src/planchaPID/speed_pid_parameters.txt");
+PIDController headingController("/home/dueiras/vsnt/moos-ivp-vsnt/src/planchaPID/heading_pid_parameters.txt");
 
 //---------------------------------------------------------
 // Constructor()

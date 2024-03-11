@@ -114,7 +114,7 @@ ProcessConfig = pHelmIvP
   Domain     = course:0:359:360
   Domain     = speed:0:15:30
 
-  IVP_BEHAVIOR_DIR = /home/dueiras/VSNT/moos-ivp-vsnt/lib
+  IVP_BEHAVIOR_DIR = /home/dueiras/vsnt/moos-ivp-vsnt/lib
   //IVP_BEHAVIOR_DIR = /Users/mikerb/Research/moos-ivp-extend/trunk/lib
 
   ok_skew = any
@@ -304,7 +304,7 @@ DatumLong = -43.136666665
     log = IVPHELM_LIFE_EVENT @ 0 NOSYNC
 
     //where is the root log directory
-    PATH        = /home/dueiras/VSNT/moos-ivp-vsnt/log
+    PATH        = /home/dueiras/vsnt/moos-ivp-vsnt/log
 
     //yes we want async logging so we can replay
     // exactly what happened and record strings

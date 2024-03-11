@@ -299,7 +299,7 @@ DatumLong = -43.136666665
 
     //all file names begin with this stem
     //File        = agua
-    File        = testeAutonomo
+    File        = testePaperHumano
  
     log = IVPHELM_LIFE_EVENT @ 0 NOSYNC
 

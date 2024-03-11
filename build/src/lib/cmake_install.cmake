@@ -1,4 +1,4 @@
-# Install script for directory: /home/moos-ivp-douglas/src/lib
+# Install script for directory: /home/dueiras/vsnt/moos-ivp-vsnt/src/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,8 +44,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/moos-ivp-douglas/build/src/lib/documentation/cmake_install.cmake")
-  include("/home/moos-ivp-douglas/build/src/lib/graphics/cmake_install.cmake")
+  include("/home/dueiras/vsnt/moos-ivp-vsnt/build/src/lib/documentation/cmake_install.cmake")
+  include("/home/dueiras/vsnt/moos-ivp-vsnt/build/src/lib/graphics/cmake_install.cmake")
 
 endif()
 

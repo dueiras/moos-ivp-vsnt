@@ -97,7 +97,7 @@ src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/AOF_SimpleWaypoint.cpp.
   /usr/include/c++/11/tr1/poly_laguerre.tcc \
   /usr/include/c++/11/tr1/riemann_zeta.tcc \
   ../src/lib_behaviors-test/AOF_SimpleWaypoint.h \
-  /home/moos-ivp/ivp/src/lib_ivpbuild/AOF.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_ivpbuild/AOF.h \
   /usr/include/c++/11/vector \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -190,12 +190,12 @@ src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/AOF_SimpleWaypoint.cpp.
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
-  /home/moos-ivp/ivp/src/lib_ivpcore/IvPBox.h \
-  /home/moos-ivp/ivp/src/lib_ivpcore/IvPDomain.h \
-  /home/moos-ivp/ivp/src/lib_ivpcore/IvPBox.h \
-  /home/moos-ivp/ivp/src/lib_geometry/AngleUtils.h \
-  /home/moos-ivp/ivp/src/lib_geometry/XYPoint.h \
-  /home/moos-ivp/ivp/src/lib_geometry/XYObject.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_ivpcore/IvPBox.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_ivpcore/IvPDomain.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_ivpcore/IvPBox.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/AngleUtils.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/XYPoint.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/XYObject.h \
   /usr/include/c++/11/map \
   /usr/include/c++/11/bits/stl_tree.h \
   /usr/include/c++/11/bits/node_handle.h \
@@ -208,16 +208,16 @@ src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/AOF_SimpleWaypoint.cpp.
   /usr/include/c++/11/bits/invoke.h \
   /usr/include/c++/11/bits/stl_multimap.h \
   /usr/include/c++/11/bits/erase_if.h \
-  /home/moos-ivp/ivp/src/lib_mbutil/ColorPack.h \
-  /home/moos-ivp/ivp/src/lib_mbutil/MBUtils.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_mbutil/ColorPack.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_mbutil/MBUtils.h \
   /usr/include/c++/11/set \
   /usr/include/c++/11/bits/stl_set.h \
   /usr/include/c++/11/bits/stl_multiset.h \
-  /home/moos-ivp/ivp/src/lib_mbutil/ColorParse.h \
-  /home/moos-ivp/ivp/src/lib_geometry/XYPolygon.h \
-  /home/moos-ivp/ivp/src/lib_geometry/XYSegList.h \
-  /home/moos-ivp/ivp/src/lib_geometry/EdgeTagSet.h \
-  /home/moos-ivp/ivp/src/lib_geometry/EdgeTag.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_mbutil/ColorParse.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/XYPolygon.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/XYSegList.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/EdgeTagSet.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/EdgeTag.h \
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/ostream \
   /usr/include/c++/11/ios \
@@ -247,9 +247,11 @@ src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/AOF_SimpleWaypoint.cpp.
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
-  /home/moos-ivp/ivp/src/lib_geometry/XYSquare.h \
-  /home/moos-ivp/ivp/src/lib_geometry/GeomUtils.h \
-  /home/moos-ivp/ivp/src/lib_mbutil/HintHolder.h
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/XYSquare.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/GeomUtils.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/XYSeglr.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/Seglr.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/HintHolder.h
 
 src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/BHV_SimpleWaypoint.cpp.o: ../src/lib_behaviors-test/BHV_SimpleWaypoint.cpp \
   /usr/include/stdc-predef.h \
@@ -429,7 +431,7 @@ src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/BHV_SimpleWaypoint.cpp.
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
-  /home/moos-ivp/ivp/src/lib_behaviors/IvPBehavior.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_behaviors/IvPBehavior.h \
   /usr/include/c++/11/map \
   /usr/include/c++/11/bits/stl_tree.h \
   /usr/include/c++/11/ext/aligned_buffer.h \
@@ -448,39 +450,37 @@ src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/BHV_SimpleWaypoint.cpp.
   /usr/include/c++/11/bits/stl_vector.h \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
-  /home/moos-ivp/ivp/src/lib_ivpcore/IvPFunction.h \
-  /home/moos-ivp/ivp/src/lib_ivpcore/IvPBox.h \
-  /home/moos-ivp/ivp/src/lib_ivpcore/PDMap.h \
-  /home/moos-ivp/ivp/src/lib_ivpcore/BoxSet.h \
-  /home/moos-ivp/ivp/src/lib_ivpcore/BoxSetNode.h \
-  /home/moos-ivp/ivp/src/lib_ivpcore/IvPGrid.h \
-  /home/moos-ivp/ivp/src/lib_ivpcore/IvPDomain.h \
-  /home/moos-ivp/ivp/src/lib_logic/InfoBuffer.h \
-  /home/moos-ivp/ivp/src/lib_geometry/CPAEngine.h \
-  /home/moos-ivp/ivp/src/lib_geometry/CPAEngineRoot.h \
-  /home/moos-ivp/ivp/src/lib_mbutil/VarDataPair.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_ivpcore/IvPFunction.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_ivpcore/IvPBox.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_ivpcore/PDMap.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_ivpcore/BoxSet.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_ivpcore/BoxSetNode.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_ivpcore/IvPGrid.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_ivpcore/IvPDomain.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_logic/InfoBuffer.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/CPAEngine.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/CPAEngineRoot.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_mbutil/VarDataPair.h \
   /usr/include/c++/11/set \
   /usr/include/c++/11/bits/stl_set.h \
   /usr/include/c++/11/bits/stl_multiset.h \
-  /home/moos-ivp/ivp/src/lib_logic/LogicCondition.h \
-  /home/moos-ivp/ivp/src/lib_logic/ParseNode.h \
-  /home/moos-ivp/ivp/src/lib_helmivp/BehaviorReport.h \
-  /home/moos-ivp/ivp/src/lib_geometry/XYPoint.h \
-  /home/moos-ivp/ivp/src/lib_geometry/XYObject.h \
-  /home/moos-ivp/ivp/src/lib_mbutil/ColorPack.h \
-  /home/moos-ivp/ivp/src/lib_mbutil/MBUtils.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_logic/LogicCondition.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_logic/ParseNode.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_helmivp/BehaviorReport.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/PlatModel.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/XYPoint.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/XYObject.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_mbutil/ColorPack.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_mbutil/MBUtils.h \
   /usr/include/c++/11/list \
   /usr/include/c++/11/bits/stl_list.h \
   /usr/include/c++/11/bits/allocated_ptr.h \
   /usr/include/c++/11/bits/list.tcc \
-  /home/moos-ivp/ivp/src/lib_mbutil/ColorParse.h \
-  /home/moos-ivp/ivp/src/lib_mbutil/MBUtils.h \
-  /home/moos-ivp/ivp/src/lib_geometry/AngleUtils.h \
-  /home/moos-ivp/ivp/src/lib_geometry/XYPoint.h \
-  /home/moos-ivp/ivp/src/lib_geometry/XYPolygon.h \
-  /home/moos-ivp/ivp/src/lib_geometry/XYSegList.h \
-  /home/moos-ivp/ivp/src/lib_geometry/EdgeTagSet.h \
-  /home/moos-ivp/ivp/src/lib_geometry/EdgeTag.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_mbutil/ColorParse.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/XYSeglr.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/XYSegList.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/EdgeTagSet.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/EdgeTag.h \
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/ostream \
   /usr/include/c++/11/ios \
@@ -510,60 +510,57 @@ src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/BHV_SimpleWaypoint.cpp.
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
-  /home/moos-ivp/ivp/src/lib_geometry/XYSquare.h \
-  /home/moos-ivp/ivp/src/lib_ivpbuild/BuildUtils.h \
-  /home/moos-ivp/ivp/src/lib_ivpcore/PDMap.h \
-  /home/moos-ivp/ivp/src/lib_ivpcore/BoxSet.h \
-  /home/moos-ivp/ivp/src/lib_ivpbuild/ZAIC_PEAK.h \
-  /home/moos-ivp/ivp/src/lib_ivpcore/IvPDomain.h \
-  /home/moos-ivp/ivp/src/lib_ivpbuild/OF_Coupler.h \
-  /home/moos-ivp/ivp/src/lib_ivpbuild/OF_Reflector.h \
-  /home/moos-ivp/ivp/src/lib_ivpbuild/AOF.h \
-  /home/moos-ivp/ivp/src/lib_ivpcore/IvPBox.h \
-  /home/moos-ivp/ivp/src/lib_ivpbuild/PQueue.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/Seglr.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/XYPoint.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_mbutil/MBUtils.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/AngleUtils.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/XYPolygon.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/XYSquare.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_ivpbuild/BuildUtils.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_ivpcore/PDMap.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_ivpcore/BoxSet.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_ivpbuild/ZAIC_PEAK.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_ivpcore/IvPDomain.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_ivpbuild/OF_Coupler.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_ivpbuild/OF_Reflector.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_ivpbuild/AOF.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_ivpcore/IvPBox.h \
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_ivpbuild/PQueue.h \
   ../src/lib_behaviors-test/AOF_SimpleWaypoint.h \
-  /home/moos-ivp/ivp/src/lib_ivpbuild/AOF.h
+  /home/dueiras/vsnt/moos-ivp/ivp/src/lib_ivpbuild/AOF.h
 
 
-/home/moos-ivp/ivp/src/lib_ivpbuild/PQueue.h:
+/home/dueiras/vsnt/moos-ivp/ivp/src/lib_ivpbuild/PQueue.h:
 
-/home/moos-ivp/ivp/src/lib_ivpbuild/OF_Coupler.h:
+/home/dueiras/vsnt/moos-ivp/ivp/src/lib_ivpbuild/OF_Coupler.h:
 
-/home/moos-ivp/ivp/src/lib_ivpbuild/ZAIC_PEAK.h:
+/home/dueiras/vsnt/moos-ivp/ivp/src/lib_ivpbuild/BuildUtils.h:
 
-/home/moos-ivp/ivp/src/lib_ivpbuild/BuildUtils.h:
+/home/dueiras/vsnt/moos-ivp/ivp/src/lib_helmivp/BehaviorReport.h:
 
-/home/moos-ivp/ivp/src/lib_logic/ParseNode.h:
+/home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/CPAEngine.h:
 
-/home/moos-ivp/ivp/src/lib_logic/LogicCondition.h:
+/home/dueiras/vsnt/moos-ivp/ivp/src/lib_logic/InfoBuffer.h:
 
-/home/moos-ivp/ivp/src/lib_mbutil/VarDataPair.h:
-
-/home/moos-ivp/ivp/src/lib_geometry/CPAEngineRoot.h:
+/home/dueiras/vsnt/moos-ivp/ivp/src/lib_ivpcore/IvPGrid.h:
 
 /usr/include/wchar.h:
 
 /usr/include/c++/11/bits/cxxabi_init_exception.h:
 
-/home/moos-ivp/ivp/src/lib_ivpbuild/OF_Reflector.h:
-
 /usr/include/c++/11/cwchar:
-
-/usr/include/c++/11/bits/stl_algobase.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 
-/usr/include/c++/11/tr1/special_function_util.h:
+/home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/XYObject.h:
 
-/home/moos-ivp/ivp/src/lib_geometry/XYPoint.h:
+/usr/include/c++/11/tr1/special_function_util.h:
 
 /usr/include/c++/11/bits/char_traits.h:
 
 /usr/include/asm-generic/errno-base.h:
 
 /usr/include/c++/11/bits/stringfwd.h:
-
-/home/moos-ivp/ivp/src/lib_ivpcore/PDMap.h:
 
 /usr/include/c++/11/bits/string_view.tcc:
 
@@ -573,11 +570,13 @@ src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/BHV_SimpleWaypoint.cpp.
 
 /usr/include/c++/11/bits/exception_ptr.h:
 
-/home/moos-ivp/ivp/src/lib_ivpcore/BoxSetNode.h:
-
 /usr/include/c++/11/bits/functional_hash.h:
 
+/home/dueiras/vsnt/moos-ivp/ivp/src/lib_mbutil/VarDataPair.h:
+
 /usr/include/c++/11/bits/cxxabi_forced.h:
+
+/home/dueiras/vsnt/moos-ivp/ivp/src/lib_mbutil/ColorParse.h:
 
 /usr/include/c++/11/bits/stl_construct.h:
 
@@ -587,7 +586,7 @@ src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/BHV_SimpleWaypoint.cpp.
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
 
-/home/moos-ivp/ivp/src/lib_ivpbuild/AOF.h:
+/home/dueiras/vsnt/moos-ivp/ivp/src/lib_ivpbuild/AOF.h:
 
 /usr/include/c++/11/tr1/poly_hermite.tcc:
 
@@ -617,6 +616,8 @@ src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/BHV_SimpleWaypoint.cpp.
 
 /usr/include/c++/11/tuple:
 
+/home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/PlatModel.h:
+
 /usr/include/c++/11/bits/hash_bytes.h:
 
 /usr/include/c++/11/bits/move.h:
@@ -626,8 +627,6 @@ src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/BHV_SimpleWaypoint.cpp.
 /usr/include/c++/11/bits/stl_pair.h:
 
 /usr/include/c++/11/ext/atomicity.h:
-
-/usr/include/c++/11/bits/specfun.h:
 
 /usr/include/alloca.h:
 
@@ -653,8 +652,6 @@ src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/BHV_SimpleWaypoint.cpp.
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
 
-/home/moos-ivp/ivp/src/lib_helmivp/BehaviorReport.h:
-
 /usr/include/c++/11/bits/range_access.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
@@ -664,6 +661,8 @@ src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/BHV_SimpleWaypoint.cpp.
 /usr/include/c++/11/bits/stl_iterator.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+/home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/EdgeTag.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
@@ -676,6 +675,10 @@ src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/BHV_SimpleWaypoint.cpp.
 /usr/include/c++/11/bits/stl_vector.h:
 
 /usr/include/c++/11/system_error:
+
+/usr/include/c++/11/bits/stl_algobase.h:
+
+/home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/XYSeglr.h:
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
@@ -699,8 +702,6 @@ src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/BHV_SimpleWaypoint.cpp.
 
 /usr/include/c++/11/tr1/riemann_zeta.tcc:
 
-/home/moos-ivp/ivp/src/lib_mbutil/ColorParse.h:
-
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
 ../src/lib_behaviors-test/AOF_SimpleWaypoint.cpp:
@@ -715,13 +716,15 @@ src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/BHV_SimpleWaypoint.cpp.
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
+/home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/XYSegList.h:
+
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
 
 /usr/include/c++/11/bits/locale_classes.h:
 
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
-
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
 /usr/include/stdlib.h:
 
@@ -735,7 +738,7 @@ src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/BHV_SimpleWaypoint.cpp.
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+/home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/XYPolygon.h:
 
 /usr/include/c++/11/tr1/bessel_function.tcc:
 
@@ -743,13 +746,13 @@ src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/BHV_SimpleWaypoint.cpp.
 
 /usr/include/c++/11/bits/functexcept.h:
 
-/home/moos-ivp/ivp/src/lib_mbutil/HintHolder.h:
-
 /usr/include/c++/11/streambuf:
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/HintHolder.h:
 
 /usr/include/c++/11/tr1/gamma.tcc:
 
@@ -763,8 +766,6 @@ src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/BHV_SimpleWaypoint.cpp.
 
 /usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
-/home/moos-ivp/ivp/src/lib_geometry/CPAEngine.h:
-
 /usr/include/c++/11/set:
 
 /usr/include/c++/11/bits/ios_base.h:
@@ -774,6 +775,10 @@ src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/BHV_SimpleWaypoint.cpp.
 /usr/include/features.h:
 
 /usr/include/c++/11/bits/stl_multimap.h:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/c++/11/bits/alloc_traits.h:
 
 /usr/include/c++/11/pstl/pstl_config.h:
 
@@ -787,6 +792,10 @@ src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/BHV_SimpleWaypoint.cpp.
 
 /usr/include/c++/11/bits/vector.tcc:
 
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/home/dueiras/vsnt/moos-ivp/ivp/src/lib_ivpcore/PDMap.h:
+
 /usr/include/x86_64-linux-gnu/bits/types.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
@@ -797,9 +806,7 @@ src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/BHV_SimpleWaypoint.cpp.
 
 /usr/include/c++/11/limits:
 
-/home/moos-ivp/ivp/src/lib_geometry/AngleUtils.h:
-
-/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+/home/dueiras/vsnt/moos-ivp/ivp/src/lib_ivpbuild/OF_Reflector.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
@@ -825,7 +832,13 @@ src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/BHV_SimpleWaypoint.cpp.
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
+/home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/EdgeTagSet.h:
+
 /usr/include/c++/11/string:
+
+/usr/include/c++/11/bits/ostream_insert.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 
@@ -840,6 +853,8 @@ src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/BHV_SimpleWaypoint.cpp.
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/AngleUtils.h:
 
 /usr/include/c++/11/bits/std_abs.h:
 
@@ -883,10 +898,6 @@ src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/BHV_SimpleWaypoint.cpp.
 
 /usr/include/ctype.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
-
-/usr/include/c++/11/bits/ostream_insert.h:
-
 /usr/include/c++/11/bits/memoryfwd.h:
 
 /usr/include/c++/11/bits/stl_function.h:
@@ -899,13 +910,13 @@ src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/BHV_SimpleWaypoint.cpp.
 
 /usr/include/x86_64-linux-gnu/bits/sched.h:
 
+/home/dueiras/vsnt/moos-ivp/ivp/src/lib_mbutil/MBUtils.h:
+
 /usr/include/asm-generic/errno.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
-
-/home/moos-ivp/ivp/src/lib_geometry/XYSegList.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
@@ -927,6 +938,8 @@ src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/BHV_SimpleWaypoint.cpp.
 
 /usr/include/c++/11/tr1/legendre_function.tcc:
 
+/home/dueiras/vsnt/moos-ivp/ivp/src/lib_ivpcore/BoxSet.h:
+
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
@@ -943,11 +956,17 @@ src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/BHV_SimpleWaypoint.cpp.
 
 /usr/include/c++/11/string_view:
 
+/usr/include/c++/11/bits/specfun.h:
+
+/home/dueiras/vsnt/moos-ivp/ivp/src/lib_mbutil/ColorPack.h:
+
 /usr/include/c++/11/bits/stl_set.h:
 
 /usr/include/c++/11/cstdio:
 
 /usr/include/stdio.h:
+
+/home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/CPAEngineRoot.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
@@ -957,6 +976,8 @@ src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/BHV_SimpleWaypoint.cpp.
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
 
+/home/dueiras/vsnt/moos-ivp/ivp/src/lib_logic/LogicCondition.h:
+
 /usr/include/sched.h:
 
 /usr/include/wctype.h:
@@ -965,19 +986,19 @@ src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/BHV_SimpleWaypoint.cpp.
 
 /usr/include/c++/11/bits/charconv.h:
 
-/home/moos-ivp/ivp/src/lib_ivpcore/IvPBox.h:
+/usr/include/c++/11/bits/basic_string.tcc:
+
+/home/dueiras/vsnt/moos-ivp/ivp/src/lib_ivpcore/IvPBox.h:
+
+/home/dueiras/vsnt/moos-ivp/ivp/src/lib_ivpcore/IvPDomain.h:
+
+/home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/XYPoint.h:
+
+/usr/include/c++/11/bits/stl_relops.h:
 
 /usr/include/c++/11/tr1/beta_function.tcc:
 
 /usr/include/c++/11/array:
-
-/home/moos-ivp/ivp/src/lib_ivpcore/IvPDomain.h:
-
-/home/moos-ivp/ivp/src/lib_geometry/XYObject.h:
-
-/usr/include/c++/11/bits/stl_relops.h:
-
-/home/moos-ivp/ivp/src/lib_ivpcore/IvPFunction.h:
 
 /usr/include/c++/11/bits/uses_allocator.h:
 
@@ -989,15 +1010,7 @@ src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/BHV_SimpleWaypoint.cpp.
 
 /usr/include/c++/11/bits/erase_if.h:
 
-/home/moos-ivp/ivp/src/lib_mbutil/ColorPack.h:
-
 /usr/include/c++/11/bits/stl_multiset.h:
-
-/home/moos-ivp/ivp/src/lib_geometry/XYPolygon.h:
-
-/home/moos-ivp/ivp/src/lib_geometry/EdgeTagSet.h:
-
-/home/moos-ivp/ivp/src/lib_geometry/EdgeTag.h:
 
 /usr/include/c++/11/ostream:
 
@@ -1006,8 +1019,6 @@ src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/BHV_SimpleWaypoint.cpp.
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
 /usr/include/c++/11/typeinfo:
-
-/home/moos-ivp/ivp/src/lib_mbutil/MBUtils.h:
 
 /usr/include/c++/11/bits/nested_exception.h:
 
@@ -1023,7 +1034,11 @@ src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/BHV_SimpleWaypoint.cpp.
 
 ../src/lib_behaviors-test/BHV_SimpleWaypoint.h:
 
+/usr/include/c++/11/bits/basic_ios.h:
+
 /usr/include/c++/11/cwctype:
+
+/home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/XYSquare.h:
 
 /usr/include/c++/11/bits/streambuf_iterator.h:
 
@@ -1037,26 +1052,22 @@ src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/BHV_SimpleWaypoint.cpp.
 
 /usr/include/c++/11/bits/istream.tcc:
 
-/home/moos-ivp/ivp/src/lib_geometry/XYSquare.h:
+/home/dueiras/vsnt/moos-ivp/ivp/src/lib_logic/ParseNode.h:
 
-/usr/include/c++/11/bits/basic_ios.h:
+/home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/GeomUtils.h:
 
-/home/moos-ivp/ivp/src/lib_geometry/GeomUtils.h:
+/home/dueiras/vsnt/moos-ivp/ivp/src/lib_ivpbuild/ZAIC_PEAK.h:
+
+/home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry/Seglr.h:
 
 ../src/lib_behaviors-test/BHV_SimpleWaypoint.cpp:
 
-/home/moos-ivp/ivp/src/lib_behaviors/IvPBehavior.h:
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
-/usr/include/c++/11/bits/basic_string.tcc:
+/home/dueiras/vsnt/moos-ivp/ivp/src/lib_behaviors/IvPBehavior.h:
 
-/home/moos-ivp/ivp/src/lib_ivpcore/BoxSet.h:
+/home/dueiras/vsnt/moos-ivp/ivp/src/lib_ivpcore/IvPFunction.h:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
-/home/moos-ivp/ivp/src/lib_ivpcore/IvPGrid.h:
-
-/usr/include/stdc-predef.h:
-
-/usr/include/c++/11/bits/alloc_traits.h:
-
-/home/moos-ivp/ivp/src/lib_logic/InfoBuffer.h:
+/home/dueiras/vsnt/moos-ivp/ivp/src/lib_ivpcore/BoxSetNode.h:

@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/moos-ivp-douglas/src/iSerial/Serial.cpp" "src/iSerial/CMakeFiles/iSerial.dir/Serial.cpp.o" "gcc" "src/iSerial/CMakeFiles/iSerial.dir/Serial.cpp.o.d"
-  "/home/moos-ivp-douglas/src/iSerial/Serial_Info.cpp" "src/iSerial/CMakeFiles/iSerial.dir/Serial_Info.cpp.o" "gcc" "src/iSerial/CMakeFiles/iSerial.dir/Serial_Info.cpp.o.d"
-  "/home/moos-ivp-douglas/src/iSerial/main.cpp" "src/iSerial/CMakeFiles/iSerial.dir/main.cpp.o" "gcc" "src/iSerial/CMakeFiles/iSerial.dir/main.cpp.o.d"
+  "/home/dueiras/vsnt/moos-ivp-vsnt/src/iSerial/Serial.cpp" "src/iSerial/CMakeFiles/iSerial.dir/Serial.cpp.o" "gcc" "src/iSerial/CMakeFiles/iSerial.dir/Serial.cpp.o.d"
+  "/home/dueiras/vsnt/moos-ivp-vsnt/src/iSerial/Serial_Info.cpp" "src/iSerial/CMakeFiles/iSerial.dir/Serial_Info.cpp.o" "gcc" "src/iSerial/CMakeFiles/iSerial.dir/Serial_Info.cpp.o.d"
+  "/home/dueiras/vsnt/moos-ivp-vsnt/src/iSerial/main.cpp" "src/iSerial/CMakeFiles/iSerial.dir/main.cpp.o" "gcc" "src/iSerial/CMakeFiles/iSerial.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.

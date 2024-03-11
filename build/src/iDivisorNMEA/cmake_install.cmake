@@ -1,4 +1,4 @@
-# Install script for directory: /home/moos-ivp-douglas/src/iDivisorNMEA
+# Install script for directory: /home/dueiras/vsnt/moos-ivp-vsnt/src/iDivisorNMEA
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,8 +44,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/moos-ivp-douglas/build/src/iDivisorNMEA/NMEAParserLib/cmake_install.cmake")
-  include("/home/moos-ivp-douglas/build/src/iDivisorNMEA/libais/cmake_install.cmake")
+  include("/home/dueiras/vsnt/moos-ivp-vsnt/build/src/iDivisorNMEA/NMEAParserLib/cmake_install.cmake")
+  include("/home/dueiras/vsnt/moos-ivp-vsnt/build/src/iDivisorNMEA/libais/cmake_install.cmake")
 
 endif()
 

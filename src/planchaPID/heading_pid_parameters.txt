@@ -1,5 +1,5 @@
-KP = 0.90
+KP = 1.0
 KI = 0.0
-KD = 0.2
+KD = 0.5
 UPPER_BOUND = 40.0
 LOWER_BOUND = -40.0

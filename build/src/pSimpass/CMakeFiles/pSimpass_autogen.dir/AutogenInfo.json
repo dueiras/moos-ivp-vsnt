@@ -1,0 +1,239 @@
+{
+	"BUILD_DIR" : "/home/dueiras/vsnt/moos-ivp-vsnt/build/src/pSimpass/pSimpass_autogen",
+	"CMAKE_BINARY_DIR" : "/home/dueiras/vsnt/moos-ivp-vsnt/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/dueiras/vsnt/moos-ivp-vsnt/build/src/pSimpass",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/dueiras/vsnt/moos-ivp-vsnt/src/pSimpass",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/dueiras/vsnt/moos-ivp-vsnt/src/pSimpass/CMakeLists.txt",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakeParseArguments.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5Network_QConnmanEnginePlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5Network_QNetworkManagerEnginePlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
+		"/home/dueiras/vsnt/moos-ivp/build/MOOS/MOOSGeodesy/MOOSGeodesyConfig.cmake",
+		"/home/dueiras/vsnt/moos-ivp/build/MOOS/MOOSGeodesy/UseMOOSGeodesy.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/dueiras/vsnt/moos-ivp-vsnt",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/dueiras/vsnt/moos-ivp-vsnt/src/pSimpass/Console.h",
+			"MU",
+			"EWIEGA46WW/moc_Console.cpp",
+			null
+		],
+		[
+			"/home/dueiras/vsnt/moos-ivp-vsnt/src/pSimpass/LatLong.h",
+			"MU",
+			"EWIEGA46WW/moc_LatLong.cpp",
+			null
+		],
+		[
+			"/home/dueiras/vsnt/moos-ivp-vsnt/src/pSimpass/MathUtils.h",
+			"MU",
+			"EWIEGA46WW/moc_MathUtils.cpp",
+			null
+		],
+		[
+			"/home/dueiras/vsnt/moos-ivp-vsnt/src/pSimpass/NetworkClient.h",
+			"MU",
+			"EWIEGA46WW/moc_NetworkClient.cpp",
+			null
+		],
+		[
+			"/home/dueiras/vsnt/moos-ivp-vsnt/src/pSimpass/NetworkManager.h",
+			"MU",
+			"EWIEGA46WW/moc_NetworkManager.cpp",
+			null
+		],
+		[
+			"/home/dueiras/vsnt/moos-ivp-vsnt/src/pSimpass/SIMPASS.h",
+			"MU",
+			"EWIEGA46WW/moc_SIMPASS.cpp",
+			null
+		],
+		[
+			"/home/dueiras/vsnt/moos-ivp-vsnt/src/pSimpass/moosconnect.h",
+			"MU",
+			"EWIEGA46WW/moc_moosconnect.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/dueiras/vsnt/moos-ivp-vsnt/build/src/pSimpass/pSimpass_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/dueiras/vsnt/moos-ivp-vsnt/build/src/pSimpass/pSimpass_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NETWORK_LIB", "QT_NO_DEBUG" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/dueiras/vsnt/moos-ivp/ivp/src/lib_apputil",
+		"/home/dueiras/vsnt/moos-ivp/ivp/src/lib_behaviors",
+		"/home/dueiras/vsnt/moos-ivp/ivp/src/lib_behaviors-colregs",
+		"/home/dueiras/vsnt/moos-ivp/ivp/src/lib_behaviors-marine",
+		"/home/dueiras/vsnt/moos-ivp/ivp/src/lib_bhv_fixedturn",
+		"/home/dueiras/vsnt/moos-ivp/ivp/src/lib_bhvutil",
+		"/home/dueiras/vsnt/moos-ivp/ivp/src/lib_contacts",
+		"/home/dueiras/vsnt/moos-ivp/ivp/src/lib_dep_behaviors",
+		"/home/dueiras/vsnt/moos-ivp/ivp/src/lib_encounters",
+		"/home/dueiras/vsnt/moos-ivp/ivp/src/lib_evalutil",
+		"/home/dueiras/vsnt/moos-ivp/ivp/src/lib_genutil",
+		"/home/dueiras/vsnt/moos-ivp/ivp/src/lib_geometry",
+		"/home/dueiras/vsnt/moos-ivp/ivp/src/lib_helmivp",
+		"/home/dueiras/vsnt/moos-ivp/ivp/src/lib_ipfview",
+		"/home/dueiras/vsnt/moos-ivp/ivp/src/lib_ivpbuild",
+		"/home/dueiras/vsnt/moos-ivp/ivp/src/lib_ivpcore",
+		"/home/dueiras/vsnt/moos-ivp/ivp/src/lib_ivpsolve",
+		"/home/dueiras/vsnt/moos-ivp/ivp/src/lib_logic",
+		"/home/dueiras/vsnt/moos-ivp/ivp/src/lib_logutils",
+		"/home/dueiras/vsnt/moos-ivp/ivp/src/lib_manifest",
+		"/home/dueiras/vsnt/moos-ivp/ivp/src/lib_marine_pid",
+		"/home/dueiras/vsnt/moos-ivp/ivp/src/lib_marineview",
+		"/home/dueiras/vsnt/moos-ivp/ivp/src/lib_mbutil",
+		"/home/dueiras/vsnt/moos-ivp/ivp/src/lib_obstacles",
+		"/home/dueiras/vsnt/moos-ivp/ivp/src/lib_polar",
+		"/home/dueiras/vsnt/moos-ivp/ivp/src/lib_realm",
+		"/home/dueiras/vsnt/moos-ivp/ivp/src/lib_turngeo",
+		"/home/dueiras/vsnt/moos-ivp/ivp/src/lib_ucommand",
+		"/home/dueiras/vsnt/moos-ivp/ivp/src/lib_ufield",
+		"/home/dueiras/vsnt/moos-ivp/ivp/src/lib_zaicview",
+		"/home/dueiras/vsnt/moos-ivp-vsnt/src/lib_behaviors-test",
+		"/home/dueiras/vsnt/moos-ivp-vsnt/src/lib_clearpath",
+		"/home/dueiras/vsnt/moos-ivp-vsnt/src/pSimpass",
+		"/home/dueiras/vsnt/moos-ivp/MOOS/MOOSGeodesy/libMOOSGeodesy/include",
+		"/home/dueiras/vsnt/moos-ivp-vsnt/src/pSimpass/MOOSGeodesy",
+		"/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/include",
+		"/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/App/include",
+		"/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Comms/include",
+		"/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/DB/include",
+		"/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Utils/include",
+		"/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/PocoBits/include",
+		"/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/getpot/include",
+		"/home/dueiras/vsnt/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/AppCasting/include",
+		"/usr/include/x86_64-linux-gnu/qt5",
+		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
+		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
+		"/usr/include/x86_64-linux-gnu/qt5/QtNetwork",
+		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
+		"/usr/include/c++/11",
+		"/usr/include/x86_64-linux-gnu/c++/11",
+		"/usr/include/c++/11/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/11/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu",
+		"/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/dueiras/vsnt/moos-ivp-vsnt/build/src/pSimpass/pSimpass_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "/home/dueiras/vsnt/moos-ivp-vsnt/build/src/pSimpass/CMakeFiles/pSimpass_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/dueiras/vsnt/moos-ivp-vsnt/build/src/pSimpass/CMakeFiles/pSimpass_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/dueiras/vsnt/moos-ivp-vsnt/src/pSimpass/Console.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/dueiras/vsnt/moos-ivp-vsnt/src/pSimpass/LatLong.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/dueiras/vsnt/moos-ivp-vsnt/src/pSimpass/MathUtils.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/dueiras/vsnt/moos-ivp-vsnt/src/pSimpass/NetworkClient.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/dueiras/vsnt/moos-ivp-vsnt/src/pSimpass/NetworkManager.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/dueiras/vsnt/moos-ivp-vsnt/src/pSimpass/SIMPASS.cpp",
+			"MU",
+			null
+		],
+		[ "/home/dueiras/vsnt/moos-ivp-vsnt/src/pSimpass/main.cpp", "MU", null ],
+		[
+			"/home/dueiras/vsnt/moos-ivp-vsnt/src/pSimpass/moosconnect.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

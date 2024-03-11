@@ -9,13 +9,9 @@
 #define Serial_HEADER
 
 #include "MOOS/libMOOS/Thirdparty/AppCasting/AppCastingMOOSApp.h"
+#include <libserial/SerialStream.h>
 
-#ifdef _WIN32
-  #include "MOOS/libMOOS/Utils/MOOSNTSerialPort.h"
-#else
-  #include "MOOS/libMOOS/Utils/MOOSLinuxSerialPort.h"
-#endif
-
+using namespace LibSerial;
 
 class Serial : public AppCastingMOOSApp
 {
@@ -40,13 +36,10 @@ class Serial : public AppCastingMOOSApp
  private: // Configuration variables
     std::string endereco_porta_serial;
     int baudrate; // Baudrate a ser usada para envio dos dados na porta serial
+    std::string serial_read;
 
  private: // State variables
-    #ifdef _WIN32
-      CMOOSNTSerialPort porta_serial;
-    #else
-      CMOOSLinuxSerialPort porta_serial;
-    #endif
+    SerialStream serial_port;
     double rudder;
     double thrust;
     int desired_gear;
@@ -61,6 +54,7 @@ class Serial : public AppCastingMOOSApp
     double erro_minimo_devagar;
     double erro_maximo_rapido;
     double erro_minimo_rapido;
+    bool portOpened;
     std::string ultimo_comando;
     std::string leme_placa;
     std::string sentenca;

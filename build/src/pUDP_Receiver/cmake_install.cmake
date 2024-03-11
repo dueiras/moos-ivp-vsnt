@@ -1,4 +1,4 @@
-# Install script for directory: /home/moos-ivp-douglas/src/pUDP_Receiver
+# Install script for directory: /home/dueiras/vsnt/moos-ivp-vsnt/src/pUDP_Receiver
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

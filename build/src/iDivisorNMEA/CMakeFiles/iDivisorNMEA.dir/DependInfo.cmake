@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/moos-ivp-douglas/src/iDivisorNMEA/DivisorNMEA.cpp" "src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/DivisorNMEA.cpp.o" "gcc" "src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/DivisorNMEA.cpp.o.d"
-  "/home/moos-ivp-douglas/src/iDivisorNMEA/DivisorNMEA_Info.cpp" "src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/DivisorNMEA_Info.cpp.o" "gcc" "src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/DivisorNMEA_Info.cpp.o.d"
-  "/home/moos-ivp-douglas/src/iDivisorNMEA/main.cpp" "src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o" "gcc" "src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o.d"
+  "/home/dueiras/vsnt/moos-ivp-vsnt/src/iDivisorNMEA/DivisorNMEA.cpp" "src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/DivisorNMEA.cpp.o" "gcc" "src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/DivisorNMEA.cpp.o.d"
+  "/home/dueiras/vsnt/moos-ivp-vsnt/src/iDivisorNMEA/DivisorNMEA_Info.cpp" "src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/DivisorNMEA_Info.cpp.o" "gcc" "src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/DivisorNMEA_Info.cpp.o.d"
+  "/home/dueiras/vsnt/moos-ivp-vsnt/src/iDivisorNMEA/main.cpp" "src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o" "gcc" "src/iDivisorNMEA/CMakeFiles/iDivisorNMEA.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.

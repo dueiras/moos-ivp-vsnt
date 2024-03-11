@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/moos-ivp-douglas
+CMAKE_SOURCE_DIR = /home/dueiras/vsnt/moos-ivp-vsnt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/moos-ivp-douglas/build
+CMAKE_BINARY_DIR = /home/dueiras/vsnt/moos-ivp-vsnt/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/moos-ivp-douglas/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/moos-ivp-douglas/build/CMakeFiles /home/moos-ivp-douglas/build/src/iDivisorNMEA/NMEAParserLib//CMakeFiles/progress.marks
-	cd /home/moos-ivp-douglas/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/iDivisorNMEA/NMEAParserLib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/moos-ivp-douglas/build/CMakeFiles 0
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dueiras/vsnt/moos-ivp-vsnt/build/CMakeFiles /home/dueiras/vsnt/moos-ivp-vsnt/build/src/iDivisorNMEA/NMEAParserLib//CMakeFiles/progress.marks
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/iDivisorNMEA/NMEAParserLib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dueiras/vsnt/moos-ivp-vsnt/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/moos-ivp-douglas/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/iDivisorNMEA/NMEAParserLib/clean
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/iDivisorNMEA/NMEAParserLib/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/moos-ivp-douglas/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/iDivisorNMEA/NMEAParserLib/preinstall
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/iDivisorNMEA/NMEAParserLib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/moos-ivp-douglas/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/iDivisorNMEA/NMEAParserLib/preinstall
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/iDivisorNMEA/NMEAParserLib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/moos-ivp-douglas/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/rule:
-	cd /home/moos-ivp-douglas/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/rule
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/rule
 .PHONY : src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ NMEAParserLib: src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/rule
 
 # fast build rule for target.
 NMEAParserLib/fast:
-	cd /home/moos-ivp-douglas/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build
 .PHONY : NMEAParserLib/fast
 
 NMEAParser.o: NMEAParser.cpp.o
@@ -135,7 +135,7 @@ NMEAParser.o: NMEAParser.cpp.o
 
 # target to build an object file
 NMEAParser.cpp.o:
-	cd /home/moos-ivp-douglas/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEAParser.cpp.o
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEAParser.cpp.o
 .PHONY : NMEAParser.cpp.o
 
 NMEAParser.i: NMEAParser.cpp.i
@@ -143,7 +143,7 @@ NMEAParser.i: NMEAParser.cpp.i
 
 # target to preprocess a source file
 NMEAParser.cpp.i:
-	cd /home/moos-ivp-douglas/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEAParser.cpp.i
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEAParser.cpp.i
 .PHONY : NMEAParser.cpp.i
 
 NMEAParser.s: NMEAParser.cpp.s
@@ -151,7 +151,7 @@ NMEAParser.s: NMEAParser.cpp.s
 
 # target to generate assembly for a file
 NMEAParser.cpp.s:
-	cd /home/moos-ivp-douglas/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEAParser.cpp.s
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEAParser.cpp.s
 .PHONY : NMEAParser.cpp.s
 
 NMEAParserPacket.o: NMEAParserPacket.cpp.o
@@ -159,7 +159,7 @@ NMEAParserPacket.o: NMEAParserPacket.cpp.o
 
 # target to build an object file
 NMEAParserPacket.cpp.o:
-	cd /home/moos-ivp-douglas/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEAParserPacket.cpp.o
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEAParserPacket.cpp.o
 .PHONY : NMEAParserPacket.cpp.o
 
 NMEAParserPacket.i: NMEAParserPacket.cpp.i
@@ -167,7 +167,7 @@ NMEAParserPacket.i: NMEAParserPacket.cpp.i
 
 # target to preprocess a source file
 NMEAParserPacket.cpp.i:
-	cd /home/moos-ivp-douglas/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEAParserPacket.cpp.i
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEAParserPacket.cpp.i
 .PHONY : NMEAParserPacket.cpp.i
 
 NMEAParserPacket.s: NMEAParserPacket.cpp.s
@@ -175,7 +175,7 @@ NMEAParserPacket.s: NMEAParserPacket.cpp.s
 
 # target to generate assembly for a file
 NMEAParserPacket.cpp.s:
-	cd /home/moos-ivp-douglas/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEAParserPacket.cpp.s
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEAParserPacket.cpp.s
 .PHONY : NMEAParserPacket.cpp.s
 
 NMEASentenceBase.o: NMEASentenceBase.cpp.o
@@ -183,7 +183,7 @@ NMEASentenceBase.o: NMEASentenceBase.cpp.o
 
 # target to build an object file
 NMEASentenceBase.cpp.o:
-	cd /home/moos-ivp-douglas/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEASentenceBase.cpp.o
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEASentenceBase.cpp.o
 .PHONY : NMEASentenceBase.cpp.o
 
 NMEASentenceBase.i: NMEASentenceBase.cpp.i
@@ -191,7 +191,7 @@ NMEASentenceBase.i: NMEASentenceBase.cpp.i
 
 # target to preprocess a source file
 NMEASentenceBase.cpp.i:
-	cd /home/moos-ivp-douglas/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEASentenceBase.cpp.i
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEASentenceBase.cpp.i
 .PHONY : NMEASentenceBase.cpp.i
 
 NMEASentenceBase.s: NMEASentenceBase.cpp.s
@@ -199,7 +199,7 @@ NMEASentenceBase.s: NMEASentenceBase.cpp.s
 
 # target to generate assembly for a file
 NMEASentenceBase.cpp.s:
-	cd /home/moos-ivp-douglas/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEASentenceBase.cpp.s
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEASentenceBase.cpp.s
 .PHONY : NMEASentenceBase.cpp.s
 
 NMEASentenceGGA.o: NMEASentenceGGA.cpp.o
@@ -207,7 +207,7 @@ NMEASentenceGGA.o: NMEASentenceGGA.cpp.o
 
 # target to build an object file
 NMEASentenceGGA.cpp.o:
-	cd /home/moos-ivp-douglas/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEASentenceGGA.cpp.o
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEASentenceGGA.cpp.o
 .PHONY : NMEASentenceGGA.cpp.o
 
 NMEASentenceGGA.i: NMEASentenceGGA.cpp.i
@@ -215,7 +215,7 @@ NMEASentenceGGA.i: NMEASentenceGGA.cpp.i
 
 # target to preprocess a source file
 NMEASentenceGGA.cpp.i:
-	cd /home/moos-ivp-douglas/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEASentenceGGA.cpp.i
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEASentenceGGA.cpp.i
 .PHONY : NMEASentenceGGA.cpp.i
 
 NMEASentenceGGA.s: NMEASentenceGGA.cpp.s
@@ -223,7 +223,7 @@ NMEASentenceGGA.s: NMEASentenceGGA.cpp.s
 
 # target to generate assembly for a file
 NMEASentenceGGA.cpp.s:
-	cd /home/moos-ivp-douglas/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEASentenceGGA.cpp.s
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEASentenceGGA.cpp.s
 .PHONY : NMEASentenceGGA.cpp.s
 
 NMEASentenceGSA.o: NMEASentenceGSA.cpp.o
@@ -231,7 +231,7 @@ NMEASentenceGSA.o: NMEASentenceGSA.cpp.o
 
 # target to build an object file
 NMEASentenceGSA.cpp.o:
-	cd /home/moos-ivp-douglas/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEASentenceGSA.cpp.o
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEASentenceGSA.cpp.o
 .PHONY : NMEASentenceGSA.cpp.o
 
 NMEASentenceGSA.i: NMEASentenceGSA.cpp.i
@@ -239,7 +239,7 @@ NMEASentenceGSA.i: NMEASentenceGSA.cpp.i
 
 # target to preprocess a source file
 NMEASentenceGSA.cpp.i:
-	cd /home/moos-ivp-douglas/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEASentenceGSA.cpp.i
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEASentenceGSA.cpp.i
 .PHONY : NMEASentenceGSA.cpp.i
 
 NMEASentenceGSA.s: NMEASentenceGSA.cpp.s
@@ -247,7 +247,7 @@ NMEASentenceGSA.s: NMEASentenceGSA.cpp.s
 
 # target to generate assembly for a file
 NMEASentenceGSA.cpp.s:
-	cd /home/moos-ivp-douglas/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEASentenceGSA.cpp.s
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEASentenceGSA.cpp.s
 .PHONY : NMEASentenceGSA.cpp.s
 
 NMEASentenceGSV.o: NMEASentenceGSV.cpp.o
@@ -255,7 +255,7 @@ NMEASentenceGSV.o: NMEASentenceGSV.cpp.o
 
 # target to build an object file
 NMEASentenceGSV.cpp.o:
-	cd /home/moos-ivp-douglas/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEASentenceGSV.cpp.o
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEASentenceGSV.cpp.o
 .PHONY : NMEASentenceGSV.cpp.o
 
 NMEASentenceGSV.i: NMEASentenceGSV.cpp.i
@@ -263,7 +263,7 @@ NMEASentenceGSV.i: NMEASentenceGSV.cpp.i
 
 # target to preprocess a source file
 NMEASentenceGSV.cpp.i:
-	cd /home/moos-ivp-douglas/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEASentenceGSV.cpp.i
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEASentenceGSV.cpp.i
 .PHONY : NMEASentenceGSV.cpp.i
 
 NMEASentenceGSV.s: NMEASentenceGSV.cpp.s
@@ -271,7 +271,7 @@ NMEASentenceGSV.s: NMEASentenceGSV.cpp.s
 
 # target to generate assembly for a file
 NMEASentenceGSV.cpp.s:
-	cd /home/moos-ivp-douglas/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEASentenceGSV.cpp.s
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEASentenceGSV.cpp.s
 .PHONY : NMEASentenceGSV.cpp.s
 
 NMEASentenceRMC.o: NMEASentenceRMC.cpp.o
@@ -279,7 +279,7 @@ NMEASentenceRMC.o: NMEASentenceRMC.cpp.o
 
 # target to build an object file
 NMEASentenceRMC.cpp.o:
-	cd /home/moos-ivp-douglas/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEASentenceRMC.cpp.o
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEASentenceRMC.cpp.o
 .PHONY : NMEASentenceRMC.cpp.o
 
 NMEASentenceRMC.i: NMEASentenceRMC.cpp.i
@@ -287,7 +287,7 @@ NMEASentenceRMC.i: NMEASentenceRMC.cpp.i
 
 # target to preprocess a source file
 NMEASentenceRMC.cpp.i:
-	cd /home/moos-ivp-douglas/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEASentenceRMC.cpp.i
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEASentenceRMC.cpp.i
 .PHONY : NMEASentenceRMC.cpp.i
 
 NMEASentenceRMC.s: NMEASentenceRMC.cpp.s
@@ -295,7 +295,7 @@ NMEASentenceRMC.s: NMEASentenceRMC.cpp.s
 
 # target to generate assembly for a file
 NMEASentenceRMC.cpp.s:
-	cd /home/moos-ivp-douglas/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEASentenceRMC.cpp.s
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build && $(MAKE) $(MAKESILENT) -f src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/build.make src/iDivisorNMEA/NMEAParserLib/CMakeFiles/NMEAParserLib.dir/NMEASentenceRMC.cpp.s
 .PHONY : NMEASentenceRMC.cpp.s
 
 # Help Target
@@ -339,6 +339,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/moos-ivp-douglas/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

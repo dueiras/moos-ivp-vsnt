@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/moos-ivp-douglas
+CMAKE_SOURCE_DIR = /home/dueiras/vsnt/moos-ivp-vsnt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/moos-ivp-douglas/build
+CMAKE_BINARY_DIR = /home/dueiras/vsnt/moos-ivp-vsnt/build
 
 # Include any dependencies generated for this target.
 include src/pXRelayTest/CMakeFiles/pXRelayTest.dir/depend.make
@@ -72,44 +72,44 @@ include src/pXRelayTest/CMakeFiles/pXRelayTest.dir/flags.make
 src/pXRelayTest/CMakeFiles/pXRelayTest.dir/Relayer.cpp.o: src/pXRelayTest/CMakeFiles/pXRelayTest.dir/flags.make
 src/pXRelayTest/CMakeFiles/pXRelayTest.dir/Relayer.cpp.o: ../src/pXRelayTest/Relayer.cpp
 src/pXRelayTest/CMakeFiles/pXRelayTest.dir/Relayer.cpp.o: src/pXRelayTest/CMakeFiles/pXRelayTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moos-ivp-douglas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/pXRelayTest/CMakeFiles/pXRelayTest.dir/Relayer.cpp.o"
-	cd /home/moos-ivp-douglas/build/src/pXRelayTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/pXRelayTest/CMakeFiles/pXRelayTest.dir/Relayer.cpp.o -MF CMakeFiles/pXRelayTest.dir/Relayer.cpp.o.d -o CMakeFiles/pXRelayTest.dir/Relayer.cpp.o -c /home/moos-ivp-douglas/src/pXRelayTest/Relayer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dueiras/vsnt/moos-ivp-vsnt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/pXRelayTest/CMakeFiles/pXRelayTest.dir/Relayer.cpp.o"
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build/src/pXRelayTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/pXRelayTest/CMakeFiles/pXRelayTest.dir/Relayer.cpp.o -MF CMakeFiles/pXRelayTest.dir/Relayer.cpp.o.d -o CMakeFiles/pXRelayTest.dir/Relayer.cpp.o -c /home/dueiras/vsnt/moos-ivp-vsnt/src/pXRelayTest/Relayer.cpp
 
 src/pXRelayTest/CMakeFiles/pXRelayTest.dir/Relayer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pXRelayTest.dir/Relayer.cpp.i"
-	cd /home/moos-ivp-douglas/build/src/pXRelayTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moos-ivp-douglas/src/pXRelayTest/Relayer.cpp > CMakeFiles/pXRelayTest.dir/Relayer.cpp.i
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build/src/pXRelayTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dueiras/vsnt/moos-ivp-vsnt/src/pXRelayTest/Relayer.cpp > CMakeFiles/pXRelayTest.dir/Relayer.cpp.i
 
 src/pXRelayTest/CMakeFiles/pXRelayTest.dir/Relayer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pXRelayTest.dir/Relayer.cpp.s"
-	cd /home/moos-ivp-douglas/build/src/pXRelayTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moos-ivp-douglas/src/pXRelayTest/Relayer.cpp -o CMakeFiles/pXRelayTest.dir/Relayer.cpp.s
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build/src/pXRelayTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dueiras/vsnt/moos-ivp-vsnt/src/pXRelayTest/Relayer.cpp -o CMakeFiles/pXRelayTest.dir/Relayer.cpp.s
 
 src/pXRelayTest/CMakeFiles/pXRelayTest.dir/Relayer_Info.cpp.o: src/pXRelayTest/CMakeFiles/pXRelayTest.dir/flags.make
 src/pXRelayTest/CMakeFiles/pXRelayTest.dir/Relayer_Info.cpp.o: ../src/pXRelayTest/Relayer_Info.cpp
 src/pXRelayTest/CMakeFiles/pXRelayTest.dir/Relayer_Info.cpp.o: src/pXRelayTest/CMakeFiles/pXRelayTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moos-ivp-douglas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/pXRelayTest/CMakeFiles/pXRelayTest.dir/Relayer_Info.cpp.o"
-	cd /home/moos-ivp-douglas/build/src/pXRelayTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/pXRelayTest/CMakeFiles/pXRelayTest.dir/Relayer_Info.cpp.o -MF CMakeFiles/pXRelayTest.dir/Relayer_Info.cpp.o.d -o CMakeFiles/pXRelayTest.dir/Relayer_Info.cpp.o -c /home/moos-ivp-douglas/src/pXRelayTest/Relayer_Info.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dueiras/vsnt/moos-ivp-vsnt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/pXRelayTest/CMakeFiles/pXRelayTest.dir/Relayer_Info.cpp.o"
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build/src/pXRelayTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/pXRelayTest/CMakeFiles/pXRelayTest.dir/Relayer_Info.cpp.o -MF CMakeFiles/pXRelayTest.dir/Relayer_Info.cpp.o.d -o CMakeFiles/pXRelayTest.dir/Relayer_Info.cpp.o -c /home/dueiras/vsnt/moos-ivp-vsnt/src/pXRelayTest/Relayer_Info.cpp
 
 src/pXRelayTest/CMakeFiles/pXRelayTest.dir/Relayer_Info.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pXRelayTest.dir/Relayer_Info.cpp.i"
-	cd /home/moos-ivp-douglas/build/src/pXRelayTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moos-ivp-douglas/src/pXRelayTest/Relayer_Info.cpp > CMakeFiles/pXRelayTest.dir/Relayer_Info.cpp.i
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build/src/pXRelayTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dueiras/vsnt/moos-ivp-vsnt/src/pXRelayTest/Relayer_Info.cpp > CMakeFiles/pXRelayTest.dir/Relayer_Info.cpp.i
 
 src/pXRelayTest/CMakeFiles/pXRelayTest.dir/Relayer_Info.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pXRelayTest.dir/Relayer_Info.cpp.s"
-	cd /home/moos-ivp-douglas/build/src/pXRelayTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moos-ivp-douglas/src/pXRelayTest/Relayer_Info.cpp -o CMakeFiles/pXRelayTest.dir/Relayer_Info.cpp.s
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build/src/pXRelayTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dueiras/vsnt/moos-ivp-vsnt/src/pXRelayTest/Relayer_Info.cpp -o CMakeFiles/pXRelayTest.dir/Relayer_Info.cpp.s
 
 src/pXRelayTest/CMakeFiles/pXRelayTest.dir/main.cpp.o: src/pXRelayTest/CMakeFiles/pXRelayTest.dir/flags.make
 src/pXRelayTest/CMakeFiles/pXRelayTest.dir/main.cpp.o: ../src/pXRelayTest/main.cpp
 src/pXRelayTest/CMakeFiles/pXRelayTest.dir/main.cpp.o: src/pXRelayTest/CMakeFiles/pXRelayTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moos-ivp-douglas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/pXRelayTest/CMakeFiles/pXRelayTest.dir/main.cpp.o"
-	cd /home/moos-ivp-douglas/build/src/pXRelayTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/pXRelayTest/CMakeFiles/pXRelayTest.dir/main.cpp.o -MF CMakeFiles/pXRelayTest.dir/main.cpp.o.d -o CMakeFiles/pXRelayTest.dir/main.cpp.o -c /home/moos-ivp-douglas/src/pXRelayTest/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dueiras/vsnt/moos-ivp-vsnt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/pXRelayTest/CMakeFiles/pXRelayTest.dir/main.cpp.o"
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build/src/pXRelayTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/pXRelayTest/CMakeFiles/pXRelayTest.dir/main.cpp.o -MF CMakeFiles/pXRelayTest.dir/main.cpp.o.d -o CMakeFiles/pXRelayTest.dir/main.cpp.o -c /home/dueiras/vsnt/moos-ivp-vsnt/src/pXRelayTest/main.cpp
 
 src/pXRelayTest/CMakeFiles/pXRelayTest.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pXRelayTest.dir/main.cpp.i"
-	cd /home/moos-ivp-douglas/build/src/pXRelayTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moos-ivp-douglas/src/pXRelayTest/main.cpp > CMakeFiles/pXRelayTest.dir/main.cpp.i
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build/src/pXRelayTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dueiras/vsnt/moos-ivp-vsnt/src/pXRelayTest/main.cpp > CMakeFiles/pXRelayTest.dir/main.cpp.i
 
 src/pXRelayTest/CMakeFiles/pXRelayTest.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pXRelayTest.dir/main.cpp.s"
-	cd /home/moos-ivp-douglas/build/src/pXRelayTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moos-ivp-douglas/src/pXRelayTest/main.cpp -o CMakeFiles/pXRelayTest.dir/main.cpp.s
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build/src/pXRelayTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dueiras/vsnt/moos-ivp-vsnt/src/pXRelayTest/main.cpp -o CMakeFiles/pXRelayTest.dir/main.cpp.s
 
 # Object files for target pXRelayTest
 pXRelayTest_OBJECTS = \
@@ -124,20 +124,20 @@ pXRelayTest_EXTERNAL_OBJECTS =
 ../bin/pXRelayTest: src/pXRelayTest/CMakeFiles/pXRelayTest.dir/Relayer_Info.cpp.o
 ../bin/pXRelayTest: src/pXRelayTest/CMakeFiles/pXRelayTest.dir/main.cpp.o
 ../bin/pXRelayTest: src/pXRelayTest/CMakeFiles/pXRelayTest.dir/build.make
-../bin/pXRelayTest: /home/moos-ivp/build/MOOS/MOOSCore/lib/libMOOS.a
+../bin/pXRelayTest: /home/dueiras/vsnt/moos-ivp/build/MOOS/MOOSCore/lib/libMOOS.a
 ../bin/pXRelayTest: src/pXRelayTest/CMakeFiles/pXRelayTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/moos-ivp-douglas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../../../bin/pXRelayTest"
-	cd /home/moos-ivp-douglas/build/src/pXRelayTest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pXRelayTest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dueiras/vsnt/moos-ivp-vsnt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../../../bin/pXRelayTest"
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build/src/pXRelayTest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pXRelayTest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/pXRelayTest/CMakeFiles/pXRelayTest.dir/build: ../bin/pXRelayTest
 .PHONY : src/pXRelayTest/CMakeFiles/pXRelayTest.dir/build
 
 src/pXRelayTest/CMakeFiles/pXRelayTest.dir/clean:
-	cd /home/moos-ivp-douglas/build/src/pXRelayTest && $(CMAKE_COMMAND) -P CMakeFiles/pXRelayTest.dir/cmake_clean.cmake
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build/src/pXRelayTest && $(CMAKE_COMMAND) -P CMakeFiles/pXRelayTest.dir/cmake_clean.cmake
 .PHONY : src/pXRelayTest/CMakeFiles/pXRelayTest.dir/clean
 
 src/pXRelayTest/CMakeFiles/pXRelayTest.dir/depend:
-	cd /home/moos-ivp-douglas/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/moos-ivp-douglas /home/moos-ivp-douglas/src/pXRelayTest /home/moos-ivp-douglas/build /home/moos-ivp-douglas/build/src/pXRelayTest /home/moos-ivp-douglas/build/src/pXRelayTest/CMakeFiles/pXRelayTest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dueiras/vsnt/moos-ivp-vsnt/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dueiras/vsnt/moos-ivp-vsnt /home/dueiras/vsnt/moos-ivp-vsnt/src/pXRelayTest /home/dueiras/vsnt/moos-ivp-vsnt/build /home/dueiras/vsnt/moos-ivp-vsnt/build/src/pXRelayTest /home/dueiras/vsnt/moos-ivp-vsnt/build/src/pXRelayTest/CMakeFiles/pXRelayTest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/pXRelayTest/CMakeFiles/pXRelayTest.dir/depend
 

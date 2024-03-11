@@ -53,8 +53,6 @@ Behavior = BHV_Waypoint
          slip_radius = 20 //20
 	efficiency_measure = all
 
-  points = -2084,2665:-2084.0,2765.0:-2054.0,2765.0:-2054.0,2665.0:-2054.0,2665.0:-2054.0,2765.0:-2084.0,2765.0:-2084,2665
-
 
 //	ipf_type = roc
 
